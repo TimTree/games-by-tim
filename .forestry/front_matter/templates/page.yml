@@ -1,0 +1,32 @@
+---
+label: Page
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: social_media_image
+  type: file
+  config:
+    maxSize: 64
+  label: social media image
+  description: The image that will appear on the link's social media card
+pages:
+- content/pages/2020-site-overhaul-release-notes.md
+- content/pages/bingo-master-board-plus-older-versions.md
+- content/pages/bingo-master-board-powerpoint-older-versions.md
+- content/pages/button-masher-older-versions.md
+- content/pages/commenting-guidelines.md
+- content/pages/escape-a-tower-older-versions.md
+- content/pages/flashcards-for-powerpoint-older-versions.md
+- content/pages/grab-bag.md
+- content/pages/i-am-thinking-of-a-number-older-versions.md
+- content/pages/keyboard-masher-older-versions.md
+- content/pages/mouse-swipe-older-versions.md
+- content/pages/privacy-policy.md
+- content/pages/rss-feed.md
+- content/pages/sending-bug-reports.md
+- content/pages/wheel-of-fortune-for-powerpoint-older-versions.md
+- content/pages/wheel-of-fortune-for-powerpoint-updater.md

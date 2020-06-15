@@ -1,0 +1,210 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: Date post was created
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: short_description
+  type: textarea
+  default: No description provided
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: short description
+  description: The short description of the blog post
+- name: project_name
+  type: text
+  config:
+    required: false
+  label: project name
+  description: 'If this blog post is about a project, put the project name here for
+    a special popup to appear on top of the blog post. Use slug-style (ex: so-many-numbers).'
+- name: hero_image
+  type: file
+  config:
+    maxSize: 64
+  label: hero_image
+  description: This image will appear in front of this blog post's blog listing.
+pages:
+- content/blogPosts/100th-blog-post-escape-a-tower-box-art.md
+- content/blogPosts/about-page-march-2015-september-2018.md
+- content/blogPosts/about-page-september-2018-april-2019.md
+- content/blogPosts/addressing-the-so-many-numbers-blank-screen-bug.md
+- content/blogPosts/alright-tim-what-s-new.md
+- content/blogPosts/an-extraordinary-event.md
+- content/blogPosts/and-if-you-thought-the-post-after-that-would-be-an-update.md
+- content/blogPosts/archive-updated-bingo-master-board.md
+- content/blogPosts/bingo-master-board-and-bingo-master-board-plus-updates.md
+- content/blogPosts/bingo-master-board-for-libreoffice-version-1.0.1.md
+- content/blogPosts/bingo-master-board-for-libreoffice-version-1.0.2.md
+- content/blogPosts/bingo-master-board-for-web-commit-2018-09-05.md
+- content/blogPosts/bingo-master-board-for-web-commit-2018-09-10.md
+- content/blogPosts/bingo-master-board-for-web-commit-2018-09-14-1.md
+- content/blogPosts/bingo-master-board-for-web-commit-2018-09-14.md
+- content/blogPosts/bingo-master-board-for-web-commit-2018-09-17.md
+- content/blogPosts/bingo-master-board-for-web-commits-2018-09-15-and-2018-09-15-1.md
+- content/blogPosts/bingo-master-board-for-web-gets-a-rewrite.md
+- content/blogPosts/bingo-master-board-plus-version-2.0-features-galore.md
+- content/blogPosts/bingo-master-board-plus-version-2.1.md
+- content/blogPosts/bingo-master-board-version-1.2.0-release-notes.md
+- content/blogPosts/bingo-master-board-version-1.3.0-release-notes.md
+- content/blogPosts/bingo-master-board-version-1.3.1-release-notes.md
+- content/blogPosts/bingo-master-board-version-1.4.0-release-notes.md
+- content/blogPosts/bingo-master-board-version-1.5-release-notes.md
+- content/blogPosts/bingo-master-board-version-1.6.md
+- content/blogPosts/bingo-master-board-version-1.7.md
+- content/blogPosts/bingo-master-board-version-3.0-the-board-reborn.md
+- content/blogPosts/blog-logo-update-january-2015.md
+- content/blogPosts/blog-under-construction.md
+- content/blogPosts/button-masher-oscillation-prototype.md
+- content/blogPosts/button-masher-version-4.1.md
+- content/blogPosts/changes-coming-to-this-site.md
+- content/blogPosts/cliff-jumping-powerpoint-video-on-youtube.md
+- content/blogPosts/comments-arrive-to-the-new-games-by-tim-beta.md
+- content/blogPosts/comments-on-this-blog.md
+- content/blogPosts/cursor-adventure-password-released.md
+- content/blogPosts/cursor-adventure-world-1-released.md
+- content/blogPosts/dark-mode-for-the-win.md
+- content/blogPosts/data-science-analyzing-the-top-1000-marathon-times.md
+- content/blogPosts/don-t-install-kb3097877.md
+- content/blogPosts/dropbox-discontinuing-web-hosting.md
+- content/blogPosts/escape-a-tower-github-repo-and-version-2.4.3.md
+- content/blogPosts/escape-a-tower-update-version-2.2.md
+- content/blogPosts/escape-a-tower-update-version-2.3.md
+- content/blogPosts/escape-a-tower-version-2.3.1-released.md
+- content/blogPosts/escape-a-tower-version-2.3.2-released.md
+- content/blogPosts/escape-a-tower-version-2.4.md
+- content/blogPosts/escape-a-tower-version-2.5-improving-the-post-game.md
+- content/blogPosts/escape-a-tower-version-2.5.1-quality-of-life-adjustments.md
+- content/blogPosts/escape-a-tower-version-2.6-futureproofing-the-game.md
+- content/blogPosts/escape-a-tower-version-2.6.1-i-can-read-the-text-now.md
+- content/blogPosts/escape-the-room-prototype.md
+- content/blogPosts/escape-the-tower-online.md
+- content/blogPosts/escape-the-tower-turns-a-year-old.md
+- content/blogPosts/escape-the-tower-video-walkthrough.md
+- content/blogPosts/face-reveal.md
+- content/blogPosts/fixes-for-hyperlink-issues-on-powerpoint-for-mac.md
+- content/blogPosts/flashcards-for-powerpoint-v1.1-improves-flashcard-stats.md
+- content/blogPosts/flashcards-for-powerpoint-v1.2-flashcards-in-style.md
+- content/blogPosts/hey-kids-wanna-scare-the-heck-out-of-your-parents.md
+- content/blogPosts/homepage-tweaks.md
+- content/blogPosts/hooray-1-000-views.md
+- content/blogPosts/how-a-lambda-school-student-resolved-my-pwa-update-nightmare.md
+- content/blogPosts/how-to-make-a-powerpoint-web-browser.md
+- content/blogPosts/i-am-thinking-of-a-number-update-2.5.2.md
+- content/blogPosts/i-am-thinking-of-a-number-update-2.5.3-and-2.5.4.md
+- content/blogPosts/i-am-thinking-of-a-number-update-version-2.3.3.md
+- content/blogPosts/i-am-thinking-of-a-number-update-version-2.5.1.md
+- content/blogPosts/i-am-thinking-of-a-number-update-version-2.5.md
+- content/blogPosts/i-am-thinking-of-a-number-version-2.6.1.md
+- content/blogPosts/i-am-thinking-of-a-number-version-2.6.3.md
+- content/blogPosts/i-am-thinking-of-a-number-version-2.6.md
+- content/blogPosts/i-am-thinking-of-a-number-version-2.7.md
+- content/blogPosts/i-am-thinking-of-a-number-version-3.0-released.md
+- content/blogPosts/i-shall-read-your-comments.md
+- content/blogPosts/introducing-button-masher-and-keyboard-masher-version-4.0.md
+- content/blogPosts/introducing-my-first-ever-multiplayer-game.md
+- content/blogPosts/introducing-the-archive.md
+- content/blogPosts/introducing-the-new-games-by-tim-beta.md
+- content/blogPosts/ipad-pro-screen-size-pdf.md
+- content/blogPosts/keyboard-masher-version-4.1.md
+- content/blogPosts/kids-wanna-scare-your-parents-renamed-to-powerpoint-pranks.md
+- content/blogPosts/libreoffice-troubleshooting-tips.md
+- content/blogPosts/lost-in-a-forest-a-text-adventure-redesign.md
+- content/blogPosts/lost-in-a-forest-a-text-adventure-update-v3.md
+- content/blogPosts/magical-diary-wolf-hall-kickstarter.md
+- content/blogPosts/merry-christmas.md
+- content/blogPosts/mouse-swipe-officially-released-and-a-keyboard-masher-update.md
+- content/blogPosts/mouse-swipe-prototype.md
+- content/blogPosts/mouse-wars-preview-screenshots.md
+- content/blogPosts/my-first-video-here-wheel-of-fortune-for-powerpoint.md
+- content/blogPosts/new-a-template-a-modified-game-and-a-prototype.md
+- content/blogPosts/new-blogger-look.md
+- content/blogPosts/new-download-links-in-the-download-page.md
+- content/blogPosts/new-game-er-utility-bingo-master-board.md
+- content/blogPosts/new-icons-for-powerpoint-games.md
+- content/blogPosts/new-jump-breaks.md
+- content/blogPosts/new-masher-series-icons.md
+- content/blogPosts/new-retired-projects.md
+- content/blogPosts/operation-powerpoint-to-web-continues.md
+- content/blogPosts/powerpoint-2013-consumer-preview-is-out.md
+- content/blogPosts/powerpoint-arcade-reupload-say-what.md
+- content/blogPosts/powerpoint-game-not-working-how-to-enable-macros.md
+- content/blogPosts/powerpoint-macro-checker.md
+- content/blogPosts/powerpoint-pranks-2.md
+- content/blogPosts/powerpoint-pranks-3.md
+- content/blogPosts/projects-moved-to-homepage.md
+- content/blogPosts/really-keynote.md
+- content/blogPosts/screenshot-from-the-discontinued-escape-the-tower-the-animated-edition.md
+- content/blogPosts/silence.md
+- content/blogPosts/site-changes-fixes-january-2015.md
+- content/blogPosts/site-update-august-2015.md
+- content/blogPosts/site-update-february-2016-improved-links.md
+- content/blogPosts/site-updates-april-2014.md
+- content/blogPosts/site-updates-in-progress.md
+- content/blogPosts/slideshow-spelling-error-fixed.md
+- content/blogPosts/slight-refinements-to-the-games-by-tim-logo.md
+- content/blogPosts/so-many-numbers-main-menu-redesign-dark-mode-and-more.md
+- content/blogPosts/so-many-numbers-major-update.md
+- content/blogPosts/so-many-numbers-the-layout-update.md
+- content/blogPosts/so-many-numbers-the-mobile-update.md
+- content/blogPosts/so.md
+- content/blogPosts/source-files-for-vista-point-artworks-released.md
+- content/blogPosts/switching-download-providers-again.md
+- content/blogPosts/tab-names-look-different-here-s-why.md
+- content/blogPosts/the-button-masher-strategy-guide.md
+- content/blogPosts/the-buttons-are-fixed-i-am-thinking-of-a-number-v2.7.1.md
+- content/blogPosts/the-first-bingo-master-board-for-web-preview-is-here.md
+- content/blogPosts/the-keyboard-masher-strategy-guide.md
+- content/blogPosts/the-mouse-swipe-strategy-guide.md
+- content/blogPosts/the-powerpoint-art-gallery.md
+- content/blogPosts/the-worst-mouse-maze-ever-level-2.md
+- content/blogPosts/the-worst-mouse-maze-ever.md
+- content/blogPosts/tim-s-slideshow-games-has-a-new-look.md
+- content/blogPosts/tim-s-slideshow-games-is-switching-to-google-drive.md
+- content/blogPosts/um-tim.md
+- content/blogPosts/update-about-the-site-update.md
+- content/blogPosts/update-available-bingo-master-board.md
+- content/blogPosts/update-available-escape-the-tower.md
+- content/blogPosts/updates-for-the-masher-series.md
+- content/blogPosts/updating-projects-to-games-by-tim.md
+- content/blogPosts/welcome-to-2012.md
+- content/blogPosts/welcome-to-games-by-tim.md
+- content/blogPosts/welcome-to-the-new-games-by-tim.md
+- content/blogPosts/welcome-to-tim-s-slideshow-games.md
+- content/blogPosts/well.md
+- content/blogPosts/what-happened-to-my-masher-series-save-data.md
+- content/blogPosts/wheel-of-fortune-1000-downloads.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-solution-cards.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-to-resume-development.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-v4.1.2-updated-wheel-values.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-2.0-officially-released.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-3.0-has-arrived.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-3.1-is-here.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-3.2-takes-stage.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-4.0-beta-1.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-4.0-beta-2.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-4.0-beta-3.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-4.0-final-welcome-to-a-new-era.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-4.0-rc-release-notes.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-4.0.1.md
+- content/blogPosts/wheel-of-fortune-for-powerpoint-version-4.1.md
+- content/blogPosts/wheel-of-fortune-is-out-of-beta.md
+- content/blogPosts/wheel-of-fortune-version-1.1-released.md
+- content/blogPosts/wheel-of-fortune-wheel-demo-survey-analysis.md
+- content/blogPosts/you-can-install-kb3097877-now.md

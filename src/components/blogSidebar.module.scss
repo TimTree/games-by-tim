@@ -1,0 +1,31 @@
+.sidebar {
+    margin: 0 auto;
+    max-width: 700px;
+    border-top: 1px solid var(--sidebar-border);
+}
+
+
+.years p {
+    width: 50%;
+    margin: 0.25rem 0;
+    display: inline-flex;
+}
+
+@media (min-width: $mid-boundary) {
+    .sidebar {
+        margin: 0;
+        border-top: none;
+        border-left: 1px solid var(--sidebar-border);
+        padding-left: 32px;
+    }
+
+    .sidebarHeader {
+        margin-top: 0;
+    }
+
+    .years p {
+        width: 100%;
+        margin: 0.5rem;
+        display: block;
+    }
+}

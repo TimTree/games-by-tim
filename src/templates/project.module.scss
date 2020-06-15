@@ -1,0 +1,32 @@
+.projectCapsule {
+    margin: 1rem 0;
+}
+
+.projectName {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.meta p {
+    margin: 0.2rem 0;
+}
+
+.tag {
+    background-color: var(--accent1);
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.4rem;
+    display: inline-block;
+    margin: 0 0.2rem 0.2rem 0.2rem;
+}
+
+@media (min-width: $mobile-boundary) {
+    .projectCapsule {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 4%;
+    }
+
+    .projectName {
+        margin-top: 0;
+    }
+}

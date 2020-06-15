@@ -1,0 +1,54 @@
+---
+label: Site Metadata
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+  description: The title of your site
+- name: description
+  type: text
+  config:
+    required: true
+  label: description
+  description: What is your site about?
+- name: author
+  type: text
+  config:
+    required: true
+  label: author
+  description: What is your name?
+- name: github_username
+  type: text
+  config:
+    required: false
+  label: GitHub username
+  description: What's your GitHub username?
+- name: blog_description
+  type: text
+  config:
+    required: false
+  label: blog description
+  description: What should the meta description tag say for the blog list?
+- name: siteurl
+  type: text
+  config:
+    required: true
+  label: siteUrl
+  description: Required for processing SEO-related features
+- name: comments_id
+  type: text
+  config:
+    required: false
+  label: comments ID
+  description: For Hyvor Talk
+- name: google_analytics_id
+  type: text
+  config:
+    required: false
+  label: google analytics ID
+  description: Your Google Analytics ID
+pages:
+- config.json

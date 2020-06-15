@@ -1,0 +1,29 @@
+---
+label: Project Order
+hide_body: true
+fields:
+- name: project_order
+  type: field_group_list
+  fields:
+  - name: platform_label
+    type: text
+    config:
+      required: false
+    label: platform label
+    description: Web projects, PowerPoint projects, Paper projects, etc.
+  - name: order
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: order
+    description: 'Use slug naming (ex: wheel-of-fortune-for-powerpoint)'
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: project order
+  description: The order projects will appear on the homepage
+pages:
+- content/mainData/projectOrder.md

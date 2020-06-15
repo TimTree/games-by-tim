@@ -1,0 +1,174 @@
+header {
+    background: var(--header-bg);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 52px;
+    z-index: 999;
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+    display: flex;
+}
+
+.headerBody {
+    @extend %container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: normal;
+}
+
+@supports ((backdrop-filter: blur(16px))) {
+    header {
+        background: var(--header-bg-blur);
+        backdrop-filter: blur(16px);
+    }
+}
+
+.logo {
+    margin-top: 5px;
+    height: 26px;
+}
+
+.navLinks {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    background: var(--nav-hamburger-dropdown);
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.navLinks li {
+    list-style: none;
+    padding: 0;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-color);
+    display: block;
+    padding: 16px 0;
+    transition: background-color 0.12s;
+    line-height: normal;
+}
+
+.navLinks li:last-child a {
+    display: inline-block;
+    padding: 16px 16px 16px 0;
+}
+
+.navLinks li:last-child div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navLinks li a:hover {
+    background-color: rgba(47, 126, 190, 0.2);
+}
+
+.activeNavLink{
+    color: var(--active-link) !important;
+}
+
+.activeNavLink:hover {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.navToggleCheckbox {
+    display: none;
+}
+
+.navToggleCheckbox:checked ~ .navLinks {
+    display: block;
+}
+
+.navToggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 0.7rem 6vw 0.7rem 6vw;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+.navToggle span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin: 5px 0;
+    position: relative;
+    background-color: var(--nav-hamburger);
+}
+
+.navToggle span:nth-child(1), .navToggle span:nth-child(2), .navToggle span:nth-child(3) {
+    transition: 0.25s;
+}
+
+.navToggleCheckbox:checked ~ .navToggle span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 6px;
+}
+
+.navToggleCheckbox:checked ~ .navToggle span:nth-child(2) {
+    transform: scale(0);
+}
+
+.navToggleCheckbox:checked ~ .navToggle span:nth-child(3) {
+    transform: rotate(45deg);
+    top: -8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .navToggle span:nth-child(1), .navToggle span:nth-child(2), .navToggle span:nth-child(3) {
+      transition: none;
+    }
+}
+  
+
+@media (min-width: $mobile-boundary) {
+    header {
+        height: 70px;
+    }
+
+    .logo {
+        height: 35px;
+    }
+
+    .navToggle {
+        display: none;
+    }
+
+    .navToggleCheckbox:checked ~ .navLinks {
+        display: flex;
+    }
+
+    .navLinks {
+        position:relative;
+        display: flex;
+        justify-content: space-between;
+        width: 470px;
+        background: none;
+        backdrop-filter: none;
+        align-items: center;
+    }
+
+    .navLinks li a {
+        font-size: 17px;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+    }
+}
+
+@media (min-width: $mid-boundary) {
+    .navLinks {
+        width: 550px;
+    }
+}

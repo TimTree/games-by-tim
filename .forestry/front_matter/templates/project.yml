@@ -1,0 +1,159 @@
+---
+label: Project
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+  description: The name of the project
+- name: short_description
+  type: textarea
+  default: No short description provided
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: short description
+  description: Describe the project with few words.
+- name: links
+  type: field_group_list
+  fields:
+  - name: url
+    type: text
+    config:
+      required: true
+    label: url
+    description: The project URL, or the download URL
+  - name: link_text
+    type: text
+    config:
+      required: true
+    description: 'What the project/download link says (ex: View project, Download)'
+    label: link text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: links
+  description: Project links
+- name: github
+  type: text
+  config:
+    required: false
+  label: github
+  description: The GitHub repo URL
+- name: version
+  type: text
+  config:
+    required: false
+  label: version
+  description: The project's latest version number
+- name: older_versions_url
+  type: text
+  config:
+    required: false
+  label: older versions url
+  description: 'The URL to the project''s page that has download links for older versions.
+    Use a relative path.<br>(ex: /wheel-of-fortune-for-powerpoint-archive)'
+- name: released
+  type: text
+  config:
+    required: false
+  label: released
+  description: The date the project initially released
+- name: updated
+  type: text
+  config:
+    required: false
+  label: updated
+  description: The date the current version released
+- name: size
+  type: text
+  config:
+    required: false
+  label: size
+  description: The download size
+- name: platform
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - Web
+    - PowerPoint
+    - Paper
+    - Artwork
+    - Music
+    - Prototype
+    - Other
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: platform
+  description: Web, PowerPoint, paper, etc
+- name: license
+  type: text
+  config:
+    required: false
+  label: license
+  description: The project's software license
+  hidden: false
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+  description: The project tags
+- name: app_icon
+  type: file
+  config:
+    maxSize: 64
+  label: app icon
+  description: The project's square app icon. This icon will appear in blog posts
+    that mention this project.
+- name: screenshots
+  type: image_gallery
+  config: {}
+  label: screenshots
+  description: The project screenshots
+- name: project_announcement
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: project announcement
+  description: Any message here will appear at the very top of the project page.
+- name: isproject
+  type: boolean
+  hidden: true
+  label: isProject
+  description: Key needed for a graphql query in ProjectBanner
+  default: true
+pages:
+- content/projects/bingo-master-board-for-libreoffice.md
+- content/projects/bingo-master-board-plus.md
+- content/projects/bingo-master-board-powerpoint.md
+- content/projects/bingo-master-board.md
+- content/projects/button-masher.md
+- content/projects/cursor-adventure.md
+- content/projects/deal-or-no-deal-on-paper.md
+- content/projects/escape-a-tower.md
+- content/projects/flashcards-for-powerpoint.md
+- content/projects/i-am-thinking-of-a-number.md
+- content/projects/keyboard-masher.md
+- content/projects/lost-in-a-forest-a-text-adventure.md
+- content/projects/make-your-own-memoric-trivia.md
+- content/projects/memoric-trivia.md
+- content/projects/mouse-swipe.md
+- content/projects/powerpoint-arcade.md
+- content/projects/rebus-puzzles-galore.md
+- content/projects/so-many-numbers.md
+- content/projects/trash-panda.md
+- content/projects/wheel-of-fortune-for-powerpoint.md

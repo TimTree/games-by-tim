@@ -1,0 +1,18 @@
+.banner {
+    background: var(--accent2);
+    width: 100%;
+    padding: 0.5rem 0;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: "unset";
+    color: var(--text-color);
+}
+
+.bannerBody {
+    @extend %container;
+    display: block;
+}
+
+.bannerBody span:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+---
+label: Small Project
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: short_description
+  type: textarea
+  default: No short description provided
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: short description
+  description: Describe the project with few words
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+  description: The project tags
+- name: screenshots
+  type: image_gallery
+  config: {}
+  label: screenshots
+  description: The project screenshots
+- name: isproject
+  type: boolean
+  hidden: true
+  default: true
+  label: isProject
+  description: Key needed for a graphql query in ProjectBanner
+pages:
+- content/smallProjects/intervals-of-harmony.md
+- content/smallProjects/medieval-start.md
+- content/smallProjects/vista-point-v1.md
+- content/smallProjects/vista-point-v2.md
+- content/smallProjects/wheel-of-fortune-for-web-wheel-demo.md

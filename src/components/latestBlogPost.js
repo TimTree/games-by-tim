@@ -1,0 +1,45 @@
+import React from "react"
+import latestBlogPostStyles from "./latestBlogPost.module.scss"
+import { Link, graphql, useStaticQuery } from "gatsby"
+
+const LatestBlogPost = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/(blogPosts)/" } }
+        sort: { order: DESC, fields: frontmatter___date }
+        limit: 1
+      ) {
+        edges {
+          node {
+            parent {
+              ... on File {
+                name
+              }
+            }
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
+    }
+  `)
+  if (data.allMarkdownRemark.edges && data.allMarkdownRemark.edges.length) {
+    return (
+      <Link to={`/blog/${data.allMarkdownRemark.edges[0].node.parent.name}/`}>
+        <div className={latestBlogPostStyles.banner}>
+          <div className={latestBlogPostStyles.bannerBody}>
+            <span>
+              <strong>Latest blog post:</strong>{" "}
+              {data.allMarkdownRemark.edges[0].node.frontmatter.title}
+            </span>
+          </div>
+        </div>
+      </Link>
+    )
+  }
+  return null
+}
+
+export default LatestBlogPost

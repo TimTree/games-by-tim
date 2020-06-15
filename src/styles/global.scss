@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+html {
+  font-family: 'pt sans', 'times new roman', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+  line-height: 1.32;
+  --main-bg: #f4f4f4;
+  --text-color: #000;
+  --sidebar-border: rgba(0, 0, 0, 0.2);
+  --header-bg: rgba(255, 255, 255, 0.98);
+  --header-bg-blur: rgba(255, 255, 255, 0.8);
+  --nav-hamburger: #666;
+  --nav-hamburger-dropdown: rgba(220, 220, 220, 0.98);
+  --accent1: #d5eef2;
+  --accent2: #9cd8f5;
+  --link-color: #1a4d99;
+  --announcement-bg: #a7e8ab;
+  --active-link: #2266cc;
+}
+
+body.light {
+  .ggSun {
+    display: none;
+  }
+}
+
+body.dark {
+  --main-bg: #1c1c1c;
+  --text-color: #ccc;
+  --sidebar-border: rgba(204, 204, 204, 0.2);
+  --header-bg: rgba(14, 14, 14, 0.98);
+  --header-bg-blur: rgba(14, 14, 14, 0.8);
+  --nav-hamburger: #888;
+  --nav-hamburger-dropdown: rgba(42, 42, 42, 0.98);
+  --accent1: #1e2729;
+  --accent2: #153a4c;
+  --link-color: #b0b0ff;
+  --announcement-bg: #1a461d;
+  --active-link: #397de4;
+  .ggMoon {
+    display: none;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--main-bg);
+  color: var(--text-color);
+}
+
+main {
+  @extend %container;
+  position: relative;
+}
+
+article, .blogComments {
+  margin: 0 auto;
+  position: relative;
+}
+
+code {
+  font-size: 0.8rem !important;
+}
+
+.gatsby-highlight pre[class*="language-"] {
+   border-radius: 6px;
+ }
+
+article li:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+
+.fadeBody {
+  animation-name: fade;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fadeBody {
+    animation: none;
+  }
+}
+
+.image100 + p {
+  margin: 0 auto;
+  max-width: 100px !important;
+}
+
+.image150 + p {
+  margin: 0 auto;
+  max-width: 150px !important;
+}
+
+.image200 + p {
+  margin: 0 auto;
+  max-width: 200px !important;
+}
+
+.image300 + p {
+  margin: 0 auto;
+  max-width: 300px !important;
+}
+
+.gifsvg + p, .gifsvg100 + p, .gifsvg150 + p, .gifsvg200 + p, .givsvg300 + p {
+  text-align: center;
+}
+
+.gifsvg + p > img {
+  width: 100%;
+  max-width: 900px !important;
+}
+
+.gifsvg100 + p > img {
+  width: 100%;
+  max-width: 100px !important;
+}
+
+.gifsvg150 + p > img {
+  width: 100%;
+  max-width: 150px !important;
+}
+
+.gifsvg200 + p > img {
+  width: 100%;
+  max-width: 200px !important;
+}
+
+.gifsvg300 + p > img {
+  width: 100%;
+  max-width: 300px !important;
+}
+
+img {
+  border-radius: 6px;
+}
+
+.githubLogo:hover {
+  color: var(--active-link);
+  background: none !important;
+}
+
+.githubLogo {
+  transition: color 0.12s !important;
+  vertical-align: middle;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: $mobile-boundary) {
+  html {
+    font-size: 20px;
+  }
+  article, .blogComments {
+    width: 700px;
+    position: relative;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.themeChanger {
+  display: none;
+}
+
+.modeContainer {
+  width: 24px;
+  height: 24px;
+}
+
+// CSS.gg icons for sun and moon
+.ggSun {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 24px;
+  height: 24px;
+  background: linear-gradient(to bottom, currentColor 4px, transparent 0)
+      no-repeat 5px -6px/2px 6px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 5px
+      14px/2px 6px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat -8px 5px/6px
+      2px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 14px
+      5px/6px 2px;
+  border-radius: 100px;
+  box-shadow: inset 0 0 0 2px;
+  border: 6px solid transparent;
+  margin-top: -2px;
+}
+.ggSun::after,
+.ggSun::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  border-right: 4px solid;
+  border-left: 4px solid;
+  left: -6px;
+  top: 5px;
+}
+.ggSun::before {
+  transform: rotate(-45deg);
+}
+.ggSun::after {
+  transform: rotate(45deg);
+}
+.ggMoon,
+.ggMoon::after {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+.ggMoon {
+  overflow: hidden;
+  position: relative;
+  transform: rotate(-135deg) scale(var(--ggs, 1));
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-bottom-color: transparent;
+}
+.ggMoon::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 18px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px;
+  top: 8px;
+  left: 2px;
+}
+.ggSun,
+.ggMoon {
+  transition: color 0.12s;
+  cursor: pointer;
+}
+.ggSun:hover,
+.ggMoon:hover {
+  color: #2872e1;
+}

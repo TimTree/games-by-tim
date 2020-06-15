@@ -1,0 +1,40 @@
+# Redirects from old Blogger URLs to current URLs
+
+# Main pages
+/p/home.html                                            /
+/p/about.html                                           /about/
+/p/miscellaneous.html                                   /grab-bag/
+/p/wheel-of-fortune-for-powerpoint-update.html          /wheel-of-fortune-for-powerpoint-updater/
+
+# Important blog posts
+/2018/06/powerpoint-game-not-working-how-to.html        /blog/powerpoint-game-not-working-how-to-enable-macros/
+/2015/11/the-mouse-swipe-strategy-guide.html            /blog/the-mouse-swipe-strategy-guide/
+/2015/04/the-keyboard-masher-strategy-guide.html        /blog/the-keyboard-masher-strategy-guide/
+/2015/03/the-button-masher-strategy-guide.html          /blog/the-button-masher-strategy-guide/
+
+# Project pages
+/2018/09/so-many-numbers-30-problem-arithmetic.html     /so-many-numbers/
+/2020/03/trash-panda.html                               /trash-panda/
+/2018/09/bingo-master-board-host-bingo-games-on.html    /bingo-master-board/
+/2013/08/button-masher-more-info.html                   /button-masher/
+/2014/04/keyboard-masher-more-info.html                 /keyboard-masher/
+/2015/10/mouse-swipe-more-info.html                     /mouse-swipe/
+/2011/08/escape-tower-more-info.html                    /escape-a-tower/
+/2011/08/i-am-thinking-of-number-between-1-and.html     /i-am-thinking-of-a-number/
+/2015/09/lost-in-forest-text-adventure.html             /lost-in-a-forest-a-text-adventure/
+/2012/01/wheel-of-fortune.html                          /wheel-of-fortune-for-powerpoint/
+/2018/02/flashcards-for-powerpoint.html                 /flashcards-for-powerpoint/
+/2011/08/memoric-trivia-more-info.html                  /memoric-trivia/
+/2011/11/make-your-own-memoric-trivia-more-info.html    /make-your-own-memoric-trivia/
+/2014/11/rebus-puzzles-galore.html                      /rebus-puzzles-galore/
+/2015/08/play-deal-or-no-deal-without-computer.html     /deal-or-no-deal-on-paper/
+/2015/02/artwork-vista-point-v1.html                    /vista-point-v1/
+/2015/02/artwork-vista-point-v2.html                    /vista-point-v2/
+/2015/03/music-intervals-of-harmony.html                /intervals-of-harmony/
+/2019/04/music-medieval-start.html                      /medieval-start/
+/2020/01/wheel-of-fortune-for-web-wheel-demo.html       /wheel-of-fortune-for-web-wheel-demo/
+/2011/09/bingo-master-board-more-info.html              /bingo-master-board-powerpoint/
+/2017/09/bingo-master-board-plus-more-info.html         /bingo-master-board-plus/
+/2017/10/bingo-master-board-plus-for-libreoffice.html   /bingo-master-board-for-libreoffice/
+/2012/02/cursor-adventure-more-info.html                /cursor-adventure/
+/2012/09/powerpoint-arcade-more-info.html               /powerpoint-arcade/

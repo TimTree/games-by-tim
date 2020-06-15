@@ -1,0 +1,23 @@
+.blogWrapper {
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.postTitle {
+    color: var(--link-color);
+    margin-top: 0;
+}
+
+.postTitle:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: $mid-boundary) {
+    .blogGrid{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 700px 200px;
+        column-gap: 32px;
+        max-width: 924px;
+    }
+}

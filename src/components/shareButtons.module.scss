@@ -1,0 +1,15 @@
+.shareButtonDiv button {
+    margin: 0 6px !important;
+}
+
+.shareButtonDiv button:first-child {
+    margin: 0 6px 0 0 !important;
+}
+
+.shareButtonDiv button:last-child {
+    margin: 0 0 0 6px !important;
+}
+
+.shareButtonDiv button:hover {
+    opacity: 0.8;
+}

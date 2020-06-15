@@ -1,0 +1,48 @@
+footer {
+    background: var(--accent2);
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footerBody {
+    @extend %container;
+    display: block;
+}
+
+.timCursor {
+    width: 80px;
+}
+
+.attribution {
+    font-size: 0.8rem;
+}
+
+@media (min-width: $mobile-boundary) {
+    footer {
+        padding: 1.3rem 0;
+        text-align: left;
+    }
+
+    .footerBody {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .timCursor {
+        width: 150px;
+    }
+
+    .copyright {
+        width: 400px;
+        font-size: 0.9rem;
+    }
+
+    .attribution {
+        font-size: 0.72rem;
+    }
+}

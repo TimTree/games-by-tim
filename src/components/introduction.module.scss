@@ -1,0 +1,95 @@
+.introduction {
+    background: var(--accent1);
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.introductionBody {
+    @extend %container;
+    display: block;
+}
+
+.photo {
+    width: 150px;
+    animation-name: bodytextEntry;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    display: inline-block;
+}
+
+.blurb {
+    font-size: 1.2rem;
+}
+
+.blurb1 {
+    animation-name: bodytextEntry2;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+.blurb2 {
+    animation-name: bodytextEntry3;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .photo, .blurb1, .blurb2 {
+      animation: none;
+    }
+}
+  
+
+@media (min-width: $mobile-boundary) {
+    .introduction {
+        text-align: left;
+    }
+
+    .introductionBody {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .photo {
+        width: 200px;
+    }
+
+    .blurb {
+        width: 440px;
+        font-size: 1.3rem;
+    }
+}
+
+@keyframes bodytextEntry {
+    from {
+      opacity: 0;
+      transform: translateX(-5%);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+@keyframes bodytextEntry2 {
+    from {
+        opacity: 0;
+        transform: translateX(5%);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bodytextEntry3 {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to {
+        opacity: 1;
+    }
+}

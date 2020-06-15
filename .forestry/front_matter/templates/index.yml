@@ -1,0 +1,43 @@
+---
+label: Index
+hide_body: true
+fields:
+- name: personal_photo
+  type: file
+  config:
+    maxSize: 64
+  label: personal photo
+  description: The photo of yourself
+- name: blurb
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: blurb
+  description: The "call to action" next to your photo
+- name: footer_note
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: footer note
+  description: The fine print underneath the copyright text
+- name: announcement
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: html
+  label: announcement
+  description: Anything posted here will appear as a top banner message on every page.
+    HTML accepted.
+pages:
+- content/mainData/index.md
