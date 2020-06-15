@@ -1,5 +1,5 @@
 ---
-date: 2017-11-29T23:13:20-08:00
+date: 2017-11-29T23:13:20.000-08:00
 short_description: More insane improvements, and Mac support!
 title: Wheel of Fortune for PowerPoint Version 4.0 beta 2
 project_name: wheel-of-fortune-for-powerpoint
@@ -28,6 +28,7 @@ That said, there's still a lot of room for improvement. Using beta 1 for an actu
 <div class="gifsvg"></div>
 
 ![](../images/wildcardtoggle.gif)  
+
 The realization of removing wedges opens up several interesting ideas for the wheel. For instance, maybe I can add an option to display the 1/2 car cards like in the actual game show. Or I could add a prize wedge, in which the host decides what that prize is. Who knows, let me know what you think!
 
 Now here's something that'll blow you away:
