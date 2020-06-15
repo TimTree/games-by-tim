@@ -18,7 +18,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       filter: {
         fileAbsolutePath: { regex: "/(blogPosts)/" }
-        frontmatter: { date: {lt: $endRange } }
+        frontmatter: { date: { lt: $endRange } }
       }
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: $limit

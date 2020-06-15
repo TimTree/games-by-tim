@@ -24,7 +24,9 @@ const BlogSidebar = () => {
   const all_years = {}
 
   for (let i = 0; i < data.allMarkdownRemark.edges.length; i += 1) {
-    const the_year = moment(data.allMarkdownRemark.edges[i].node.frontmatter.date).local().format(`YYYY`)
+    const the_year = moment(data.allMarkdownRemark.edges[i].node.frontmatter.date)
+      .local()
+      .format(`YYYY`)
     all_years[the_year] = all_years[the_year] === undefined ? 1 : (all_years[the_year] += 1)
   }
   return (

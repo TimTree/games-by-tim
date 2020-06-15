@@ -105,9 +105,15 @@ const BlogPost = props => {
                 </div>
                 <div>
                   {props.data.site.siteMetadata.author} <br />{" "}
-                  {moment(props.data.markdownRemark.frontmatter.date)
-                    .local()
-                    .format(`MMMM DD, YYYY hh:mm a`)}
+                  <time
+                    datetime={moment(props.data.markdownRemark.frontmatter.date)
+                      .local()
+                      .format(`YYYY-MM-DD`)}
+                  >
+                    {moment(props.data.markdownRemark.frontmatter.date)
+                      .local()
+                      .format(`MMMM DD, YYYY hh:mm a`)}
+                  </time>
                 </div>
               </div>
             </div>
