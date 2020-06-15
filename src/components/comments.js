@@ -68,7 +68,7 @@ class Comments extends React.Component {
             </noscript>
           </div>
         ) : null}
-        <CommentThread display={this.state.showComments} />
+        <CommentThread display={this.state.showComments} id={this.props.id} />
       </div>
     )
   }
