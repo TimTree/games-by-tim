@@ -6,6 +6,10 @@ project_name: ''
 hero_image: "../images/gamesbytimbetalight.png"
 
 ---
+**UPDATE (June 15):** The new Games by Tim is out of beta!
+
+***
+
 <div class="gifsvg"></div>
 
 ![Games by Tim logo](../images/gamesbytim.svg)
