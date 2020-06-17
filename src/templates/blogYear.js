@@ -1,3 +1,7 @@
+/**
+ * The blog index pages for each specific year.
+ * There's no max posts per page for yearly archives.
+ */
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"

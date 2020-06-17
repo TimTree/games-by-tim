@@ -1,3 +1,6 @@
+/**
+ * The header is the navbar, which contains the logo and important page links.
+ */
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import logo from "../../static/logo.svg"

@@ -1,3 +1,7 @@
+/**
+ * Simple 404 page.
+ * Maybe in the future, I'll add more flair here.
+ */
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"

@@ -1,3 +1,6 @@
+/**
+ * The homepage
+ */
 import React from "react"
 import Layout from "../components/layout"
 import LatestBlogPost from "../components/latestBlogPost"

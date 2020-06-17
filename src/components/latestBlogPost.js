@@ -1,3 +1,6 @@
+/**
+ * The latestBlogPost component is the banner that links to the newest blog post.
+ */
 import React from "react"
 import latestBlogPostStyles from "./latestBlogPost.module.scss"
 import { Link, graphql, useStaticQuery } from "gatsby"

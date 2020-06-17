@@ -1,9 +1,13 @@
+/**
+ * The blog sidebar contains the blog archive with clickable years and a link to the RSS feed.
+ */
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import blogSidebarStyles from "./blogSidebar.module.scss"
 import moment from "moment"
 
 const BlogSidebar = () => {
+  // Query all blog post dates to populate the blog archive years list
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
@@ -21,6 +25,7 @@ const BlogSidebar = () => {
     }
   `)
 
+  // Determine how many blog posts are there per year
   const all_years = {}
 
   for (let i = 0; i < data.allMarkdownRemark.edges.length; i += 1) {
@@ -29,6 +34,8 @@ const BlogSidebar = () => {
       .format(`YYYY`)
     all_years[the_year] = all_years[the_year] === undefined ? 1 : (all_years[the_year] += 1)
   }
+  // all_years starts counting with the earliest year, so use reverse() to display blog years
+  // newest first.
   return (
     <aside className={blogSidebarStyles.sidebar}>
       <h2 className={blogSidebarStyles.sidebarHeader}>Blog archive</h2>

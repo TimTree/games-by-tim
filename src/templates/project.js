@@ -1,3 +1,6 @@
+/**
+ * The project pages
+ */
 import React from "react"
 import Layout from "../components/layout"
 import { Link, graphql } from "gatsby"
@@ -64,6 +67,9 @@ const Project = props => {
   const image = props.data.markdownRemark.frontmatter.screenshots[0]
     ? props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp.original
     : null
+  // The project screenshot grid is optimized for 16:9 aspect ratio images.
+  // If the screenshot aspect ratio differs, set a margin for the grid such that
+  // there's an invisible pillarbox.
   let giantScreenshotMargin
   if (
     props.data.markdownRemark.frontmatter.screenshots &&

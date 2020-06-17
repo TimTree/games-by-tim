@@ -1,3 +1,9 @@
+/**
+ * The shareButtons components adds social media share buttons for blog posts and project pages.
+ * It's made thanks to the node module "react-share".
+ * "react-share" has many different social media buttons. I chose five I personally thought were
+ * the most relevant.
+ */
 import React from "react"
 import shareButtonsStyles from "./shareButtons.module.scss"
 import {

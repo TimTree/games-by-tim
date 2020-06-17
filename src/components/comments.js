@@ -1,3 +1,10 @@
+/**
+ * The comments component handles the comments section for blog posts and project pages.
+ * Each blog post and project page gets its own comments thread. Their id, for Hyvor Talk
+ * to creat different threads, is the page slug.
+ * Comments are hidden until the user clicks "Show comments" to preserve comment views
+ * for Hyvor Talk's free plan.
+ */
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import HyvorTalk from "hyvor-talk-react"
@@ -38,7 +45,7 @@ class Comments extends React.Component {
       showComments: !prevState.showComments,
     }))
   }
-
+  // It's also possible to show comments by pressing the enter key.
   handleToggleKey = ev => {
     if (ev.keyCode === 13) {
       this.setState(prevState => ({

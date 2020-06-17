@@ -1,3 +1,7 @@
+/**
+ * The footer contains copyright, attribution info, and a link to the privacy policy.
+ * It automatically sets the copyright to the current year the site's built.
+ */
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import footerLogo from "../../static/footer.svg"

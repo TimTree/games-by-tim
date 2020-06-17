@@ -1,3 +1,8 @@
+/**
+ * The projectBanner component is for the project listings on the homepage.
+ * It contains a screenshot, the project title, a short description of that project,
+ * the tags, and a link to that project page.
+ */
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import projectBannerStyles from "./projectBanner.module.scss"
@@ -29,12 +34,18 @@ const ProjectBanner = props => {
       }
     }
   `)
+  // The top graphql query outputs every project. Find the exact index for the specific project
+  // called in the React prop.
   let projectIndex = -1
   for (let i = 0; i < data.allMarkdownRemark.nodes.length; i += 1) {
     if (data.allMarkdownRemark.nodes[i].parent.name === props.project) {
       projectIndex = i
     }
   }
+
+  // If the project has no screenshot, change the banner's display to block.
+  // Otherwise, make the display grid to display a screenshot and project title/description
+  // side by side.
   let giantScreenshotMargin
   let screenshotView = "block"
   if (projectIndex !== -1) {
@@ -42,6 +53,9 @@ const ProjectBanner = props => {
       data.allMarkdownRemark.nodes[projectIndex].frontmatter.screenshots &&
       data.allMarkdownRemark.nodes[projectIndex].frontmatter.screenshots.length
     ) {
+      // The project screenshot grid is optimized for 16:9 aspect ratio images.
+      // If the screenshot aspect ratio differs, set a margin for the grid such that
+      // there's an invisible pillarbox.
       const desiredAspect = 16 / 9
       giantScreenshotMargin =
         ((desiredAspect -

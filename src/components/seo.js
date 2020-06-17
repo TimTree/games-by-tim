@@ -1,3 +1,8 @@
+/**
+ * The seo component processes the metadata for every page.
+ * It generates page titles, meta descriptions, canonical links, and the image
+ * to display if the page is linked on social media.
+ */
 import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"

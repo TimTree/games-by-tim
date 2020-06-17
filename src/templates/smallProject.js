@@ -1,3 +1,7 @@
+/**
+ * The small project pages (ex: artworks, music and prototypes since they're smaller in scale
+ * for my site's context)
+ */
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"

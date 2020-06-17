@@ -1,3 +1,6 @@
+/**
+ * The announcement component displays a banner across all pages if an announcement exists.
+ */
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import announcementStyles from "./announcement.module.scss"

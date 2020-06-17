@@ -1,3 +1,7 @@
+/**
+ * The introduction component is the part of the homepage with your photo and call to action
+ * statement.
+ */
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import introductionStyles from "./introduction.module.scss"
