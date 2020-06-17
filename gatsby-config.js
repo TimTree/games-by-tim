@@ -67,7 +67,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 700,
+              maxWidth: 700, // The max width of articles
               backgroundColor: "none",
             },
           },
@@ -111,6 +111,9 @@ module.exports = {
         icon: `static/icon.png`,
       },
     },
+    // By default, gatsby-plugin-offline potentially displays outdated page data.
+    // Change its settings to utilize a network first approach in more cases.
+    // (Config based on https://stackoverflow.com/a/62039872)
     {
       resolve: "gatsby-plugin-offline",
       options: {
@@ -141,6 +144,10 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    // By default, gatsby-plugin-sitemap sets the priority the same for all pages.
+    // Change config such that the homepage gets a higher priority. This should
+    // in theory cause the homepage to rank higher in search engines relative to
+    // all other pages.
     {
       resolve: "gatsby-plugin-sitemap",
       options: {
@@ -173,6 +180,9 @@ module.exports = {
           })),
       },
     },
+    // The RSS feed will contain the 20 newest blog posts only.
+    // This prevents the feed from getting too large and adheres
+    // to other RSS feeds I've researched.
     {
       resolve: `gatsby-plugin-feed`,
       options: {
