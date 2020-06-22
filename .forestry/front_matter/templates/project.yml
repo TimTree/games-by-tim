@@ -51,6 +51,12 @@ fields:
     required: false
   label: version
   description: The project's latest version number
+- name: whats_new_url
+  type: text
+  config:
+    required: false
+  label: whats new url
+  description: The URL of the release notes of the current version
 - name: older_versions_url
   type: text
   config:
