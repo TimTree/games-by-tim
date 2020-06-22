@@ -27,6 +27,7 @@ screenshots:
 isproject: true
 app_icon: "../images/woflogo.png"
 project_announcement: ''
+whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v4.1.2-updated-wheel-values/"
 
 ---
 Now you can be the host of your own Wheel of Fortune game! Grab your contestants, and use this PowerPoint file to get your game going. It's great for your next class activity, party, or social gathering.
