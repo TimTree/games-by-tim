@@ -8,7 +8,7 @@ social_media_image: ''
 <p>JavaScript is disabled. Check for updates manually <a href='/wheel-of-fortune-for-powerpoint/'>on the project page.</a></p>
 </noscript>
 
-<p id="needupdate"></p>
+<p id="needupdate">To check for updates, load this page from Wheel of Fortune for PowerPoint's <strong>Check for Updates</strong> button.</p>
 
 <script>
     // https://gomakethings.com/how-to-get-the-value-of-a-querystring-with-native-javascript/
