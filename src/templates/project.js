@@ -29,6 +29,7 @@ export const query = graphql`
         }
         github
         version
+        whats_new_url
         older_versions_url
         released
         updated
@@ -145,6 +146,14 @@ const Project = props => {
                 {props.data.markdownRemark.frontmatter.version !== "" ? (
                   <p>
                     <strong>{props.data.markdownRemark.frontmatter.version}</strong>
+                    {props.data.markdownRemark.frontmatter.older_versions_url !== "" ? (
+                      <span>
+                        {" "}
+                        <Link to={props.data.markdownRemark.frontmatter.whats_new_url}>
+                          (What's new)
+                        </Link>
+                      </span>
+                    ) : null}
                   </p>
                 ) : null}
                 {props.data.markdownRemark.frontmatter.older_versions_url !== "" ? (
