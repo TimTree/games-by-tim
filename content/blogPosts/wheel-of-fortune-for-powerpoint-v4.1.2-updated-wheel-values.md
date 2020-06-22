@@ -6,7 +6,7 @@ project_name: wheel-of-fortune-for-powerpoint
 hero_image: "../images/woflogo.png"
 
 ---
-[v4.1/v4.1.1 release notes](/blog/wheel-of-fortune-for-powerpoint-version-4.1/)
+Missed the last feature update? [v4.1/v4.1.1 release notes](/blog/wheel-of-fortune-for-powerpoint-version-4.1/)
 
 ***
 
