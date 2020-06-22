@@ -22,6 +22,7 @@ screenshots:
 - "../images/flashcardshowtouse.png"
 - "../images/flashcardssettings.png"
 project_announcement: ''
+whats_new_url: "/blog/flashcards-for-powerpoint-v1.2-flashcards-in-style/"
 
 ---
 ![](../images/flashcardspptlogo.png)
