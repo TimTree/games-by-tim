@@ -3,6 +3,26 @@ title: Wheel of Fortune for PowerPoint update checker
 social_media_image: ''
 
 ---
-The Wheel of Fortune for PowerPoint update checker no longer works due to the 2020 site overhaul and technical difficulties rerouting old update checker links.
 
-To manually check for updates, compare your PowerPoint file's version number to the one posted [on the project page](/wheel-of-fortune-for-powerpoint/).
+<noscript>
+<p>JavaScript is disabled. Check for updates manually <a href='/wheel-of-fortune-for-powerpoint/'>on the project page.</a></p>
+</noscript>
+
+<p id="needupdate"></p>
+
+<script>
+    // https://gomakethings.com/how-to-get-the-value-of-a-querystring-with-native-javascript/
+    var getQueryString = function ( field, url ) {
+        var href = url ? url : window.location.href;
+        var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
+        var string = reg.exec(href);
+        return string ? string[1] : null;
+    };
+    var version = getQueryString('ver');
+    if (version=="4.1.2" || version=="4.1.2mac") {
+        document.getElementById("needupdate").innerHTML="Your version of Wheel of Fortune for PowerPoint is up to date.";
+    }
+    else {
+        document.getElementById("needupdate").innerHTML="An updated version of Wheel of Fortune for PowerPoint is available. Download it <a href='/wheel-of-fortune-for-powerpoint/'>on the project page</a>.";
+    }
+</script>
