@@ -112,6 +112,7 @@ const BlogPost = props => {
                     datetime={moment(props.data.markdownRemark.frontmatter.date)
                       .local()
                       .format(`YYYY-MM-DD`)}
+                    itemprop="datePublished"
                   >
                     {moment(props.data.markdownRemark.frontmatter.date)
                       .local()
