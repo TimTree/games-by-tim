@@ -4,7 +4,7 @@ short_description: My most popular download. Create puzzles and host the popular
 tags:
 - Updated 2020
 - Macro-enabled
-- 60k+ downloads
+- 70k+ downloads
 title: Wheel of Fortune for PowerPoint
 links:
 - url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.2/WheelofFortune4.1.2.pptm
@@ -26,7 +26,9 @@ screenshots:
 - "../images/woflogo.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: ''
+project_announcement: <p>Want a sneak peak of crazy new features in the pipeline?
+  <a href="https://powerpointcreative.forumotion.com/t126p20-wheel-of-fortune-for-powerpoint-games-by-tim#1765"
+  title="">Try the nightly builds on PowerPoint Creative.</a></p>
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v4.1.2-updated-wheel-values/"
 
 ---
@@ -38,7 +40,7 @@ Now you can be the host of your own Wheel of Fortune game! Grab your contestants
 * **Quickly keep score** with Quick Add and dedicated buy vowel/transfer totals buttons
 * **Open source VBA** so you know this is safe to use
 
-This project reached 60,000+ downloads as of this writing. Thank you all for your support!
+This project reached 70,000+ downloads as of this writing. Thank you all for your support!
 
 **Compatible with PowerPoint 2007 or newer for Windows, and PowerPoint 2011 or newer for Mac.** When prompted, you'll need to enable active content and/or macros for the game to work properly. Wheel of Fortune will NOT work on PowerPoint Viewer because it doesn't support active content.
 
