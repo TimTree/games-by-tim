@@ -26,7 +26,7 @@ screenshots:
 - "../images/woflogo.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: <p>Want a sneak peak of crazy new features in the pipeline?
+project_announcement: <p>Want a sneak peek of crazy new features in the pipeline?
   <a href="https://powerpointcreative.forumotion.com/t126p20-wheel-of-fortune-for-powerpoint-games-by-tim#1765"
   title="">Try the nightly builds on PowerPoint Creative.</a></p>
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v4.1.2-updated-wheel-values/"
