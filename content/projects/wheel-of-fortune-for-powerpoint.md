@@ -26,9 +26,8 @@ screenshots:
 - "../images/woflogo.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: <p><strong>Version 5.0 release candidate</strong> is ready to
-  test, with loads of crazy, new features. <a href="https://github.com/TimTree/wheel-of-fortune-ppt/releases/tag/v5.0RC"
-  title="">More info and download</a></p>
+project_announcement: <p><strong>Version 5.0 release candidate</strong> has arrived, with 4 player support, limitless puzzles, simplified scorekeeping, sound effects, and more. <a href="https://github.com/TimTree/wheel-of-fortune-ppt/releases/tag/v5.0RC"
+  title="">Try it now!</a></p>
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v4.1.2-updated-wheel-values/"
 
 ---
