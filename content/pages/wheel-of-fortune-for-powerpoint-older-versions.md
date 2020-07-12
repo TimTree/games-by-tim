@@ -3,16 +3,31 @@ title: Wheel of Fortune for PowerPoint older versions
 social_media_image: ''
 
 ---
+## [Version 4.1.3 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.3/WheelofFortune4.1.3.pptm)
+
+## [Version 4.1.3 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.3/WheelofFortuneMac4.1.3.zip)
+
+* Released July 11, 2020
+* Adds ActiveX error checking, updates various links
+* **Latest version that supports PowerPoint 2007**
+
+## [Version 4.1.2 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.2/WheelofFortune4.1.2.pptm)
+
+## [Version 4.1.2 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.2/WheelofFortuneMac4.1.2.pptm)
+
+* Released January 24, 2020
+* [Release notes](/blog/wheel-of-fortune-for-powerpoint-v4.1.2-updated-wheel-values/)
+
 ## [Version 4.1.1 (Windows)](https://timtree.github.io/download/wheel-of-fortune-ppt/?ver=4.1.1)
 
 ## [Version 4.1.1 (Mac)](https://timtree.github.io/download/wheel-of-fortune-ppt-mac/?ver=4.1.1)
 
-* Released September 2018
+* Released September 1, 2018
 * [Release notes](/blog/wheel-of-fortune-for-powerpoint-version-4.1/)
 
 ### Version 4.1 not available
 
-* Released June 2018
+* Released June 28, 2018
 * [Release notes](/blog/wheel-of-fortune-for-powerpoint-version-4.1/)
 
 ## [Version 4.0.1 (Windows)](https://timtree.github.io/download/wheel-of-fortune-ppt/?ver=4.0.1)
