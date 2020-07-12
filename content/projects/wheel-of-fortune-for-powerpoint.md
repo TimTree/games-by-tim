@@ -21,15 +21,16 @@ platform: PowerPoint
 license: CC BY-NC-SA 4.0
 screenshots:
 - "../images/wheeloffortuneppt5-0.png"
-- "../images/wofscreenshot1.png"
-- "../images/wofscreenshot3.png"
+- "../images/wheeloffortuneppt5-0editview.png"
+- "../images/wheeloffortunepptscreenshot2.png"
 - "../images/woflogo.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: "<p><strong>Version 5.0</strong> just released, with 4-player
-  support, limitless puzzles, simplified scorekeeping, sound effects, and more! Read
-  the full release notes.</p>"
-whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v4.1.2-updated-wheel-values/"
+project_announcement: <p><strong>Version 5.0</strong> just released, with 4-player
+  support, limitless puzzles, simplified score keeping, sound effects, and more! <a
+  href="/blog/wheel-of-fortune-for-powerpoint-version-5.0-an-absolute-whizbanger/"
+  title="">Read the full release notes.</a></p>
+whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-version-5.0-an-absolute-whizbanger/"
 
 ---
 Wheel of Fortune for PowerPoint lets you host your own Wheel of Fortune games with your own puzzles. It's great for your next party, class activity, social gathering, or video chat!
