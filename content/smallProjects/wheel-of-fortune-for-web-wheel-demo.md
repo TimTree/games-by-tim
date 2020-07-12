@@ -1,5 +1,5 @@
 ---
-short_description: A new way to spin
+short_description: A new way to spin.
 tags: []
 isproject: true
 title: Wheel of Fortune for Web - Wheel Demo
@@ -16,14 +16,12 @@ screenshots: []
 
 Here you'll find a tech demo of the wheel I intend to use for Wheel of Fortune for Web, the upcoming replacement for [Wheel of Fortune for PowerPoint](/wheel-of-fortune-for-powerpoint/).
 
-Wheel of Fortune for PowerPoint's wheel took two clicks - one to spin, and one to stop. This wheel needs just one click, and hold it to charge the new strength meter!
+You can control the web-based wheel with the new strength meter. Click and hold the wheel to set your strength!
 
 **Advantages over the PowerPoint wheel**
 
 * More sense of control over the wheel (although the outcome's still completely random)
-* Has inertia - will slow down as it spins
 * Uses the [crypto-random API](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues) to securely determine where the wheel stops
-* Can programmatically tell what value the wheel landed at
 
 ## **Take the survey!**
 
