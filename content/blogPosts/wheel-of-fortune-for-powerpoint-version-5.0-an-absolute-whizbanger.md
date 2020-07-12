@@ -1,6 +1,6 @@
 ---
 date: 2020-07-12T00:40:14Z
-short_description: Jam-packed with unbelievable features
+short_description: Jam-packed with unbelievable features.
 title: Wheel of Fortune for PowerPoint version 5.0 - an absolute whizbanger
 project_name: wheel-of-fortune-for-powerpoint
 hero_image: "../images/woflogo.png"
@@ -84,7 +84,7 @@ Version 5.0 also includes a handful of new settings to fine-tune your Wheel expe
 * The Letter Selector's slightly bigger to reduce the chance of misclicks.
 * The How to Use slides now have a "Tips & Tricks" section.
 * All message boxes now have a title.
-* All the VBA now supports `Option Explicit` to reduce chance of errors.
+* All the VBA now supports **Option Explicit** to reduce chance of errors.
 * All links have been updated to the new Games by Tim site's style, and I made various grammar adjustments.
 
 ## Deprecations

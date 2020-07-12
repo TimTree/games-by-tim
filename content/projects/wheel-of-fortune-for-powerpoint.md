@@ -23,7 +23,6 @@ screenshots:
 - "../images/wheeloffortuneppt5-0.png"
 - "../images/wheeloffortuneppt5-0editview.png"
 - "../images/wheeloffortunepptscreenshot2.png"
-- "../images/woflogo.png"
 isproject: true
 app_icon: "../images/woflogo.png"
 project_announcement: <p><strong>Version 5.0</strong> just released, with 4-player
