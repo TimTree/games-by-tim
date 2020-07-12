@@ -8,11 +8,11 @@ hero_image: "../images/woflogo.png"
 ---
 In [the last feature update](/blog/wheel-of-fortune-for-powerpoint-version-4.1/), I mentioned I would discontinue Wheel of Fortune for PowerPoint in favor of a web-based release. Well, that web version's still long ways away, and I want new features **now**. Introducing Wheel of Fortune for PowerPoint version 5.0, an absolute whizbanger brimmed with features on the backburner for over two years!
 
-## Vastly-improved scorekeeping
+## Vastly-improved score keeping
 
-Wheel of Fortune for PowerPoint's largest pain paint has been the scorekeeping. For years, hosts had to rely on mental math to change player scores, heavily detracting from the actual game. Although previous updates [tried to reduce the mental strain](/blog/wheel-of-fortune-for-powerpoint-version-3.2-takes-stage/), scorekeeping ultimately remained clunky and unenjoyable.
+Wheel of Fortune for PowerPoint's largest pain paint has been the score keeping. For years, hosts had to rely on mental math to change player scores, heavily detracting from the actual game. Although previous updates [tried to reduce the mental strain](/blog/wheel-of-fortune-for-powerpoint-version-3.2-takes-stage/), score keeping ultimately remained clunky and unenjoyable.
 
-Well that's all about to change in a flash. Dare I say it, **scorekeeping's actually good now.**
+Well that's all about to change in a flash. Dare I say it, **score keeping's actually good now.**
 
 It all starts with **the new wheel mechanism**. Previous versions relied on two clicks to spin the wheel, and its animations [got gimped in version 4.0](/blog/wheel-of-fortune-for-powerpoint-version-4.0-rc-release-notes/) due to issues with randomness. The new mechanism takes one click, and it spins beautifully.
 
