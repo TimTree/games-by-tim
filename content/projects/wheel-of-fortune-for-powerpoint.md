@@ -48,10 +48,10 @@ This project reached 70,000+ downloads as of this writing. Thank you all for you
 
 PowerPoint 2007 users can find an earlier release in [Older Versions](/wheel-of-fortune-for-powerpoint-older-versions/).
 
-Wheel graphics created by [MarioGS](https://buyavowel.boards.net/thread/6608/all-wheel-wedges)/[wheelgenius](https://www.deviantart.com/wheelgenius), used with permission.
+Wheel graphics created by <a href="https://buyavowel.boards.net/thread/6608/all-wheel-wedges" target="_blank" rel="noreferrer noopener">MarioGS</a>/<a href="https://www.deviantart.com/wheelgenius" target="_blank" rel="noreferrer noopener">wheelgenius</a>, used with permission.
 
 ### Video tutorial
 
 <div class="videoWrapper"> <iframe title="Wheel of Fortune for PowerPoint video tutorial" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/QVPlyuG7L7s" width="560"></iframe> </div>
 
-<sup><sub>"Wheel of Fortune" is a registered trademark of Califon Productions, Inc, which was not involved in the production of, and does not endorse, this product. For more information about the game show, visit [www.wheeloffortune.com](https://www.wheeloffortune.com).</sub></sup>
+<sup><sub>"Wheel of Fortune" is a registered trademark of Califon Productions, Inc, which was not involved in the production of, and does not endorse, this product. For more information about the game show, visit <a href="https://www.wheeloffortune.com" target="_blank" rel="noreferrer noopener">www.wheeloffortune.com</a>.</sub></sup>
