@@ -6,7 +6,7 @@ project_name: wheel-of-fortune-for-powerpoint
 hero_image: "../images/woflogo.png"
 
 ---
-In [the last feature update](/blog/wheel-of-fortune-for-powerpoint-version-4.1/), I mentioned I would discontinue Wheel of Fortune for PowerPoint in favor of a web-based release. Well, that web version's still long ways away, and I want new features **now**. Introducing Wheel of Fortune for PowerPoint version 5.0, an absolute whizbanger brimmed with features on the backburner for over two years!
+In [the last feature update](/blog/wheel-of-fortune-for-powerpoint-version-4.1/), I mentioned I would discontinue Wheel of Fortune for PowerPoint in favor of a web-based release. Well, that web version's still long ways away, and I want new features **now**. Introducing Wheel of Fortune for PowerPoint version 5.0, an absolute whizbanger brimmed with features on the back burner for over two years!
 
 ## Vastly-improved score keeping
 
