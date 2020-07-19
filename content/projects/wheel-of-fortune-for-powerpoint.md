@@ -25,10 +25,7 @@ screenshots:
 - "../images/wheeloffortunepptscreenshot2.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: <p><strong>Version 5.0</strong> just released, with 4-player
-  support, limitless puzzles, simplified score keeping, sound effects, and more! <a
-  href="/blog/wheel-of-fortune-for-powerpoint-version-5.0-an-absolute-whizbanger/"
-  title="">Read the full release notes.</a></p>
+project_announcement: ''
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-version-5.0-an-absolute-whizbanger/"
 
 ---
