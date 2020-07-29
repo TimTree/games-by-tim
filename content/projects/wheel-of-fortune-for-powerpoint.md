@@ -37,13 +37,13 @@ Wheel of Fortune for PowerPoint lets you host your own Wheel of Fortune games wi
 * **Play multiple rounds** from the game show, such as the mystery and bonus round.
 * **Spin the included wheels, or use your own.** It's up to you!
 * **Animate the stage**, and **toggle the backdrop** of your choice.
-* **Open-source VBA** so you know this is safe to use
+* <a href="https://github.com/TimTree/wheel-of-fortune-ppt" target="_blank" rel="noreferrer noopener">**Open-source VBA**</a> so you know this is safe to use
 
 This project reached 70,000+ downloads as of this writing. Thank you all for your support!
 
 **Compatible with PowerPoint 2010 or newer for Windows, and PowerPoint 2011 or newer for Mac.** When prompted, you'll need to enable active content and/or macros for the game to work properly. Wheel of Fortune will NOT work on PowerPoint Viewer because it doesn't support active content.
 
-PowerPoint 2007 users can find an earlier release in [Older Versions](/wheel-of-fortune-for-powerpoint-older-versions/).
+PowerPoint 2007 users can find an earlier release in [Older versions](/wheel-of-fortune-for-powerpoint-older-versions/).
 
 Wheel graphics created by <a href="https://buyavowel.boards.net/thread/6608/all-wheel-wedges" target="_blank" rel="noreferrer noopener">MarioGS</a>/<a href="https://www.deviantart.com/wheelgenius" target="_blank" rel="noreferrer noopener">wheelgenius</a>, used with permission.
 
