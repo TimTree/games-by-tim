@@ -200,7 +200,6 @@ const Project = props => {
           </section>
           <div style={{ marginTop: "2rem" }}></div>
           <article>
-            <h3>Description</h3>
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
             <h4 style={{ marginTop: "2rem", marginBottom: "0.5rem" }}>Share this project</h4>
             <ShareButtons
