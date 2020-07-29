@@ -1,5 +1,5 @@
 ---
-short_description: Master the art of recycling with built-in image recognition
+short_description: Improve your recycling habits with built-in image recognition
 tags:
 - Updated 2020
 - Data science
@@ -28,26 +28,24 @@ app_icon: "../images/trashpandaicon.png"
 project_announcement: ''
 
 ---
-**Note:** Trash Panda is part of Lambda School Labs, in which I played a role in. Since I'm not in charge of Trash Panda, I cannot directly provide support regarding bug fixes/improvements.
-
-## **What is Trash Panda?**
-
 Recycling isn't always straightforward. What do those numbers on plastics mean? What should I do with that broken refrigerator? How can I dispose this abstract object I can't tell what it is?
 
 On top of that, recycling regulations differ across cities. Did you know some cities allow you to recycle items that other cities prohibit? The same goes for compost. This leads to a lot of incorrectly recycled items, placing unnecessary impact on the environment.
 
-That's where Trash Panda comes in. Using your location and camera, the web app can identify the item you have and specifically point to you if, how, and where to recycle it. Prefer not to use the camera? You can search in Trash Panda's extensive database, which also offers interesting tidbits about your items to recycle. **Trash Panda helps you master the art of recycling** so you can rest assured you're doing the environment justice.
+That's where Trash Panda comes in. Using your location and camera, the web app can identify the item you have and specifically point to you if, how, and where to recycle it. Prefer not to use the camera? You can search in Trash Panda's extensive database, which also offers interesting tidbits about your items to recycle. **Trash Panda helps you improve your recycling habits** so you can rest assured you're doing the environment justice.
 
-## **Compatibility notes**
+> **Note:** Trash Panda is part of Lambda School Labs, in which I played a role in. Since I'm not in charge of Lambda School Labs, I cannot directly provide further bug fixes/improvements.
+
+## Compatibility notes
 
 - **Trash Panda recommends location and camera permissions** so it can properly identify how to recycle items in your area and use the image recognition model.
 - **Trash Panda is meant for mobile devices** due to the nature of how the app is used, particularly the camera. Desktop users will see a splash screen prompting users to load the page on their phone.
 - **On iOS, Trash Panda only works on Safari** since only Safari can use camera permissions.
 - **On Android, you can install Trash Panda on the** [**Google Play Store**](https://play.google.com/store/apps/details?id=com.thetrashpanda.twa)**.**
 
-## **My role in Trash Panda**
+## My role in Trash Panda
 
-The original Trash Panda team consisted of four web developers, four data scientists, and two UX designers. **I worked as one of the four data scientists.**
+The original Trash Panda team consisted of four web developers, four data scientists, two UX designers, and a project lead. **I worked as one of the four data scientists.**
 
 (That's right; despite this site's portfolio of web-based works, I wanted to try something different. There's a lot of different things to learn in the data science field!)
 
@@ -69,3 +67,23 @@ Once we got all our images downloaded and labeled, we used YOLO, an object detec
 Once the training finished, we got a single weights file that contains all the math algorithms. We deployed this file to a server, which end users utilize to determine the recyclable items in their own images.
 
 If you want to learn more about image recognition, [this site](https://pjreddie.com/darknet/yolo/) explains more about the YOLO neural network.
+
+## Video demo (recorded by Trevor Clack)
+
+<div class="videoWrapper"> <iframe title="Trash Panda demo" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/YbEzwob7PLw" width="560"></iframe> </div>
+
+## The team
+
+Trash Panda was made possible thanks to these amazing team members.
+
+* **Trevor Clack** (Data scientist) - [Portfolio](https://tclack88.github.io/), [LinkedIn](https://www.linkedin.com/in/trevor-clack-774696184/), [Trash Panda writeup](https://tclack88.github.io/blog/personal/2020/03/07/trash-panda.html)
+* **Timothy Hsu** (Data scientist) - [Portfolio](/), [LinkedIn](https://www.linkedin.com/in/hsutimothy/)
+* **Vera Mendes** (Data scientist) - [Portfolio](https://veramendes.github.io/), [LinkedIn](https://www.linkedin.com/in/vera-mendes/), [Trash Panda writeup](https://veramendes.github.io/2020-03-08-The-Trash-Panda/)
+* **Tobias Reaper** (Data scientist) - [Portfolio](https://tobias.fyi/), [LinkedIn](https://www.linkedin.com/in/tobias-reaper), [Trash Panda writeup](https://tobias.fyi/workshop/trash-panda/)
+* **Mark Artishuk** (Web developer) - [Portfolio](https://www.markartishuk.com/), [LinkedIn](https://www.linkedin.com/in/mark-artishuk/)
+* **Colin Bazzano** (Web developer) - [LinkedIn](https://www.linkedin.com/in/colin-bazzano-6a6250114/)
+* **Mark Halls** (Web developer) - [LinkedIn](https://www.linkedin.com/in/mark-halls)
+* **Carlo Lucido** (Web developer) - [LinkedIn](https://www.linkedin.com/in/cjlucido/)
+* **Lynn Baxter** (UX designer) - [LinkedIn](https://www.linkedin.com/in/lynnmariebaxter/)
+* **Kendra McKernan** (UX designer) - [Portfolio](https://www.kendramckernan.com/), [LinkedIn](https://www.linkedin.com/in/kendra-mckernan/), [Case study](https://www.kendramckernan.com/work/recycle-iq)
+* **JT Kernan** (Project lead) - [LinkedIn](https://www.linkedin.com/in/john-timothy-kernan-b9358966/)
