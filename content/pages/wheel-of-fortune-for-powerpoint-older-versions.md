@@ -3,6 +3,13 @@ title: Wheel of Fortune for PowerPoint older versions
 social_media_image: ''
 
 ---
+## [Version 5.1 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.1/WheelofFortune5.1.pptm)
+
+## [Version 5.1 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.1/WheelofFortuneMac5.1.zip)
+
+* Released August 2, 2020
+* [Release notes](/blog/wheel-of-fortune-for-powerpoint-version-5.1-shot-clock-me/)
+
 ## [Version 5.0 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.0/WheelofFortune5.0.pptm)
 
 ## [Version 5.0 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.0/WheelofFortuneMac5.0.zip)
@@ -10,13 +17,20 @@ social_media_image: ''
 * Released July 11, 2020
 * [Release notes](/blog/wheel-of-fortune-for-powerpoint-version-5.0-an-absolute-whizbanger/)
 
+## [Version 4.1.5 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.5/WheelofFortune4.1.5.pptm)
+
+## [Version 4.1.5 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.5/WheelofFortuneMac4.1.5.zip)
+
+* Released August 19, 2020
+* Fixes issues with the buy vowel/transfer totals buttons if the Windows display language is not US English
+* **Latest version that supports PowerPoint 2007**
+
 ## [Version 4.1.4 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.4/WheelofFortune4.1.4.pptm)
 
 ## [Version 4.1.4 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.4/WheelofFortuneMac4.1.4.zip)
 
 * Released August 2, 2020
 * Backports shift up/down feature from version 5.1
-* **Latest version that supports PowerPoint 2007**
 
 ## [Version 4.1.3 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.3/WheelofFortune4.1.3.pptm)
 
