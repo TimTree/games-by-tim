@@ -9,6 +9,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import HyvorTalk from "hyvor-talk-react"
 import CommentsStyles from "./comments.module.scss"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 function CommentThread(props) {
   const data = useStaticQuery(graphql`
@@ -20,16 +21,31 @@ function CommentThread(props) {
       }
     }
   `)
+  const darkPalette = {
+    accent: "#397de4",
+    accentText: "#000000",
+    footerHeader: "#161616",
+    footerHeaderText: "#ccc",
+    box: "#282828",
+    boxText: "#ccc",
+    boxLightText: "#aaaaaa",
+    backgroundText: "#ccc",
+  }
   if (!props.display) {
     return null
   }
 
   return (
-    <HyvorTalk.Embed
-      websiteId={Number(data.site.siteMetadata.comments_id)}
-      id={props.id}
-      loadMode="scroll"
-    />
+    <ThemeToggler>
+      {({ theme }) => (
+        <HyvorTalk.Embed
+          websiteId={Number(data.site.siteMetadata.comments_id)}
+          id={props.id}
+          loadMode="scroll"
+          palette={theme === "dark" ? darkPalette : null}
+        />
+      )}
+    </ThemeToggler>
   )
 }
 
