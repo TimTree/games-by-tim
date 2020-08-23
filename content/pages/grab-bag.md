@@ -27,13 +27,19 @@ A major mouse maze game with integrated graphics.
 
 An ~~ongoing~~ minigame compilation.
 
+***
+
 ## The old Games by Tim
 
 Before June 2020, I hosted Games by Tim on Blogger, Google's free blogging service. The old site [remains archived here](https://old.gamesbytim.com).
 
+***
+
 ## PowerPoint Macro Checker
 
 If you make macro-enabled PowerPoint games and want to warn users if macros are disabled, [this guide is for you](/blog/powerpoint-macro-checker/).
+
+***
 
 ## "PowerPoint Pranks" index
 
@@ -43,10 +49,12 @@ Years ago, I found out something very fun you can do on PowerPoint - pull pranks
 2. [The Frozen Desktop!](/blog/powerpoint-pranks-2/)
 3. [Huh, Where's da Screen?!](/blog/powerpoint-pranks-3/)
 
+***
+
 ## External links
 
-**W3Schools -** Interested in learning Web development? W3Schools has the tools you need to get started. [http://www.w3schools.com/](http://www.w3schools.com/ "http://www.w3schools.com/")
+**GatsbyJS -** This website is built with GatsbyJS, which you can learn more about here. [https://www.gatsbyjs.com/](https://www.gatsbyjs.com/)
 
-**PowerPoint Creative Forum** - A PowerPoint community where I share some of my projects here. This forum is another way to communicate with me and fellow PowerPoint creators. [http://forum.rusnakcreative.com/forum](http://forum.rusnakcreative.com/forum "http://forum.rusnakcreative.com/forum")
+**Hyvor Talk -** Comments are managed with Hyvor Talk, which you can learn more about here. [https://talk.hyvor.com/](https://talk.hyvor.com/ "https://talk.hyvor.com/")
 
-**Escape the Tower: The Flash Version -** Once you beat my Escape the Tower, you should try this Escape the Tower! The game is flash-based, and the gameplay is rather different. Which Escape the Tower do you prefer more: mine or the flash version? [http://www.gamershood.com/escape_the_tower.htm](http://www.gamershood.com/escape_the_tower.htm "http://www.gamershood.com/escape_the_tower.htm")
+**PowerPoint Creative Forum** - A PowerPoint community where I share some of my projects here. This forum is another way to communicate with me and fellow PowerPoint creators. [https://powerpointcreative.forumotion.com/forum](https://powerpointcreative.forumotion.com/forum)
