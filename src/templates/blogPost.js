@@ -146,7 +146,7 @@ const BlogPost = props => {
                         )
                       )
                     : null}
-                  <h3>
+                  <h3 className={blogPostStyles.projectMoreInfo}>
                     <Link to={`/${props.data.allMarkdownRemark.nodes[projectIndex].parent.name}/`}>
                       More info
                     </Link>
