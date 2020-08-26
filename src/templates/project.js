@@ -188,24 +188,24 @@ const Project = props => {
                     <strong>License: </strong> {props.data.markdownRemark.frontmatter.license}
                   </p>
                 ) : null}
-                {props.data.markdownRemark.frontmatter.tags &&
-                props.data.markdownRemark.frontmatter.tags.length ? (
-                  <p>
-                    <strong>Tags:</strong> {props.data.markdownRemark.frontmatter.tags.join(", ")}
-                  </p>
-                ) : null}
-                <p></p>
+                <h4 style={{ marginBottom: "0.5rem" }}>Share this project</h4>
+                <ShareButtons
+                  url={`${props.data.site.siteMetadata.siteUrl}/${props.data.markdownRemark.parent.name}/`}
+                  title={props.data.markdownRemark.frontmatter.title}
+                />
               </div>
             </div>
           </section>
           <div style={{ marginTop: "2rem" }}></div>
           <article>
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
-            <h4 style={{ marginTop: "2rem", marginBottom: "0.5rem" }}>Share this project</h4>
-            <ShareButtons
-              url={`${props.data.site.siteMetadata.siteUrl}/${props.data.markdownRemark.parent.name}/`}
-              title={props.data.markdownRemark.frontmatter.title}
-            />
+            {props.data.markdownRemark.frontmatter.tags &&
+            props.data.markdownRemark.frontmatter.tags.length ? (
+              <p>
+                <strong>Tags:</strong>{" "}
+                <em>{props.data.markdownRemark.frontmatter.tags.join(", ")}</em>
+              </p>
+            ) : null}
           </article>
           {props.data.markdownRemark.frontmatter.screenshots &&
           props.data.markdownRemark.frontmatter.screenshots.length ? (
