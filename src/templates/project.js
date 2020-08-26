@@ -146,7 +146,7 @@ const Project = props => {
                 {props.data.markdownRemark.frontmatter.version !== "" ? (
                   <p>
                     <strong>{props.data.markdownRemark.frontmatter.version}</strong>
-                    {props.data.markdownRemark.frontmatter.older_versions_url !== "" ? (
+                    {props.data.markdownRemark.frontmatter.whats_new_url !== ("" || null) ? (
                       <span>
                         {" "}
                         <Link to={props.data.markdownRemark.frontmatter.whats_new_url}>
