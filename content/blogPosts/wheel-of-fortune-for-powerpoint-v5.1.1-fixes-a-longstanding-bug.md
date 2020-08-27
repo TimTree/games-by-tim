@@ -1,5 +1,5 @@
 ---
-date: 2020-08-20T02:44:56Z
+date: 2020-08-20T02:44:56.000+00:00
 short_description: I finally reproduce a bug that bewildered me for months!
 title: Wheel of Fortune for PowerPoint v5.1.1 fixes a longstanding bug
 project_name: wheel-of-fortune-for-powerpoint
@@ -52,11 +52,15 @@ Never have I felt more excited and relieved about something _not_ working.
 
 ## The fix
 
-PowerPoint VBA has a function called convert long (Clng), which converts a string ("2000 dollars") to an integer (2000).
+> **UPDATE (August 27):** I found out the root cause of the bug and corrected the explanation I had before.
+
+PowerPoint VBA has a function called convert long (Clng), which converts a string ("2000") to a long, an integer with a max value of 2 billion (2000). In order for CLng to work, the string to convert has to appear numeric.
 
 In US English, running CLng on the string "$250" returns the number 250. In UK English (and other languages), trying to convert "$250" leads to an error.
 
-The fix is to strip the dollar sign from the string before converting it to a number. So instead of running:
+This happens because in US English, "$250" is interpreted as a currency, which is numeric, so CLng works. In UK English, "$250" is a non-numeric string, so CLng causes a type error.
+
+The fix is to strip the dollar sign from the string before converting it to a long. So instead of running:
 
 `CLng("$250")`
 
