@@ -169,7 +169,7 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
             body {
               --main-bg: #1c1c1c;
               --text-color: #ccc;
-              --sidebar-border: rgba(204, 204, 204, 0.2);
+              --sidebar-border: rgba(230, 230, 230, 0.25);
               --header-bg: rgba(14, 14, 14, 0.98);
               --header-bg-blur: rgba(14, 14, 14, 0.8);
               --nav-hamburger: #888;
