@@ -13,7 +13,7 @@ Project drawn Bingo balls. **Replaced with** [**Bingo Master Board on the Web**]
 
 ### [Bingo Master Board PLUS](/bingo-master-board-plus/)
 
-Bingo Master Board, taken to the next level. **Replaced with** [**Bingo Master Board on the Web**](/bingo-master-board/)**.**remains archived here
+Bingo Master Board, taken to the next level. **Replaced with** [**Bingo Master Board on the Web**](/bingo-master-board/)**.**
 
 ### [Bingo Master Board for LibreOffice](/bingo-master-board-for-libreoffice/)
 
