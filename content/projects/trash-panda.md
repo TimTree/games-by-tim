@@ -26,6 +26,7 @@ screenshots:
 isproject: true
 app_icon: "../images/trashpandaicon.png"
 project_announcement: ''
+whats_new_url: ''
 
 ---
 Recycling isn't always straightforward. What do those numbers on plastics mean? What should I do with that broken refrigerator? How can I dispose this abstract object I can't tell what it is?
@@ -38,10 +39,10 @@ That's where Trash Panda comes in. Using your location and camera, the web app c
 
 ## Compatibility notes
 
-- **Trash Panda recommends location and camera permissions** so it can properly identify how to recycle items in your area and use the image recognition model.
-- **Trash Panda is meant for mobile devices** due to the nature of how the app is used, particularly the camera. Desktop users will see a splash screen prompting users to load the page on their phone.
-- **On iOS, Trash Panda only works on Safari** since only Safari can use camera permissions.
-- **On Android, you can install Trash Panda on the** [**Google Play Store**](https://play.google.com/store/apps/details?id=com.thetrashpanda.twa)**.**
+* **Trash Panda recommends location and camera permissions** so it can properly identify how to recycle items in your area and use the image recognition model.
+* **Trash Panda is meant for mobile devices** due to the nature of how the app is used, particularly the camera. Desktop users will see a splash screen prompting users to load the page on their phone.
+* **On iOS, Trash Panda only works on Safari** since only Safari can use camera permissions.
+* **On Android, you can install Trash Panda on the** [**Google Play Store**](https://play.google.com/store/apps/details?id=com.thetrashpanda.twa)**.**
 
 ## My role in Trash Panda
 
@@ -59,8 +60,8 @@ To build Trash Panda's image recognition model, us data scientists first needed 
 
 Sounds tedious? That's because it is. Thankfully we're computer scientists and know how to automate some things.
 
-- **For downloading,** we wrote python scripts that can automatically scrape images from Bing and Google Images. It works well, but we had to be careful about search queries (cork is a wine bottle cap, as well as a name of a city).
-- **For drawing bounding boxes,** we wrote a large python script that programmatically labels images. Some images, like those with just the item and a transparent background, easily label well with the script. Other images, like a white piece of paper on a white table, not so much. Although our script helped us save lots of time, we still had to manually label thousands of images.
+* **For downloading,** we wrote python scripts that can automatically scrape images from Bing and Google Images. It works well, but we had to be careful about search queries (cork is a wine bottle cap, as well as a name of a city).
+* **For drawing bounding boxes,** we wrote a large python script that programmatically labels images. Some images, like those with just the item and a transparent background, easily label well with the script. Other images, like a white piece of paper on a white table, not so much. Although our script helped us save lots of time, we still had to manually label thousands of images.
 
 Once we got all our images downloaded and labeled, we used YOLO, an object detection neural network, to train our model. In a nutshell, the computer gathers information about what a specific item looks like from each labeled image and tries to generalize what it learned as a math algorithm. The training process requires a large amount of GPU power, and as such, we used a cloud computer, AWS SageMaker, to train the model.
 
@@ -82,8 +83,8 @@ Trash Panda was made possible thanks to these amazing team members.
 * **Tobias Reaper** (Data scientist) - [Portfolio](https://tobias.fyi/), [LinkedIn](https://www.linkedin.com/in/tobias-reaper), [Trash Panda writeup](https://tobias.fyi/workshop/trash-panda/)
 * **Mark Artishuk** (Web developer) - [Portfolio](https://www.markartishuk.com/), [LinkedIn](https://www.linkedin.com/in/mark-artishuk/)
 * **Colin Bazzano** (Web developer) - [LinkedIn](https://www.linkedin.com/in/colin-bazzano-6a6250114/)
-* **Mark Halls** (Web developer) - [LinkedIn](https://www.linkedin.com/in/mark-halls)
+* **Mark Halls** (Web developer) - [Portfolio](https://markhalls.dev/), [LinkedIn](https://www.linkedin.com/in/mark-halls)
 * **Carlo Lucido** (Web developer) - [LinkedIn](https://www.linkedin.com/in/cjlucido/)
-* **Lynn Baxter** (UX designer) - [LinkedIn](https://www.linkedin.com/in/lynnmariebaxter/)
+* **Lynn Baxter** (UX designer) - [Portfolio](https://lynnb.design/), [LinkedIn](https://www.linkedin.com/in/lynnmariebaxter/), [Case study](https://lynnb.design/trash-panda)
 * **Kendra McKernan** (UX designer) - [Portfolio](https://www.kendramckernan.com/), [LinkedIn](https://www.linkedin.com/in/kendra-mckernan/), [Case study](https://www.kendramckernan.com/work/recycle-iq)
 * **JT Kernan** (Project lead) - [LinkedIn](https://www.linkedin.com/in/john-timothy-kernan-b9358966/)
