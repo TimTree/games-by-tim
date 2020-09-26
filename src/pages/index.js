@@ -42,7 +42,7 @@ const IndexPage = () => {
                   spot on the credits in exchange for comments.
                 </p>
               ) : null}
-              <div style={{ margin: "0 auto", maxWidth: "1150px" }}>
+              <div style={{ margin: "0 auto", maxWidth: "1100px" }}>
                 {order_number.order.map(theOrder => (
                   <div key={theOrder}>
                     <ProjectBanner key={theOrder} project={theOrder} />
