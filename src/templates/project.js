@@ -44,7 +44,7 @@ export const query = graphql`
               width
               height
             }
-            fluid(maxWidth: 900) {
+            fluid(maxWidth: 850) {
               ...GatsbyImageSharpFluid
               originalImg
               originalName

@@ -22,8 +22,9 @@
 @media (min-width: $mobile-boundary) {
     .projectCapsule {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: minmax(auto, 850px) auto;
         grid-column-gap: 5%;
+        justify-content: center;
     }
 
     .projectName {
