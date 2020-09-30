@@ -107,7 +107,7 @@ const Project = props => {
             props.data.markdownRemark.frontmatter.screenshots.length ? (
               <div
                 className={projectStyles.screenshot}
-                style={{ margin: `0 ${giantScreenshotMargin}%` }}
+                style={{ margin: `0 ${giantScreenshotMargin * 2}% 0 0` }}
               >
                 <Img
                   fluid={props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp.fluid}
