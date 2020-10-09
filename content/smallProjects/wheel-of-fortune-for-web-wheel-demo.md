@@ -34,5 +34,3 @@ Note that I'm long ways away from releasing Wheel of Fortune for Web. I'm just s
 Wheel of Fortune for Web - Wheel Demo is licensed under the GPL-3.0.
 
 <sup>“Wheel of Fortune” is a registered trademark of Califon Productions, Inc, which was not involved in the production of, and does not endorse, this product. For more information about the game show, visit www.wheeloffortune.com.</sup>
-
-<sup>Wheel wedges created by [MarioGS](http://buyavowel.boards.net/thread/6608/all-wheel-wedges)/[wheelgenius](https://wheelgenius.deviantart.com/), used with permission.</sup>
