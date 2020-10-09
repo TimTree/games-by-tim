@@ -16,24 +16,16 @@ screenshots: []
 
 Here you'll find a tech demo of the wheel I intend to use for Wheel of Fortune for Web, the upcoming replacement for [Wheel of Fortune for PowerPoint](/wheel-of-fortune-for-powerpoint/).
 
-You can control the web-based wheel with the new strength meter. Click and hold the wheel to set your strength!
+Compared to the PowerPoint wheel, the Web wheel starts spinning from where the wheel last landed. It also uses the [crypto-random API](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues) to securely determine where the wheel stops.
 
-**Advantages over the PowerPoint wheel**
+## **Survey**
 
-* More sense of control over the wheel (although the outcome's still completely random)
-* Uses the [crypto-random API](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues) to securely determine where the wheel stops
-
-## **Take the survey!**
-
-~~For the first time in the site's history, I'm trying out a survey to gauge how to further improve the wheel.~~ [~~Click here for the survey.~~](https://forms.gle/oBiGSo1aivxQbdHp7)
-
-**The survey closed February 11, 2020.**
+From January 20 to February 10, 2020, I ran a survey on the wheel demo to figure out how to further improve the wheel. [Click here for a summary of the survey results.](https://www.gamesbytim.com/blog/wheel-of-fortune-wheel-demo-survey-analysis/)
 
 ## **To Do**
 
 * Add multiple wheel types to choose from
 * Add the wheel's second layer (wild card, Mystery wedge, etc)
-* Add sound effects to the wheel
 
 Note that I'm long ways away from releasing Wheel of Fortune for Web. I'm just sharing these types of demos in the meantime.
 
