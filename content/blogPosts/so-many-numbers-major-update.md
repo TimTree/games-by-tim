@@ -51,7 +51,7 @@ The Vue rewrite not only revamps the development workflow; it introduces several
 * **Page transitions are more fluid**, thanks to a wider scope of fade-in effects.
 * The more efficient workflow means **it's easier to distribute updates**.
 
-(Other JavaScript frameworks include Angular and React. I chose Vue for this project since it looked easier to grasp.)
+(Other JavaScript frameworks/libraries include Angular and React. I chose Vue for this project since it looked easier to grasp.)
 
 ## Tweaks and Refinements
 

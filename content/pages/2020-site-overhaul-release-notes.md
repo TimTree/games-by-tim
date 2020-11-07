@@ -9,7 +9,7 @@ Below is a comprehensive list of changes to the Games by Tim website, released J
 
 * **Games by Tim switches from** [**Blogger**](https://www.blogger.com) **to** [**Gatsby**](https://www.gatsbyjs.org)**.**
   * Blogger is a free blog hosting service from Google, which made sense to use before I knew web development.
-  * Gatsby is a static site generator that uses React, a JavaScript framework, to build the interface.
+  * Gatsby is a static site generator that uses React, a JavaScript library, to build the interface.
   * Compared to Blogger, Gatsby allows for a far more flexible website. It also incorporates modern techniques that enhance site performance, accessibility, and search engine optimization (SEO), explained throughout the rest of the release notes.
 * **Games by Tim is now responsive for mobile devices.**
   * The previous Blogger website had a separate mobile site, which deviated away from the main site's look and feel.

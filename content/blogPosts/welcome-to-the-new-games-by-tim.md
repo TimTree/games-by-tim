@@ -50,7 +50,7 @@ Want to see how the new site's made? You're more than welcome to [peruse the sou
 
 ![Gatsby logo](../images/gatsby_monogram.svg)
 
-The new site's hand-coded with [Gatsby](https://www.gatsbyjs.org/), a static site generator designed to build fast, modern blogs. Gatsby incorporates [React](https://reactjs.org/), a JavaScript framework used to build user interfaces.
+The new site's hand-coded with [Gatsby](https://www.gatsbyjs.org/), a static site generator designed to build fast, modern blogs. Gatsby incorporates [React](https://reactjs.org/), a JavaScript library used to build user interfaces.
 
 For writing blog posts, the new site uses [Forestry](https://forestry.io/). Typically, the blog editor you use is tied to a specific platform (ex: the Blogger editor can only be used on Blogger sites). Editors like Forestry on the other hand can be used for multiple platforms, especially custom-made sites. This type of editor is known as a headless CMS.
 
