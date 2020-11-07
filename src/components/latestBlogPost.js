@@ -30,7 +30,7 @@ const LatestBlogPost = () => {
   `)
   if (data.allMarkdownRemark.edges && data.allMarkdownRemark.edges.length) {
     return (
-      <Link to={`/blog/${data.allMarkdownRemark.edges[0].node.parent.name}/`}>
+      <Link to={`/blog/${data.allMarkdownRemark.edges[0].node.parent.name}/?source=latestblogpost`}>
         <div className={latestBlogPostStyles.banner}>
           <div className={latestBlogPostStyles.bannerBody}>
             <span>
