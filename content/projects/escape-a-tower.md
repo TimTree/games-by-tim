@@ -10,10 +10,10 @@ links:
 - url: https://tower.gamesbytim.com
   link_text: View project
 github: https://github.com/TimTree/escape-a-tower
-version: Version 2.6.1
+version: Version 2.6.2
 older_versions_url: "/escape-a-tower-older-versions/"
 released: November 25, 2010
-updated: May 7, 2020
+updated: November 25, 2020
 size: ''
 platform: Web
 license: ''
@@ -23,6 +23,7 @@ screenshots:
 - "../images/escapeatowergameplay.png"
 - "../images/towerappicon512.png"
 project_announcement: ''
+whats_new_url: ''
 
 ---
 It was a warm sunny day, and you decided to go downtown, to visit the bookstore.
