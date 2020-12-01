@@ -37,9 +37,10 @@ The following foreign languages are currently supported:
 
 <p>
 
-* To use the letter Ñ, enable Spanish Ñ in Settings.<br>
-  \** The German Eszett (ẞ) is not supported due to unresolved technical issues. As a workaround, use ss instead.
-  </p>
+\* To use the letter Ñ, enable Spanish Ñ in Settings.<br>
+\** The German Eszett (ẞ) is not supported due to unresolved technical issues. As a workaround, use ss instead.
+
+</p>
 
 Please note this is NOT a localization; the game UI remains in English only. This feature is intended for English speakers who want to expand their horizons.
 
@@ -70,4 +71,4 @@ You can switch back to the old wheel item behavior, where they stay on the wheel
 * Various optimizations have been made to reduce file size.
 * A gamesbytim.com watermark has been added to the puzzle board. Here's hoping for more exposure!
 
-Convinced by this update's sheer awesomeness? Well you know the drill, [download it now!](https://www.gamesbytim.com/wheel-of-fortune-for-powerpoint/)
+Convinced by this update's sheer awesomeness? Well you know the drill, [download it now!](/wheel-of-fortune-for-powerpoint/)
