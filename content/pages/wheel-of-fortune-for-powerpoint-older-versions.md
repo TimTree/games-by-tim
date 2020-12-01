@@ -14,6 +14,13 @@ social_media_image: ''
 
 ***
 
+## [Version 5.1.1 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.1.1/WheelofFortune5.1.1.pptm)
+
+## [Version 5.1.1 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.1.1/WheelofFortuneMac5.1.1.zip)
+
+* Released August 19, 2020
+* [Release notes](https://www.gamesbytim.com/blog/wheel-of-fortune-for-powerpoint-v5.1.1-fixes-a-longstanding-bug/)
+
 ## [Version 5.1 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.1/WheelofFortune5.1.pptm)
 
 ## [Version 5.1 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.1/WheelofFortuneMac5.1.zip)
