@@ -23,7 +23,7 @@ function CommentThread(props) {
   `)
   const darkPalette = {
     accent: "#397de4",
-    accentText: "#000000",
+    accentText: "#222",
     footerHeader: "#161616",
     footerHeaderText: "#ccc",
     box: "#282828",
