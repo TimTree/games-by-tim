@@ -5,7 +5,7 @@ social_media_image: ''
 ---
 Over the years, I've received many questions about [Wheel of Fortune for PowerPoint](/wheel-of-fortune-for-powerpoint/). Here are the most common questions.
 
-*Last updated January 2, 2021*
+*Last updated January 17, 2021*
 
 ### What are macros, and why do I need to enable them?
 
@@ -29,6 +29,7 @@ If you absolutely need more than four individual player slots, I would look into
 
 As of version 5.2, it is possible to create puzzles in the following languages:
 
+* English
 * Spanish *
 * French
 * Portuguese
@@ -36,6 +37,8 @@ As of version 5.2, it is possible to create puzzles in the following languages:
 * German **
 * Italian
 * Dutch
+
+Other languages might work, so long as it's based on the Latin alphabet and uses letters within the [extended ASCII table](https://www.ascii-code.com/).
 
 <p>
 
