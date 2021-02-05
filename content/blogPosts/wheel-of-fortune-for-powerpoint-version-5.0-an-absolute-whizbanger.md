@@ -100,7 +100,7 @@ The following features have been dropped in version 5.0:
 
 As version 5.0 functions differently enough from before, a new video tutorial's in order. Fortunately, I've delivered.
 
-<div class="videoWrapper"> <iframe title="Wheel of Fortune for PowerPoint video tutorial" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/QVPlyuG7L7s" width="560"></iframe> </div>
+<div class="videoWrapper"> <iframe title="Wheel of Fortune for PowerPoint video tutorial" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/QVPlyuG7L7s" width="560"></iframe> </div>
 
 The new video's to the point, shaving more than half the runtime of the previous video!
 

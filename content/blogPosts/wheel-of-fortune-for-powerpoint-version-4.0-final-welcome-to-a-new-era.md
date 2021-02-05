@@ -95,7 +95,7 @@ Everything else should be feature identical with the Windows version for now. Bu
 ### New video guide
 
 <div class="videoWrapper">
-<iframe title="Wheel of Fortune for PowerPoint video tutorial" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/vNqHYk3FgiQ" width="560"></iframe>
+<iframe title="Wheel of Fortune for PowerPoint video tutorial" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/vNqHYk3FgiQ" width="560"></iframe>
 </div>
 
 ## Developer Note

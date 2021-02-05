@@ -71,7 +71,7 @@ If you want to learn more about image recognition, [this site](https://pjreddie.
 
 ## Video demo (recorded by Trevor Clack)
 
-<div class="videoWrapper"> <iframe title="Trash Panda demo" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/YbEzwob7PLw" width="560"></iframe> </div>
+<div class="videoWrapper"> <iframe title="Trash Panda demo" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/YbEzwob7PLw" width="560"></iframe> </div>
 
 ## The team
 

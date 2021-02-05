@@ -8,7 +8,7 @@ hero_image: "../images/wofbudds.jpg"
 ---
 Today, I had the privilege to join a Wheel of Fortune livestream, hosted by [Ryan Budds](https://www.triviawithbudds.com/). Ryan hosted Wheel of Fortune for PowerPoint for over 2 hours.
 
-<div class="videoWrapper"> <iframe title="Wheel of Fortune for PowerPoint video tutorial" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/uIhsIr6qOJE" width="560"></iframe> </div>
+<div class="videoWrapper"> <iframe title="Wheel of Fortune for PowerPoint video tutorial" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/uIhsIr6qOJE" width="560"></iframe> </div>
 
 Overall, the livestream was a success. Not only did I get a full-blown demonstration of someone other than me using my template, I got to join in a few rounds and discuss the project to an engaging audience. They seemed to really enjoy the game!
 
