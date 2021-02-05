@@ -84,7 +84,7 @@ All other folders and files are licensed under the MIT license:
 ```
 MIT License
 
-Copyright (c) 2011-2020 Timothy Hsu
+Copyright (c) 2011-2021 Timothy Hsu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
