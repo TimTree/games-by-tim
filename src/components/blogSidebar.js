@@ -3,7 +3,7 @@
  */
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
-import blogSidebarStyles from "./blogSidebar.module.scss"
+import * as blogSidebarStyles from "./blogSidebar.module.scss"
 import moment from "moment"
 
 const BlogSidebar = () => {

@@ -5,7 +5,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import blogYearStyles from "./blog.module.scss"
+import * as blogYearStyles from "./blog.module.scss"
 import { Link, graphql } from "gatsby"
 import moment from "moment"
 import Img from "gatsby-image"

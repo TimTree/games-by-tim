@@ -5,7 +5,7 @@
  * the most relevant.
  */
 import React from "react"
-import shareButtonsStyles from "./shareButtons.module.scss"
+import * as shareButtonsStyles from "./shareButtons.module.scss"
 import {
   FacebookShareButton,
   FacebookIcon,

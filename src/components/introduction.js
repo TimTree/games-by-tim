@@ -4,7 +4,7 @@
  */
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import introductionStyles from "./introduction.module.scss"
+import * as introductionStyles from "./introduction.module.scss"
 import Img from "gatsby-image"
 
 const Introduction = () => {

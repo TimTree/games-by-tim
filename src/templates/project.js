@@ -5,7 +5,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { Link, graphql } from "gatsby"
 import SEO from "../components/seo"
-import projectStyles from "./project.module.scss"
+import * as projectStyles from "./project.module.scss"
 import Img from "gatsby-image"
 import ShareButtons from "../components/shareButtons"
 import Comments from "../components/comments"
@@ -106,7 +106,6 @@ const Project = props => {
             {props.data.markdownRemark.frontmatter.screenshots &&
             props.data.markdownRemark.frontmatter.screenshots.length ? (
               <div
-                className={projectStyles.screenshot}
                 style={{ margin: `0 ${giantScreenshotMargin * 2}% 0 0` }}
               >
                 <Img

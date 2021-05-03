@@ -5,7 +5,7 @@ import React from "react"
 import Header from "./header"
 import Footer from "./footer"
 import Announcement from "./announcement"
-import layoutStyles from "./layout.module.scss"
+import * as layoutStyles from "./layout.module.scss"
 
 const Layout = props => {
   return (

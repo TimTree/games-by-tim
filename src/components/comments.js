@@ -8,7 +8,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import HyvorTalk from "hyvor-talk-react"
-import CommentsStyles from "./comments.module.scss"
+import * as CommentsStyles from "./comments.module.scss"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 function CommentThread(props) {

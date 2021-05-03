@@ -3,7 +3,7 @@
  */
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import announcementStyles from "./announcement.module.scss"
+import * as announcementStyles from "./announcement.module.scss"
 
 const Announcement = () => {
   const data = useStaticQuery(graphql`

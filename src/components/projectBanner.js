@@ -5,7 +5,7 @@
  */
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
-import projectBannerStyles from "./projectBanner.module.scss"
+import * as projectBannerStyles from "./projectBanner.module.scss"
 import Img from "gatsby-image"
 
 const ProjectBanner = props => {
@@ -80,7 +80,6 @@ const ProjectBanner = props => {
           >
             {giantScreenshotMargin ? (
               <div
-                className={projectBannerStyles.screenshot}
                 style={{ margin: `0 ${giantScreenshotMargin}%` }}
               >
                 <Img
