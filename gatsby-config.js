@@ -163,21 +163,20 @@ module.exports = {
                 path: { regex: "/^(?!/404/|/404.html|/dev-404-page/)/" }
               }
             ) {
-              edges {
-                node {
-                  path
-                }
+              nodes {
+                path
               }
             }
           }
         `,
-        output: "/sitemap.xml",
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.edges.map(edge => ({
-            url: site.siteMetadata.siteUrl + edge.node.path,
+        output: "/sitemap",
+        serialize: ({ path }) =>{
+          return {
+            url: path,
             changefreq: "daily",
-            priority: edge.node.path === "/" ? 1.0 : 0.7,
-          })),
+            priority: path === "/" ? 1.0 : 0.7,
+          }
+        },
       },
     },
     // The RSS feed will contain the 20 newest blog posts only.
