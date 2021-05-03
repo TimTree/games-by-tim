@@ -79,8 +79,12 @@ const Header = () => {
                 </svg>
               </a>
               <ThemeToggler>
-                {({ theme, toggleTheme }) => (
-                  <label className="darkmode_label">
+                {({ theme, toggleTheme }) => {
+                  if (theme === null) {
+                    return null
+                  }
+                  return (
+                    <label className="darkmode_label">
                     <input
                       type="checkbox"
                       className="themeChanger"
@@ -93,7 +97,8 @@ const Header = () => {
                       <i className="ggMoon" title="Dark mode"></i>
                     </div>
                   </label>
-                )}
+                  )
+                }}
               </ThemeToggler>
             </li>
           </ul>
