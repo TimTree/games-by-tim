@@ -81,7 +81,15 @@ const Header = () => {
               <ThemeToggler>
                 {({ theme, toggleTheme }) => {
                   if (theme === null) {
-                    return null
+                    return (
+                      <label className="darkmode_label">
+                        {" "}
+                      <div className="modeContainer">
+                        <i className="ggSun" title="Light mode"></i>
+                        <i className="ggMoon" title="Dark mode"></i>
+                      </div>
+                    </label>
+                    )
                   }
                   return (
                     <label className="darkmode_label">
