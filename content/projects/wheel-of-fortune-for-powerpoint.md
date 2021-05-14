@@ -25,9 +25,8 @@ screenshots:
 - "../images/wheeloffortunepptscreenshot2.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: <p>Want to try new, experimental features before anyone else?
-  <a href="/blog/wheel-of-fortune-for-powerpoint-dev-builds-are-back/" title="" editing=""
-  creating="">Download the latest dev build.</a></p>
+project_announcement: <p>Want to try new features before anyone else? <a href="/blog/wheel-of-fortune-for-powerpoint-dev-builds-are-back/"
+  title="" editing="" creating="">Download the latest dev build.</a></p>
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v5.2-hola-mundo/"
 
 ---
