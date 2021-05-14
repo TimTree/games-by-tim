@@ -6,7 +6,7 @@ project_name: ''
 hero_image: "../images/woflogo.png"
 
 ---
-**Latest dev build: 2021-05-13**
+**Latest dev build: 2021-05-13** [**(What's new)**]( "https://powerpointcreative.forumotion.com/t126p40-wheel-of-fortune-for-powerpoint-games-by-tim#2128")
 
 ## [Download dev build (Windows only)](https://drive.google.com/uc?id=1DXny0qh1nsWuf_A8QheucmLgy-1oQOyr&export=download)
 
@@ -21,6 +21,8 @@ Dev builds serve 3 useful purposes:
 1. They let me ship new features more quickly.
 2. They allow me to gather feedback on new features before they make it to final release.
 3. They make me feel more productive as a developer.
+
+I've previously released Wheel of Fortune for PowerPoint dev builds for versions 5.0 (2020), 4.0 (2017), and 1.0 (2012).
 
 ## What new features can I expect?
 
