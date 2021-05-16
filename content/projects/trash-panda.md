@@ -29,12 +29,6 @@ project_announcement: ''
 whats_new_url: ''
 
 ---
-***
-
-**Trash Panda does not currently work, as our Earth911 API key has expired. We reached out to the Earth911 team and hope to restore the site as soon as we can.**
-
-***
-
 Recycling isn't always straightforward. What do those numbers on plastics mean? What should I do with that broken refrigerator? How can I dispose this abstract object I can't tell what it is?
 
 On top of that, recycling regulations differ across cities. Did you know some cities allow you to recycle items that other cities prohibit? The same goes for compost. This leads to a lot of incorrectly recycled items, placing unnecessary impact on the environment.
