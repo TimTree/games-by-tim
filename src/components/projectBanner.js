@@ -79,9 +79,7 @@ const ProjectBanner = props => {
             style={{ display: screenshotView }}
           >
             {giantScreenshotMargin ? (
-              <div
-                style={{ margin: `0 ${giantScreenshotMargin}%` }}
-              >
+              <div style={{ margin: `0 ${giantScreenshotMargin}%` }}>
                 <Img
                   fluid={
                     data.allMarkdownRemark.nodes[projectIndex].frontmatter.screenshots[0]

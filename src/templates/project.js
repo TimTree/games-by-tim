@@ -100,14 +100,13 @@ const Project = props => {
               dangerouslySetInnerHTML={{
                 __html: props.data.markdownRemark.frontmatter.project_announcement,
               }}
+              style={{ textAlign: "center" }}
             />
           ) : null}
           <section className={projectStyles.projectCapsule}>
             {props.data.markdownRemark.frontmatter.screenshots &&
             props.data.markdownRemark.frontmatter.screenshots.length ? (
-              <div
-                style={{ margin: `0 ${giantScreenshotMargin * 2}% 0 0` }}
-              >
+              <div style={{ margin: `0 ${giantScreenshotMargin * 2}% 0 0` }}>
                 <Img
                   fluid={props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp.fluid}
                   draggable={false}
@@ -145,8 +144,8 @@ const Project = props => {
                 {props.data.markdownRemark.frontmatter.version !== "" ? (
                   <p>
                     <strong>{props.data.markdownRemark.frontmatter.version}</strong>
-                    {props.data.markdownRemark.frontmatter.whats_new_url !== '' &&
-                     props.data.markdownRemark.frontmatter.whats_new_url !== null ? (
+                    {props.data.markdownRemark.frontmatter.whats_new_url !== "" &&
+                    props.data.markdownRemark.frontmatter.whats_new_url !== null ? (
                       <span>
                         {" "}
                         <Link to={props.data.markdownRemark.frontmatter.whats_new_url}>

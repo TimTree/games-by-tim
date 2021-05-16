@@ -84,27 +84,27 @@ const Header = () => {
                     return (
                       <label className="darkmode_label">
                         {" "}
+                        <div className="modeContainer">
+                          <i className="ggSun" title="Light mode"></i>
+                          <i className="ggMoon" title="Dark mode"></i>
+                        </div>
+                      </label>
+                    )
+                  }
+                  return (
+                    <label className="darkmode_label">
+                      <input
+                        type="checkbox"
+                        className="themeChanger"
+                        onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
+                        checked={theme === "dark"}
+                        aria-label="Toggle light/dark mode"
+                      />{" "}
                       <div className="modeContainer">
                         <i className="ggSun" title="Light mode"></i>
                         <i className="ggMoon" title="Dark mode"></i>
                       </div>
                     </label>
-                    )
-                  }
-                  return (
-                    <label className="darkmode_label">
-                    <input
-                      type="checkbox"
-                      className="themeChanger"
-                      onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
-                      checked={theme === "dark"}
-                      aria-label="Toggle light/dark mode"
-                    />{" "}
-                    <div className="modeContainer">
-                      <i className="ggSun" title="Light mode"></i>
-                      <i className="ggMoon" title="Dark mode"></i>
-                    </div>
-                  </label>
                   )
                 }}
               </ThemeToggler>

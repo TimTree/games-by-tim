@@ -170,7 +170,7 @@ module.exports = {
           }
         `,
         output: "/sitemap",
-        serialize: ({ path }) =>{
+        serialize: ({ path }) => {
           return {
             url: path,
             changefreq: "daily",
