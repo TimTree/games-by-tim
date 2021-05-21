@@ -1,12 +1,12 @@
 ---
-date: 2021-05-14T05:50:00Z
+date: 2021-05-14T05:50:00.000+00:00
 short_description: Try the latest and greatest features before anyone else.
 title: Wheel of Fortune for PowerPoint dev builds are back!
 project_name: ''
 hero_image: "../images/woflogo.png"
 
 ---
-**Latest dev build: 2021-05-13** [**(What's new)**](https://powerpointcreative.forumotion.com/t126p40-wheel-of-fortune-for-powerpoint-games-by-tim#2128)
+**Latest dev build: 2021-05-20** [**(What's new)**](https://powerpointcreative.forumotion.com/t126p40-wheel-of-fortune-for-powerpoint-games-by-tim#2130)
 
 ## [Download dev build (Windows only)](https://drive.google.com/uc?id=1DXny0qh1nsWuf_A8QheucmLgy-1oQOyr&export=download)
 
