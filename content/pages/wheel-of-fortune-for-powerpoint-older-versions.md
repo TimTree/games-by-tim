@@ -10,9 +10,15 @@ social_media_image: ''
 * Released August 19, 2020
 * Fixes issues with the buy vowel/transfer totals buttons if the Windows display language is not US English
 * **Latest version that supports PowerPoint 2007**
-* **Last version 4.x for Mac. Future versions of 4.x will only support Windows.**
 
 ***
+
+## [Version 5.2 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.2/WheelofFortune5.2.pptm)
+
+## [Version 5.2 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.2/WheelofFortuneMac5.2.zip)
+
+* Released December 1, 2020
+* [Release notes](/blog/wheel-of-fortune-for-powerpoint-v5.2-hola-mundo/)
 
 ## [Version 5.1.1 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.1.1/WheelofFortune5.1.1.pptm)
 
