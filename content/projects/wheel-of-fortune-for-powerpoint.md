@@ -30,7 +30,7 @@ project_announcement: <p>Want to try new features before anyone else? <a href="/
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v5.2.1-letter-selector-hotfix/"
 
 ---
-Wheel of Fortune for PowerPoint lets you host your own Wheel of Fortune games with your own puzzles. It's great for your next party, class activity, social gathering, or video chat!
+Wheel of Fortune for PowerPoint is a template that lets you host your own Wheel of Fortune games with your own puzzles. It's great for your next party, class activity, social gathering, or video chat!
 
 * **Create limitless puzzles** with the built-in editor.
 * **Invite 2-4 contestants/teams.**
@@ -42,7 +42,7 @@ Wheel of Fortune for PowerPoint lets you host your own Wheel of Fortune games wi
 
 [**See the FAQ for commonly-asked questions.**](/wheel-of-fortune-for-powerpoint-faq/)
 
-This project reached 80,000+ downloads as of this writing. Thank you all for your support!
+This project reached 90,000+ downloads as of this writing. Thank you all for your support!
 
 **Compatible with PowerPoint 2010 or newer for Windows, and PowerPoint 2011 or newer for Mac.** When prompted, you'll need to enable active content and/or macros for the game to work properly. Wheel of Fortune will NOT work on PowerPoint Viewer, PowerPoint Online, or PowerPoint Mobile because they don't support macros.
 
