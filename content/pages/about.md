@@ -8,10 +8,10 @@ social_media_image: "../images/TimPhoto.jpg"
 ![Timothy Hsu](../images/TimPhoto.jpg)
 
 <p style="text-align:center;">
-<span style="font-size: 1.5rem;">Timothy Hsu ~ Creator of Games by Tim</span>
+<span style="font-size: 1.5rem;">Timothy Hsu \~ Creator of Games by Tim</span>
 </p>
 
-I'm Tim, and I develop software projects as a hobby, mostly web-based (and previously PowerPoint). I particularly like gamification - applying game-like elements to all sorts of tasks so they feel more engaging.
+I'm Tim, and I develop software projects as a hobby, mostly web and PowerPoint-based. I particularly like gamification - applying game-like elements to all sorts of tasks so they feel more engaging.
 
 ## My background
 
