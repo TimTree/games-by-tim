@@ -1,5 +1,5 @@
 ---
-date: 2021-05-07T05:10:00Z
+date: 2021-05-07T05:10:00.000+00:00
 short_description: Massive under-the-hood site update. Let's hope nothing broke!
 title: Games by Tim upgrades to Gatsby v3
 project_name: ''
@@ -27,3 +27,5 @@ The Gatsby image plugin, `gatsby-image`, has been superseded with `gatsby-plugin
 ![Extra image padding with gatsby-plugin-image](../images/gatsbypluginimagepadding.png)
 
 Is this a bug with `gatsby-plugin-image`, or is there a fix/workaround to remove the padding I'm unaware of? If you have firsthand knowledge of this problem, [leave a note](https://github.com/TimTree/games-by-tim/issues/3) on the GitHub issue. I'd greatly appreciate it!
+
+**UPDATE (May 30):** This bug [has been resolved on the Gatsby team's end](https://github.com/gatsbyjs/gatsby/pull/31497), and I've fully migrated the site to use `gatsby-plugin-image`.
