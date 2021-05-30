@@ -124,7 +124,7 @@ module.exports = {
               handler: "CacheFirst",
             },
             {
-              urlPattern: /^https?:.*\page-data\/.*\/page-data\.json/,
+              urlPattern: /^https?:.*\/page-data\/.*\.json/,
               handler: "NetworkFirst",
             },
             {
