@@ -83,6 +83,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-preact`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-catch-links`,

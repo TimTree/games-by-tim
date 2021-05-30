@@ -7,7 +7,7 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       excerpt(pruneLength: 160)

@@ -5,11 +5,11 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import * as introductionStyles from "./introduction.module.scss"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const Introduction = () => {
   const data = useStaticQuery(graphql`
-    query {
+    {
       site {
         siteMetadata {
           author
@@ -20,9 +20,7 @@ const Introduction = () => {
           blurb
           personal_photo {
             childImageSharp {
-              fluid(maxWidth: 200) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(width: 200, layout: CONSTRAINED)
             }
           }
         }
@@ -33,8 +31,8 @@ const Introduction = () => {
     <div className={introductionStyles.introduction}>
       <div className={introductionStyles.introductionBody}>
         <div className={introductionStyles.photo}>
-          <Img
-            fluid={data.markdownRemark.frontmatter.personal_photo.childImageSharp.fluid}
+          <GatsbyImage
+            image={data.markdownRemark.frontmatter.personal_photo.childImageSharp.gatsbyImageData}
             alt={data.site.siteMetadata.author}
           />
         </div>

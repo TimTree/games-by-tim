@@ -6,11 +6,11 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import * as projectBannerStyles from "./projectBanner.module.scss"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const ProjectBanner = props => {
   const data = useStaticQuery(graphql`
-    query {
+    {
       allMarkdownRemark(filter: { frontmatter: { isproject: { eq: true } } }) {
         nodes {
           frontmatter {
@@ -18,9 +18,7 @@ const ProjectBanner = props => {
             short_description
             screenshots {
               childImageSharp {
-                fluid(maxWidth: 380) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(width: 380, layout: CONSTRAINED)
               }
             }
             tags
@@ -60,7 +58,9 @@ const ProjectBanner = props => {
       giantScreenshotMargin =
         ((desiredAspect -
           data.allMarkdownRemark.nodes[projectIndex].frontmatter.screenshots[0].childImageSharp
-            .fluid.aspectRatio) /
+            .gatsbyImageData.width /
+            data.allMarkdownRemark.nodes[projectIndex].frontmatter.screenshots[0].childImageSharp
+              .gatsbyImageData.height) /
           desiredAspect /
           2) *
         100
@@ -80,10 +80,10 @@ const ProjectBanner = props => {
           >
             {giantScreenshotMargin ? (
               <div style={{ margin: `0 ${giantScreenshotMargin}%` }}>
-                <Img
-                  fluid={
+                <GatsbyImage
+                  image={
                     data.allMarkdownRemark.nodes[projectIndex].frontmatter.screenshots[0]
-                      .childImageSharp.fluid
+                      .childImageSharp.gatsbyImageData
                   }
                   draggable={false}
                   alt={data.allMarkdownRemark.nodes[projectIndex].frontmatter.title}

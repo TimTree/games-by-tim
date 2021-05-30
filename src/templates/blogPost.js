@@ -8,12 +8,12 @@ import { Link, graphql } from "gatsby"
 import * as blogPostStyles from "./blogPost.module.scss"
 import footerLogo from "../../static/footer.svg"
 import moment from "moment"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import ShareButtons from "../components/shareButtons"
 import Comments from "../components/comments"
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     site {
       siteMetadata {
         author
@@ -49,9 +49,7 @@ export const query = graphql`
         frontmatter {
           app_icon {
             childImageSharp {
-              fixed(width: 100) {
-                ...GatsbyImageSharpFixed
-              }
+              gatsbyImageData(width: 100, layout: FIXED)
             }
           }
           links {
@@ -125,10 +123,10 @@ const BlogPost = props => {
               <div className={blogPostStyles.projectPopup}>
                 {props.data.allMarkdownRemark.nodes[projectIndex].frontmatter.app_icon ? (
                   <div>
-                    <Img
-                      fixed={
+                    <GatsbyImage
+                      image={
                         props.data.allMarkdownRemark.nodes[projectIndex].frontmatter.app_icon
-                          .childImageSharp.fixed
+                          .childImageSharp.gatsbyImageData
                       }
                     />
                   </div>

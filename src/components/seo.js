@@ -61,8 +61,7 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
       link={[
         {
           rel: `stylesheet`,
-          href:
-            "https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@600&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@600&display=swap",
         },
       ].concat(
         canonical

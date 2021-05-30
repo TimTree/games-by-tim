@@ -10,7 +10,7 @@ import ShareButtons from "../components/shareButtons"
 import Comments from "../components/comments"
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     site {
       siteMetadata {
         siteUrl

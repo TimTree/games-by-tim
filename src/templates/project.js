@@ -6,12 +6,12 @@ import Layout from "../components/layout"
 import { Link, graphql } from "gatsby"
 import SEO from "../components/seo"
 import * as projectStyles from "./project.module.scss"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import ShareButtons from "../components/shareButtons"
 import Comments from "../components/comments"
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     site {
       siteMetadata {
         siteUrl
@@ -44,12 +44,7 @@ export const query = graphql`
               width
               height
             }
-            fluid(maxWidth: 850) {
-              ...GatsbyImageSharpFluid
-              originalImg
-              originalName
-              aspectRatio
-            }
+            gatsbyImageData(width: 850, layout: CONSTRAINED)
           }
         }
       }
@@ -79,7 +74,9 @@ const Project = props => {
     const desiredAspect = 16 / 9
     giantScreenshotMargin =
       ((desiredAspect -
-        props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp.fluid.aspectRatio) /
+        props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp.gatsbyImageData.width /
+          props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp.gatsbyImageData
+            .height) /
         desiredAspect /
         2) *
       100
@@ -107,8 +104,11 @@ const Project = props => {
             {props.data.markdownRemark.frontmatter.screenshots &&
             props.data.markdownRemark.frontmatter.screenshots.length ? (
               <div style={{ margin: `0 ${giantScreenshotMargin * 2}% 0 0` }}>
-                <Img
-                  fluid={props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp.fluid}
+                <GatsbyImage
+                  image={
+                    props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp
+                      .gatsbyImageData
+                  }
                   draggable={false}
                   alt={props.data.markdownRemark.frontmatter.title}
                 />
@@ -213,17 +213,17 @@ const Project = props => {
               <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                 {props.data.markdownRemark.frontmatter.screenshots.map(screenshot => (
                   <div
-                    key={screenshot.childImageSharp.fluid.originalName}
+                    key={screenshot.childImageSharp.gatsbyImageData.originalName}
                     style={{ width: "250px", margin: "0.5rem" }}
                   >
                     <a
-                      href={screenshot.childImageSharp.fluid.originalImg}
+                      href={screenshot.childImageSharp.gatsbyImageData.originalImg}
                       target="_blank"
                       rel="noreferrer noopener"
                     >
-                      <Img
-                        fluid={screenshot.childImageSharp.fluid}
-                        alt={screenshot.childImageSharp.fluid.originalName}
+                      <GatsbyImage
+                        image={screenshot.childImageSharp.gatsbyImageData}
+                        alt={screenshot.childImageSharp.gatsbyImageData.originalName}
                       />
                     </a>
                   </div>

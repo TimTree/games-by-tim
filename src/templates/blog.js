@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import * as blogStyles from "./blog.module.scss"
 import { Link, graphql } from "gatsby"
 import moment from "moment"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import BlogSidebar from "../components/blogSidebar"
 
 export const pageQuery = graphql`
@@ -37,9 +37,7 @@ export const pageQuery = graphql`
             short_description
             hero_image {
               childImageSharp {
-                fluid(maxWidth: 220) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(width: 220, layout: CONSTRAINED)
               }
             }
           }
@@ -78,11 +76,16 @@ const Blog = props => {
                           <div
                             style={{
                               margin: `0 ${
-                                edge.node.frontmatter.hero_image.childImageSharp.fluid.aspectRatio <
+                                edge.node.frontmatter.hero_image.childImageSharp.gatsbyImageData
+                                  .width /
+                                  edge.node.frontmatter.hero_image.childImageSharp.gatsbyImageData
+                                    .height <
                                 1.78
                                   ? ((16 / 9 -
-                                      edge.node.frontmatter.hero_image.childImageSharp.fluid
-                                        .aspectRatio) /
+                                      edge.node.frontmatter.hero_image.childImageSharp
+                                        .gatsbyImageData.width /
+                                        edge.node.frontmatter.hero_image.childImageSharp
+                                          .gatsbyImageData.height) /
                                       (16 / 9) /
                                       2) *
                                     100
@@ -90,8 +93,10 @@ const Blog = props => {
                               }%`,
                             }}
                           >
-                            <Img
-                              fluid={edge.node.frontmatter.hero_image.childImageSharp.fluid}
+                            <GatsbyImage
+                              image={
+                                edge.node.frontmatter.hero_image.childImageSharp.gatsbyImageData
+                              }
                               alt={`${edge.node.frontmatter.title} hero image`}
                             />
                           </div>
