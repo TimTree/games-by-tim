@@ -6,7 +6,7 @@ project_name: ''
 hero_image: "../images/woflogo.png"
 
 ---
-**Latest dev build: 2021-06-08** [**(What's new)**](https://powerpointcreative.forumotion.com/t126p60-wheel-of-fortune-for-powerpoint-games-by-tim#2148)
+**Latest dev build: 2021-06-08-2** [**(What's new)**](https://powerpointcreative.forumotion.com/t126p60-wheel-of-fortune-for-powerpoint-games-by-tim#2149)
 
 ## [Download dev build (Windows only)](https://drive.google.com/uc?id=1DXny0qh1nsWuf_A8QheucmLgy-1oQOyr&export=download)
 
