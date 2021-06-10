@@ -6,9 +6,12 @@ project_name: ''
 hero_image: "../images/woflogo.png"
 
 ---
-**Latest dev build: 2021-06-09** [**(What's new)**](https://powerpointcreative.forumotion.com/t126p60-wheel-of-fortune-for-powerpoint-games-by-tim#2150)
 
-## [Download dev build (Windows only)](https://drive.google.com/uc?id=1DXny0qh1nsWuf_A8QheucmLgy-1oQOyr&export=download)
+***
+
+**Version 6.0 release candidate is here!** It is available for Windows and Mac and contains all feature changes for the final release. Once the release is tested thoroughly over the next week, I'll release version 6.0 final.
+
+## [Download Version 6.0 release candidate](https://github.com/TimTree/wheel-of-fortune-ppt/releases/tag/v6.0RC)
 
 ***
 
