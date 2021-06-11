@@ -9,9 +9,9 @@ hero_image: "../images/woflogo.png"
 
 ***
 
-**Version 6.0 release candidate is here!** It is available for Windows and Mac and contains all feature changes for the final release. Once the release is tested thoroughly over the next week, I'll release version 6.0 final.
+**Version 6.0 release candidate 2 is here!** It is available for Windows and Mac and contains all feature changes for the final release. Once the release is tested thoroughly over the next week, I'll release version 6.0 final.
 
-## [Download Version 6.0 release candidate](https://github.com/TimTree/wheel-of-fortune-ppt/releases/tag/v6.0RC)
+## [Download Version 6.0 release candidate](https://github.com/TimTree/wheel-of-fortune-ppt/releases/tag/v6.0RC2)
 
 ***
 

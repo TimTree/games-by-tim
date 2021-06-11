@@ -25,8 +25,8 @@ screenshots:
 - "../images/wheeloffortunepptscreenshot2.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: <p>Want to try new features before anyone else? <a href="https://github.com/TimTree/wheel-of-fortune-ppt/releases/tag/v6.0RC"
-  title="" editing="" creating="">Download v6.0 release candidate.</a></p>
+project_announcement: <p>The next version is almost ready! <a href="https://github.com/TimTree/wheel-of-fortune-ppt/releases/tag/v6.0RC2"
+  title="" editing="" creating="">Download Version 6.0 Release Candidate 2</a></p>
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v5.2.1-letter-selector-hotfix/"
 
 ---
