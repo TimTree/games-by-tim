@@ -44,6 +44,9 @@ export const query = graphql`
               width
               height
             }
+            resize {
+              originalName
+            }
             gatsbyImageData(width: 850, layout: CONSTRAINED)
           }
         }
@@ -213,17 +216,17 @@ const Project = props => {
               <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                 {props.data.markdownRemark.frontmatter.screenshots.map(screenshot => (
                   <div
-                    key={screenshot.childImageSharp.gatsbyImageData.originalName}
+                    key={screenshot.childImageSharp.id}
                     style={{ width: "250px", margin: "0.5rem" }}
                   >
                     <a
-                      href={screenshot.childImageSharp.gatsbyImageData.originalImg}
+                      href={screenshot.childImageSharp.original.src}
                       target="_blank"
                       rel="noreferrer noopener"
                     >
                       <GatsbyImage
                         image={screenshot.childImageSharp.gatsbyImageData}
-                        alt={screenshot.childImageSharp.gatsbyImageData.originalName}
+                        alt={screenshot.childImageSharp.resize.originalName}
                       />
                     </a>
                   </div>
