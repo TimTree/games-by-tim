@@ -7,27 +7,28 @@ tags:
 - 90k+ downloads
 title: Wheel of Fortune for PowerPoint
 links:
-- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.2.1/WheelofFortune5.2.1.pptm
+- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.0/WheelofFortune6.0.pptm
   link_text: Download (Windows)
-- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.2.1/WheelofFortuneMac5.2.1.zip
+- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.0/WheelofFortuneMac6.0.zip
   link_text: Download (Mac)
 github: ''
-version: Version 5.2.1
+version: Version 6.0
 older_versions_url: "/wheel-of-fortune-for-powerpoint-older-versions/"
 released: January 1, 2012
-updated: May 27, 2021
-size: 3.3 MB (Windows), 3.2 MB (Mac)
+updated: June 14, 2021
+size: 3.8 MB (Windows), 3.7 MB (Mac)
 platform: PowerPoint
 license: CC BY-NC-SA 4.0
 screenshots:
-- "../images/wheeloffortuneppt5-2.png"
-- "../images/wheeloffortuneppt5-0editview.png"
-- "../images/wheeloffortunepptscreenshot2.png"
+- "../images/wheeloffortunepptv6.png"
+- "../images/wheeloffortunepptv6editview.png"
+- "../images/wheeloffortunepptv6setup.png"
+- "../images/wheeloffortunepptv6wheel.png"
+- "../images/wheeloffortunepptv6tossup.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: <p>The next version is almost ready! <a href="https://github.com/TimTree/wheel-of-fortune-ppt/releases/tag/v6.0RC2"
-  title="" editing="" creating="">Download Version 6.0 Release Candidate 2</a></p>
-whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v5.2.1-letter-selector-hotfix/"
+project_announcement: "<p></p>"
+whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.0-holy-smokes/"
 
 ---
 Wheel of Fortune for PowerPoint is a template that lets you host your own Wheel of Fortune games with your own puzzles. It's great for your next party, class activity, social gathering, or video chat!
@@ -35,7 +36,7 @@ Wheel of Fortune for PowerPoint is a template that lets you host your own Wheel 
 * **Create limitless puzzles** with the built-in editor.
 * **Invite 2-4 contestants/teams.**
 * **Easily keep score** with the Value Panel and dedicated buy vowel/transfer totals buttons.
-* **Play multiple rounds** from the game show, such as the mystery and bonus round.
+* **Play multiple rounds** from the game show, such as the Toss-Up and Bonus round.
 * **Spin the included wheels, or use your own.** It's up to you!
 * **Animate the stage**, and **toggle the backdrop** of your choice.
 * <a href="https://github.com/TimTree/wheel-of-fortune-ppt" target="_blank" rel="noreferrer noopener">**Open-source VBA**</a> so you know this is safe to use
