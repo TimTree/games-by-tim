@@ -13,6 +13,13 @@ social_media_image: ''
 
 ***
 
+## [Version 5.2.1 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.2.1/WheelofFortune5.2.1.pptm)
+
+## [Version 5.2.1 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.2.1/WheelofFortuneMac5.2.1.zip)
+
+* Released May 27, 2021
+* [Release notes](/blog/wheel-of-fortune-for-powerpoint-v5.2.1-letter-selector-hotfix/)
+
 ## [Version 5.2 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.2/WheelofFortune5.2.pptm)
 
 ## [Version 5.2 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v5.2/WheelofFortuneMac5.2.zip)
