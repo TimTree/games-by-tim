@@ -9,7 +9,7 @@ social_media_image: ''
 
 * Released August 19, 2020
 * Fixes issues with the buy vowel/transfer totals buttons if the Windows display language is not US English
-* **Latest version that supports PowerPoint 2007**
+* **Latest version that supports PowerPoint 2007. Version 4.x remains supported for essential bug fixes only.**
 
 ***
 
