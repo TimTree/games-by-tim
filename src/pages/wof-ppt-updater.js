@@ -27,8 +27,8 @@ const WoFUpdater = props => {
               <p>Your version of Wheel of Fortune for PowerPoint is up to date.</p>
             ) : (
               <p>
-                An updated version of Wheel of Fortune for PowerPoint is available. Download it{" "}
-                <Link to="/wheel-of-fortune-for-powerpoint/">on the project page</Link>.
+                A newer version of Wheel of Fortune for PowerPoint is available.{" "}
+                <Link to="/wheel-of-fortune-for-powerpoint/?source=wofpptupdater">Update now!</Link>.
               </p>
             )}
           </article>
