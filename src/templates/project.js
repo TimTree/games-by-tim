@@ -107,14 +107,23 @@ const Project = props => {
             {props.data.markdownRemark.frontmatter.screenshots &&
             props.data.markdownRemark.frontmatter.screenshots.length ? (
               <div style={{ margin: `0 ${giantScreenshotMargin * 2}% 0 0` }}>
-                <GatsbyImage
-                  image={
-                    props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp
-                      .gatsbyImageData
+                <a
+                  href={
+                    props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp.original
+                      .src
                   }
-                  draggable={false}
-                  alt={props.data.markdownRemark.frontmatter.title}
-                />
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <GatsbyImage
+                    image={
+                      props.data.markdownRemark.frontmatter.screenshots[0].childImageSharp
+                        .gatsbyImageData
+                    }
+                    draggable={false}
+                    alt={props.data.markdownRemark.frontmatter.title}
+                  />
+                </a>
               </div>
             ) : (
               <div></div>
