@@ -33,6 +33,8 @@ whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.0-holy-smokes/"
 ---
 Wheel of Fortune for PowerPoint is a template that lets you host your own Wheel of Fortune games with your own puzzles. It's great for your next party, class activity, social gathering, or video chat!
 
+<div class="videoWrapper"> <iframe title="Wheel of Fortune for PowerPoint video tutorial" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/QVPlyuG7L7s" width="560"></iframe> </div>
+
 * **Create limitless puzzles** with the built-in editor.
 * **Invite 2-4 contestants/teams.**
 * **Easily keep score** with the Value Panel and dedicated buy vowel/transfer totals buttons.
@@ -50,9 +52,5 @@ This project reached 90,000+ downloads as of this writing. Thank you all for you
 PowerPoint 2007 users can find an earlier release in [Older versions](/wheel-of-fortune-for-powerpoint-older-versions/).
 
 Wheel graphics created by <a href="https://buyavowel.boards.net/thread/6608/all-wheel-wedges" target="_blank" rel="noreferrer noopener">MarioGS</a>/<a href="https://www.deviantart.com/wheelgenius" target="_blank" rel="noreferrer noopener">wheelgenius</a>, used with permission.
-
-### Video tutorial
-
-<div class="videoWrapper"> <iframe title="Wheel of Fortune for PowerPoint video tutorial" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/QVPlyuG7L7s" width="560"></iframe> </div>
 
 <sup><sub>"Wheel of Fortune" is a registered trademark of Califon Productions, Inc, which was not involved in the production of, and does not endorse, this product. For more information about the game show, visit <a href="https://www.wheeloffortune.com" target="_blank" rel="noreferrer noopener">www.wheeloffortune.com</a>.</sub></sup>
