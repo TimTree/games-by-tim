@@ -1,6 +1,6 @@
 ---
 date: 2021-08-04T07:00:41Z
-short_description: Performance improvements on puzzle setup
+short_description: Performance improvements on puzzle setup.
 title: Wheel of Fortune for PowerPoint v6.1 - It's faster
 project_name: wheel-of-fortune-for-powerpoint
 hero_image: "../images/woflogo.png"
