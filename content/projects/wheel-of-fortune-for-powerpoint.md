@@ -28,7 +28,7 @@ screenshots:
 isproject: true
 app_icon: "../images/woflogo.png"
 project_announcement: "<p></p>"
-whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.1-its-faster/"
+whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.1-it-s-faster/"
 
 ---
 Wheel of Fortune for PowerPoint is a template that lets you host your own Wheel of Fortune games with your own puzzles. It's great for your next party, class activity, social gathering, or video chat!
