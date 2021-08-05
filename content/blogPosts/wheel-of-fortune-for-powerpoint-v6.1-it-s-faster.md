@@ -6,6 +6,12 @@ project_name: wheel-of-fortune-for-powerpoint
 hero_image: "../images/woflogo.png"
 
 ---
+***
+
+**Version 6.1.1** fixes a bug that caused puzzle numbers in the editor not to highlight properly after using Puzzle Swap.
+
+***
+
 Today's Wheel of Fortune for PowerPoint update continues the effort to speed up the puzzle creation process.
 
 [The last update](/blog/wheel-of-fortune-for-powerpoint-v6.0-holy-smokes/) introduced Puzzle Scribe, a feature that on average writes puzzles three times faster. Now we turn to the performance side. Via thorough software engineering, I am happy to announce **faster load times across the board on Set Up Puzzles**.
