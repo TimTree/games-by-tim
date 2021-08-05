@@ -7,12 +7,12 @@ tags:
 - 90k+ downloads
 title: Wheel of Fortune for PowerPoint
 links:
-- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.1/WheelofFortune6.1.pptm
+- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.1.1/WheelofFortune6.1.1.pptm
   link_text: Download (Windows)
-- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.1/WheelofFortuneMac6.1.zip
+- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.1.1/WheelofFortuneMac6.1.1.zip
   link_text: Download (Mac)
 github: ''
-version: Version 6.1
+version: Version 6.1.1
 older_versions_url: "/wheel-of-fortune-for-powerpoint-older-versions/"
 released: January 1, 2012
 updated: August 4, 2021
