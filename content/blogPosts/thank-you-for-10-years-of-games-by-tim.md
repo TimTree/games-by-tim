@@ -6,6 +6,8 @@ project_name: ''
 hero_image: "../images/gamesbytim.png"
 
 ---
+<div class="gifsvg"></div>
+
 ![Games by Tim](../images/gamesbytim.svg)
 
 On August 23, 2011, I started a Blogger website and uploaded [its first blog post](/blog/blog-under-construction/).
