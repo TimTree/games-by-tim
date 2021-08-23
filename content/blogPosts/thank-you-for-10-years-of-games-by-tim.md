@@ -66,7 +66,7 @@ I have my blog post on the event linked above, but long story short, I almost sh
 
 Occasionally, I search "wheel of fortune powerpoint" to see where my project stands on search engines.
 
-At some point, I noticed two other Wheel of Fortune PowerPoint projects in the results: one by Mike Rusnak of [Rusnakcreative](https:/www.rusnakcreative.com/) and the other by Reid Powell of [Youth Downloads](https://www.youthdownloads.com/games/wheel-fortune-powerpoint-game/).
+At some point, I noticed two other Wheel of Fortune PowerPoint projects in the results: one by Mike Rusnak of [Rusnakcreative](https://www.rusnakcreative.com/) and the other by Reid Powell of [Youth Downloads](https://www.youthdownloads.com/games/wheel-fortune-powerpoint-game/).
 
 Intrigued, I gave them a try, and yes, they were both well made. That's when I knew I faced competition and had to step up my own game.
 
