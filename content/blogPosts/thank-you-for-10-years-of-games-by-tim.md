@@ -76,7 +76,7 @@ Without the "pressure" from my "competitors," Wheel of Fortune for PowerPoint wo
 
 ## PowerPoint Creative - the second PPT community
 
-Speaking of Mike Rusnak, he also runs the forum [PowerPoint Creative](https://powerpointcreative.forumotion.com/forum/).
+Speaking of Mike Rusnak, he also runs the forum [PowerPoint Creative](https://powerpointcreative.forumotion.com/forum).
 
 ![PowerPoint Creative logo](../images/pptcreativelogo.png)
 
