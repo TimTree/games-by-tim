@@ -6,6 +6,8 @@ project_name: ''
 hero_image: "../images/gamesbytim.png"
 
 ---
+![Games by Tim](../images/gamesbytim.svg)
+
 On August 23, 2011, I started a Blogger website and uploaded [its first blog post](/blog/blog-under-construction/).
 
 Little did I know that 10 years later, I'd still maintain that very website. That houses 20+ projects and 180+ blog posts. That 3,000+ people visit per month. That has opened numerous doors to unprecedented experiences and communities.
