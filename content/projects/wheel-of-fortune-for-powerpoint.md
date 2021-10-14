@@ -4,7 +4,7 @@ short_description: My most popular download. Create puzzles and host the popular
 tags:
 - Updated 2021
 - Macro-enabled
-- 90k+ downloads
+- 100k+ downloads
 title: Wheel of Fortune for PowerPoint
 links:
 - url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.1.2/WheelofFortune6.1.2.pptm
@@ -27,7 +27,7 @@ screenshots:
 - "../images/wheeloffortunepptv6tossup.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: "<p></p>"
+project_announcement: "<p>Thank you for 100,000 downloads!!</p>"
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.1.2-new-season-adjustments/"
 
 ---
