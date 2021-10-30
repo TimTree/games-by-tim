@@ -27,7 +27,7 @@ screenshots:
 - "../images/wheeloffortunepptv6tossup.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: "<p><strong>Thank you for 100,000 downloads!!!</strong></p>"
+project_announcement: "<p></p>"
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.1.2-new-season-adjustments/"
 
 ---
