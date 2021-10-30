@@ -20,6 +20,7 @@ license: ''
 app_icon: "../images/historytestfail.png"
 screenshots:
 - "../images/thatdamnedhistorytestscreenshot.png"
+- "../images/historytestfail.png"
 project_announcement: ''
 
 ---
