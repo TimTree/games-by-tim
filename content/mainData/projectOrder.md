@@ -11,6 +11,7 @@ project_order:
   - escape-a-tower
   - i-am-thinking-of-a-number
   - lost-in-a-forest-a-text-adventure
+  - that-damned-history-test-a-text-adventure
 - platform_label: PowerPoint projects
   order:
   - wheel-of-fortune-for-powerpoint
