@@ -9,17 +9,17 @@ links:
 - url: https://historytest.gamesbytim.com
   link_text: View project
 github: https://github.com/TimTree/that-damned-history-test
-version: v1
+version: v2
 whats_new_url: ''
 older_versions_url: ''
 released: October 30, 2021
-updated: ''
+updated: November 6, 2021
 size: ''
 platform: Web
 license: ''
 app_icon: "../images/historytestfail.png"
 screenshots:
-- "../images/thatdamnedhistorytestscreenshot.png"
+- "../images/historytestscreenshotv2.png"
 - "../images/historytestfail.png"
 project_announcement: ''
 
@@ -30,7 +30,21 @@ In this sprawling text adventure, click on the dropdown choices to continue the 
 
 ## Version History
 
-### [v1 (Released October 30, 2021)](https://historytest.gamesbytim.com/)
+### [v2 (Released November 6, 2021)](https://historytest.gamesbytim.com)
+
+* Style changes:
+  * The right and bottom borders on choice boxes have been removed for a cleaner look.
+  * Inner choice boxes are now right-justified to allow for more text space on mobile devices.
+* Revises two endings for clarity
+* Changes the Open Graph image from an in-game screenshot to the app icon
+* Fixes the following bugs:
+  * The "scroll to top" arrow was not center-aligned on some browsers.
+  * The "scroll to top" arrow font was inconsistent across browsers.
+  * The "scroll to top" button was not fading out when the page scrolls to top.
+  * The choice box borders occasionally didn't touch their choice toggles on mobile devices.
+  * One of the choice box's text was not properly formatted as a paragraph.
+
+### [v1 (Released October 30, 2021)](https://historytest.gamesbytim.com/archive/v1)
 
 * Initial release in digital format
   * The text adventure was originally written in 2011 on a notebook.
