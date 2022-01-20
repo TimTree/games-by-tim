@@ -13,6 +13,13 @@ social_media_image: ''
 
 ***
 
+## [Version 6.1.2 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.1.2/WheelofFortune6.1.2.pptm)
+
+## [Version 6.1.2 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.1.2/WheelofFortuneMac6.1.2.zip)
+
+* Released September 16, 2021
+* [Release notes](/blog/wheel-of-fortune-for-powerpoint-v6.1.2-new-season-adjustments/)
+
 ## [Version 6.1.1 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.1.1/WheelofFortune6.1.1.pptm)
 
 ## [Version 6.1.1 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.1.1/WheelofFortuneMac6.1.1.zip)
