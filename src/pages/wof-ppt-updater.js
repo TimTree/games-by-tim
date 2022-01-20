@@ -23,7 +23,7 @@ const WoFUpdater = props => {
                 <hr />
               </p>
             </noscript>
-            {props.location.search === "?ver=6.1.2" || props.location.search === "?ver=6.1.2mac" ? (
+            {props.location.search === "?ver=6.2" || props.location.search === "?ver=6.2mac" ? (
               <p>Your version of Wheel of Fortune for PowerPoint is up to date.</p>
             ) : (
               <p>
