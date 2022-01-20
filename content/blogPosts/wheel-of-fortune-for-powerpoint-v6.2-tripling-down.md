@@ -1,5 +1,5 @@
 ---
-date: 2022-01-20T04:49:55Z
+date: 2022-01-20T04:49:55.000+00:00
 short_description: Triple Toss-Ups, formatted scores, new settings/sound effects,
   and more.
 title: Wheel of Fortune for PowerPoint v6.2 - Tripling down
@@ -97,4 +97,4 @@ Version 6.2 also ships with these smaller changes:
 
 Due to increasing development burden and that it no longer runs on the latest macOS, **version 6.2 is the final release I am testing on PowerPoint 2011 for Mac**. Future versions may run on PowerPoint 2011 for Mac, but I will not test nor provide support for PowerPoint 2011 for Mac specific issues moving forward.
 
-PowerPoint 2010 on Windows remains fully supported.
+PowerPoint 2010 or newer for Windows and PowerPoint 2016 or newer for Mac remain fully supported.
