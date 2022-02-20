@@ -7,6 +7,11 @@ social_media_image: ''
 
 These projects aren't listed on the homepage, either because they've been superseded or I feel they no longer represent me well. Feel free to tinker with these projects, but don't expect any support from me.
 
+### [Trash Panda](/trash-panda/)
+
+Web app to improve your recycling habits with built-in image recognition.<br>
+**No longer available because the domain name expired.**
+
 ### [Bingo Master Board (PowerPoint)](/bingo-master-board-powerpoint/)
 
 Project drawn Bingo balls. **Replaced with** [**Bingo Master Board on the Web**](/bingo-master-board/)**.**

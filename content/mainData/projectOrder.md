@@ -3,7 +3,6 @@ project_order:
 - platform_label: Web projects
   order:
   - so-many-numbers
-  - trash-panda
   - bingo-master-board
   - button-masher
   - keyboard-masher

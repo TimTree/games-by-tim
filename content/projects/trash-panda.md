@@ -7,9 +7,6 @@ tags:
 - Dark mode
 - On Google Play Store
 title: Trash Panda
-links:
-- url: https://thetrashpanda.com
-  link_text: View project
 github: https://github.com/Lambda-School-Labs/trashpanda-ds
 version: ''
 older_versions_url: ''
@@ -25,7 +22,7 @@ screenshots:
 - "../images/trashpandaicon.png"
 isproject: true
 app_icon: "../images/trashpandaicon.png"
-project_announcement: ''
+project_announcement: '<b>Unfortunately, Trash Panda is no longer available because its domain name expired, and I lack the control to renew it. The Data Science GitHub repo and below write-up remain accessible for archival purposes.</b>'
 whats_new_url: ''
 
 ---
