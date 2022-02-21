@@ -7,9 +7,9 @@ tags:
 isproject: true
 title: Deal or No Deal on Paper
 links:
-- url: https://drive.google.com/open?id=0ByTdG9SyZ1imSXpzV0tJRWN4SUE
+- url: https://drive.google.com/file/d/0ByTdG9SyZ1imSXpzV0tJRWN4SUE/view?usp=sharing&resourcekey=0-tzb0h5LK9CQ3TPymjB99Pw
   link_text: Money board PDF
-- url: https://drive.google.com/open?id=0ByTdG9SyZ1imVHZ3RnlVdkdkNEE
+- url: https://drive.google.com/file/d/0ByTdG9SyZ1imVHZ3RnlVdkdkNEE/view?usp=sharing&resourcekey=0-T2X5z1w72M-xOhSV33szpA
   link_text: Briefcase cards PDF
 github: ''
 version: ''
@@ -23,6 +23,7 @@ app_icon: ''
 screenshots:
 - "../images/dealornodealpaper.jpg"
 project_announcement: ''
+whats_new_url: ''
 
 ---
 Remember **Deal or No Deal**? You know, that crazy game show with Howie Mandel, a bunch of briefcases, and the extreme anxiety along the contestants and their family members?
