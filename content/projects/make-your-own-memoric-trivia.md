@@ -6,7 +6,7 @@ tags:
 isproject: true
 title: Make Your Own Memoric Trivia
 links:
-- url: https://timtree.github.io/download/memoric-trivia/?ver=makeyourown
+- url: https://drive.google.com/uc?export=download&id=0ByTdG9SyZ1imT2ZSWFZUTnZMWEE&resourcekey=0-QHSIKvPJ6-Syn-B4M2hEvA
   link_text: Download
 github: ''
 version: ''
@@ -21,6 +21,7 @@ screenshots:
 - "../images/mymemorictriviascreenshot.png"
 - "../images/mymemorictriviaicon.png"
 project_announcement: ''
+whats_new_url: ''
 
 ---
 ![](../images/mymemorictriviatitle.png)
