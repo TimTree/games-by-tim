@@ -11,13 +11,13 @@ Google recently [released an update](https://support.google.com/drive/answer/107
 
 The download links for the following projects on Games by Tim were affected by the update and have been fixed:
 
-* Memoric Trivia
-* Make Your Own Memoric Trivia
-* Rebus Puzzles Galore
-* Deal or No Deal on Paper
-* Cursor Adventure
-* PowerPoint Arcade
-* iPad Pro (2015) Screen Size PDF
-* Wheel of Fortune for PowerPoint Solution Cards (for use on versions 3.2 or earlier)
+* [Memoric Trivia](/memoric-trivia/)
+* [Make Your Own Memoric Trivia](/make-your-own-memoric-trivia/)
+* [Rebus Puzzles Galore](/rebus-puzzles-galore/)
+* [Deal or No Deal on Paper](/deal-or-no-deal-on-paper/)
+* [Cursor Adventure](/cursor-adventure/)
+* [PowerPoint Arcade](/powerpoint-arcade/)
+* [iPad Pro (2015) Screen Size PDF](/blog/ipad-pro-screen-size-pdf/)
+* [Wheel of Fortune for PowerPoint Solution Cards](/blog/wheel-of-fortune-for-powerpoint-solution-cards/) (for use on versions 3.2 or earlier)
 
-Please note: Only the latest versions of each project have fixed download links. If you need an older version of any of the above projects, contact me for assistance.
+**Please note:** Only the latest versions of each project have fixed download links. If you need an older version of any of the above projects, [contact me](/contact/) for assistance.
