@@ -5,7 +5,7 @@ tags:
 isproject: true
 title: PowerPoint Arcade
 links:
-- url: http://timtree.github.io/download/powerpoint-arcade/
+- url: https://drive.google.com/uc?export=download&id=0ByTdG9SyZ1imVlpmSDJhb0s3ZzQ&resourcekey=0-yZ4s3Wmx_MIoGmTmGuha_g
   link_text: Download
 github: ''
 version: Version 1.0.2
@@ -21,6 +21,7 @@ screenshots:
 - "../images/powerpointarcadeworkshot.png"
 - "../images/powerpointarcademousemazechallenge.png"
 project_announcement: ''
+whats_new_url: ''
 
 ---
 he PowerPoint Arcade is a minigame compilation I have made. The PowerPoint Arcade is a minigame project I decided to pursue. Basically, the arcade is a collection of PowerPoint minigames I have created. So far, there are five games, which are:
