@@ -1,5 +1,5 @@
 ---
-date: 2016-09-16T11:51:34-07:00
+date: 2016-09-16T11:51:34.000-07:00
 short_description: Use these to recall how many letters are in your next puzzle.
 title: Wheel of Fortune for PowerPoint Solution Cards
 project_name: ''
@@ -18,4 +18,4 @@ That's where my new Wheel of Fortune for PowerPoint solution cards come in. This
 
 By filling out these cards and bringing them with you to your game night, your rounds should flow much more smoothly than before! Try it for yourself, and let me know how it goes.
 
-## [Click here to view PDF.](https://drive.google.com/file/d/0ByTdG9SyZ1imWnlCV0JLMVg4bWs/view)
+## [Click here to view PDF.](https://drive.google.com/file/d/0ByTdG9SyZ1imWnlCV0JLMVg4bWs/view?usp=sharing&resourcekey=0-E_P72dQ8IUEY4MdkL1GTuA)
