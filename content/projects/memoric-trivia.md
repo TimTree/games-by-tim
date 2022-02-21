@@ -7,9 +7,9 @@ tags:
 isproject: true
 title: Memoric Trivia
 links:
-- url: https://timtree.github.io/download/memoric-trivia/
+- url: https://drive.google.com/uc?export=download&id=0ByTdG9SyZ1imVTdsODZQbGV6eU0&resourcekey=0-INwYAR-FS2C6PlMbsGETDQ
   link_text: Download (Standard version)
-- url: https://timtree.github.io/download/memoric-trivia/?ver=modified
+- url: https://drive.google.com/uc?export=download&id=0ByTdG9SyZ1imUjZISzdKSk91RzQ&resourcekey=0-gvT9dxPUqs6RalP0PkX-DA
   link_text: Download (Reduced pain edition)
 github: ''
 version: ''
@@ -24,6 +24,7 @@ screenshots:
 - "../images/memorictriviascreenshot.png"
 - "../images/memorictriviaicon.png"
 project_announcement: ''
+whats_new_url: ''
 
 ---
 ![](../images/memorictriviatitle.png)
