@@ -5,7 +5,7 @@ tags:
 isproject: true
 title: Cursor Adventure
 links:
-- url: https://timtree.github.io/download/cursor-adventure/
+- url: https://drive.google.com/uc?export=download&id=0ByTdG9SyZ1imeFpkVDZfOFhod3M&resourcekey=0-uTkXJmsSLgOpbT-atbJ3Pw
   link_text: Download
 github: ''
 version: ''
@@ -21,6 +21,7 @@ screenshots:
 - "../images/cursoradventureworkshot.png"
 - "../images/cursoradventuretutorial.png"
 project_announcement: ''
+whats_new_url: ''
 
 ---
 A mysterious red gem has been stolen at the local museum, and it's up to you, Curso the Cursor, to take on the quest to retrieve the gem back.
