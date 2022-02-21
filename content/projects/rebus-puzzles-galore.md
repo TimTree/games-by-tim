@@ -5,7 +5,7 @@ tags:
 isproject: true
 title: Rebus Puzzles Galore
 links:
-- url: https://drive.google.com/file/d/0ByTdG9SyZ1imVndQVE9TeE5OS2s/view
+- url: https://drive.google.com/file/d/0ByTdG9SyZ1imVndQVE9TeE5OS2s/view?usp=sharing&resourcekey=0-Ter8AVQSs8LoTPd3dFnEgg
   link_text: Download PDF
 github: ''
 version: ''
@@ -19,6 +19,7 @@ app_icon: ''
 screenshots:
 - "../images/rebuspuzzlesgalorebanner.png"
 project_announcement: ''
+whats_new_url: ''
 
 ---
 _"Don't overthink it; the answer is right there."_
