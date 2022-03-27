@@ -1,11 +1,11 @@
 ---
 title: About me
-social_media_image: "../images/TimPhoto.jpg"
+social_media_image: "../images/TimPhoto2022.jpg"
 
 ---
 <div class="image300"></div>
 
-![Timothy Hsu](../images/TimPhoto.jpg)
+![Timothy Hsu](../images/TimPhoto2022.jpg)
 
 <p style="text-align:center;">
 <span style="font-size: 1.5rem;">Timothy Hsu ~ Creator of Games by Tim</span>

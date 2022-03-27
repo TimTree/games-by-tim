@@ -1,5 +1,5 @@
 ---
-personal_photo: "../images/TimPhoto.jpg"
+personal_photo: "../images/TimPhoto2022.jpg"
 blurb: Hi, I'm <strong>Tim</strong>. I make <strong>free, open software</strong> with
   an emphasis on <strong>gamification</strong>.
 footer_note: Unless otherwise noted, all blog posts, photos, graphics, and other media
