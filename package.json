@@ -35,7 +35,7 @@
     "gatsby-transformer-remark": "^4.3.0",
     "gatsby-transformer-sharp": "^3.6.0",
     "hyvor-talk-react": "^1.0.3",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "preact": "^10.5.13",
     "preact-render-to-string": "^5.1.19",
     "prismjs": "^1.23.0",
