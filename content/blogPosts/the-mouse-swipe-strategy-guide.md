@@ -8,6 +8,8 @@ hero_image: "../images/mswipeiconv2.png"
 ---
 Time for the next strategy guide! If you've utilized my tips and tricks for [Button Masher](/blog/the-button-masher-strategy-guide/) and [Keyboard Masher](/blog/the-keyboard-masher-strategy-guide/), welcome back. And If you've ever felt like you've needed some extra swiping assistance, you've made it to the right place. So without further ado, here are the Mouse Swipe strategies straight from the game creator.
 
+*Last updated May 7, 2022*
+
 ## Achievement Star Requirements
 
 <ul>
@@ -27,10 +29,14 @@ The green star overwrites the blue star, and the gold star overwrites the silver
 * **Mouse or trackpad?** Find the controller that works best for you and stick with it. Personally, I find the mouse easier to use, but your opinion could be different.
 * **Play fast-paced music in the background.** I've noticed when I do this, it makes my hands want to shake to the rhythm, boosting my scores. Give it a try!
 * **Square Mode Tips** - Relax your hand, especially in hard difficulty. The less tense your hand is, the more likely you'll be able to slide through the squares with ease.
-* **Triangle Mode Tips** - Here's a little secret: _the triangles are actually squares_. Here's a screenshot of what I mean:  
+* **Triangle Mode Tips** - Adjust your mouse or trackpad sensitivity (DPI). Too low, and it'll take more effort to drag your cursor to the triangles. Too high, and your cursor will overshoot triangles. Find the sensitivity that best balances effort and precision.
+
+  As of version 1.2, the hover zones for the triangles are the triangles. This corrects an oversight with how the game was originally coded, described in the archived tip below:
+
+  ~~Here's a little secret: _the triangles are actually squares_. Here's a screenshot of what I mean:~~  
     
   ![](../images/trianglesecret.png)  
-  As you can see, the orange area is all your cursor needs to hover at to score points. The triangle is just for decoration. Why did I make it like this? That's how the code works, and there isn't a way to restrict the hover spot to the triangle without some crazy scripting.  
+  ~~As you can see, the orange area is all your cursor needs to hover at to score points. The triangle is just for decoration. Why did I make it like this? That's how the code works, and there isn't a way to restrict the hover spot to the triangle without some crazy scripting.~~  
     
-  So use this secret to your advantage. Instead of moving your cursor in a triangular fashion, make small circular movements near the center of the triangles. Once you get good at this, your cursor could never touch the left or right triangles ever again.
+  ~~So use this secret to your advantage. Instead of moving your cursor in a triangular fashion, make small circular movements near the center of the triangles. Once you get good at this, your cursor could never touch the left or right triangles ever again.~~
 * **Motion Mode Tips** - My advice is similar to Square Mode: relax your hand. Stay focused on your target, and remember that the squares speed up every 10 seconds.

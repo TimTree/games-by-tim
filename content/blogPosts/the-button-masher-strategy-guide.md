@@ -23,6 +23,7 @@ Keep in mind that the green star overwrites the blue star, and the gold star ove
 ## Tips and Tricks
 
 * **Use two fingers.** I can't stress this one more than enough. The best way to rack up points is by alternating two fingers at the button.
+
 * **Use a computer mouse.** Maybe it's just me, but I find that I earn more points using a computer mouse than a laptop touchpad. A mouse also helps when playing game modes such as Movement and Oscillation, so you can keep your two finger momentum going when moving the cursor.
 * **If you're on a laptop, enable tap to click.** This is the next best method to click if you can't use a computer mouse. After all, you use less energy tapping the touchpad than physically clicking on it. Just make sure your two fingers are far enough so you don't accidentally right click.
 * **Lightning Mode Tips** - I start out by pressing and holding the button with one finger, while touching the mouse with another finger. Then, when I let go of the first finger, I quickly click with the second one, as it's already touching the mouse. This may not always work due to trial and error, but you'll really see the results when it does.
