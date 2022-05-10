@@ -1,5 +1,5 @@
 ---
-date: 2022-05-10T03:30:40Z
+date: 2022-05-10T03:30:40.000+00:00
 short_description: Time to break your keyboard again, with style!
 title: Keyboard Masher v4.5 - Holy s***, I typed that?!
 project_name: keyboard-masher
@@ -42,6 +42,8 @@ In addition to the arrow keys, you can now use WASD keys in Arrow mode. Perfect 
   ![](../images/kmasherachievementstarexplanation.png)
 * The copyright author has changed from Timothy Hsu to Games by Tim.
 * The license has changed from GPLv3 to MIT.
+
+In addition, I updated the [Keyboard Masher Strategy Guide](/blog/the-keyboard-masher-strategy-guide/) with additional info on mechanical keyboards, n-key rollover, and WASD support.
 
 ***
 
