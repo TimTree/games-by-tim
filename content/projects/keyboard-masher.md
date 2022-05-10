@@ -15,7 +15,7 @@ released: June 25, 2013
 updated: May 9, 2022
 size: ''
 platform: Web
-license: GPLv3
+license: MIT
 app_icon: "../images/kmashericonv2.png"
 screenshots:
 - "../images/keyboardmasherscreenshotversus.png"
