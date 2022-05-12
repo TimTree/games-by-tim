@@ -23,7 +23,7 @@ screenshots:
 - "../images/keyboardmasherscreenshotarrow.png"
 - "../images/kmashericonv2.png"
 project_announcement: ''
-whats_new_url: ''
+whats_new_url: "/blog/keyboard-masher-v4.5-holy-s-i-typed-that/"
 
 ---
 Keyboard Masher is a spin-off of Button Masher, in the case that you mash the keyboard rather than a button. It was formerly a hidden unlockable in Button Masher. Keyboard Masher is HTML5 ready.
