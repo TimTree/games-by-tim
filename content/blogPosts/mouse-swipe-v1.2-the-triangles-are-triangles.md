@@ -14,7 +14,9 @@ Since the initial release of Mouse Swipe, there was always something that bother
 
 Why was that? Simply put, I didn't know how to adjust the hover zones back then. That all changes now. **Introducing triangles that are triangles.** Now you _actually_ have to move your cursor to the triangles to score points!
 
-![](../images/mswipehoverzonetriangle.png)As this change affects gameplay, I re-calibrated my Beat the Creator scores for normal and hard Triangle mode. I did not, however, reset _your_ high scores, so you may be in for a treat! :)
+![](../images/mswipehoverzonetriangle.png)
+
+As this change affects gameplay, I re-calibrated my Beat the Creator scores for normal and hard Triangle mode. I did not, however, reset _your_ high scores, so you may be in for a treat! :)
 
 Mouse Swipe also receives the **additional tweaks** from Keyboard Masher v4.5. To reiterate:
 
