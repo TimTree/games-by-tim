@@ -3,6 +3,11 @@ title: Mouse Swipe older versions
 social_media_image: ''
 
 ---
+## [Version 1.1.1](https://timtree.github.io/mouse-swipe/archive/1.1.1)
+
+* Released August 31, 2018
+* Updated links from slideshowgames.blogspot.com to gamesbytim.com
+
 ### Version 1.1 not available
 
 * Released January 22, 2016
