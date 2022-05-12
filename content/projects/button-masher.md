@@ -1,7 +1,7 @@
 ---
 short_description: Mash that button! A surprisingly good stress reliever
 tags:
-- Updated 2016
+- Updated 2022
 - The Masher Series
 isproject: true
 title: Button Masher
@@ -9,19 +9,20 @@ links:
 - url: https://timtree.github.io/button-masher
   link_text: View project
 github: https://github.com/TimTree/TimTree.github.io/tree/master/button-masher
-version: Version 4.3.1
+version: Version 4.4
 older_versions_url: "/button-masher-older-versions/"
 released: April 19, 2013
-updated: August 31, 2018
+updated: May 11, 2022
 size: ''
 platform: Web
-license: GPLv3
+license: MIT
 app_icon: "../images/bmashericonv2.png"
 screenshots:
 - "../images/buttonmasherscreenshotgame.png"
 - "../images/buttonmasherscreenshottitle.png"
 - "../images/bmashericonv2.png"
 project_announcement: ''
+whats_new_url: "/blog/mouse-swipe-v1.2-the-triangles-are-triangles/"
 
 ---
 It's a simple concept, yet quite compelling: click a button as fast as you can in a set period of time.
