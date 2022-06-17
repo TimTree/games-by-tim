@@ -4,7 +4,7 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import logo from "../../static/logo.svg"
-import { ThemeToggler } from "gatsby-plugin-dark-mode"
+import { useTheme } from "@skagami/gatsby-plugin-dark-mode"
 import * as headerStyles from "./header.module.scss"
 
 const Header = () => {
@@ -18,6 +18,10 @@ const Header = () => {
       }
     }
   `)
+  const [theme, toggleTheme] = useTheme()
+  if (theme === null) {
+    return null
+  }
   return (
     <header>
       <div className={headerStyles.headerBody}>
@@ -78,36 +82,19 @@ const Header = () => {
                   </g>
                 </svg>
               </a>
-              <ThemeToggler>
-                {({ theme, toggleTheme }) => {
-                  if (theme === null) {
-                    return (
-                      <label className="darkmode_label">
-                        {" "}
-                        <div className="modeContainer">
-                          <i className="ggSun" title="Light mode"></i>
-                          <i className="ggMoon" title="Dark mode"></i>
-                        </div>
-                      </label>
-                    )
-                  }
-                  return (
-                    <label className="darkmode_label">
-                      <input
-                        type="checkbox"
-                        className="themeChanger"
-                        onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
-                        checked={theme === "dark"}
-                        aria-label="Toggle light/dark mode"
-                      />{" "}
-                      <div className="modeContainer">
-                        <i className="ggSun" title="Light mode"></i>
-                        <i className="ggMoon" title="Dark mode"></i>
-                      </div>
-                    </label>
-                  )
-                }}
-              </ThemeToggler>
+                <label className="darkmode_label">
+                  <input
+                    type="checkbox"
+                    className="themeChanger"
+                    onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
+                    checked={theme === "dark"}
+                    aria-label="Toggle light/dark mode"
+                  />{" "}
+                  <div className="modeContainer">
+                    <i className="ggSun" title="Light mode"></i>
+                    <i className="ggMoon" title="Dark mode"></i>
+                  </div>
+                </label>
             </li>
           </ul>
         </nav>
