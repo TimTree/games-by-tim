@@ -94,7 +94,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-catch-links`,
-    `@skagami/gatsby-plugin-dark-mode`,
+    `gatsby-plugin-dark-mode`,
     {
       resolve: "remove-empty-fields",
       options: {
