@@ -5,7 +5,7 @@ social_media_image: ''
 ---
 Over the years, I've received many questions about [Wheel of Fortune for PowerPoint](/wheel-of-fortune-for-powerpoint/). Here are the most common questions.
 
-*Last updated January 17, 2021*
+_Last updated August 6, 2022_
 
 ### What are macros, and why do I need to enable them?
 
@@ -19,7 +19,7 @@ If you don't believe me, all my macros are open source. Find out [how to view th
 
 ### Is it possible to have more than four players?
 
-It is not possible to have more than four *individual* players, nor are there plans to add support in the future. Not only would it be a pain to squish the player scores for additional slots, you'll find that the game's less fun with too many opponents since some won't get a chance to spin the wheel.
+It is not possible to have more than four _individual_ players, nor are there plans to add support in the future. Not only would it be a pain to squish the player scores for additional slots, you'll find that the game's less fun with too many opponents since some won't get a chance to spin the wheel.
 
 Instead, I highly suggest splitting players into teams, which the actual show does. For instance, six players can split to three teams of two, and eight players can split to four teams of two.
 
@@ -51,6 +51,8 @@ Other languages might work, so long as it's based on the Latin alphabet and uses
 
 Landing on Free Play lets the player call a consonant at $500 or a vowel for free. The player then gets another turn regardless if the letter they called is in the puzzle.
 
+As of version 6.0, Free Play is disabled by default. Also, the actual show stopped using Free Play in 2021.
+
 ### Why is there no wheel for the Bonus Round?
 
 There's no Bonus Round wheel because it only really makes sense in the context of the actual show. In a homemade game without tangible prizes, what's the difference if the already-chosen winner scores an additional $100,000 or a car?
@@ -59,11 +61,11 @@ If you do want to offer an additional prize for solving the Bonus Round, I recom
 
 If you have a strong case for the Bonus Round wheel to exist, please let me know. I'm open to your thoughts.
 
-### Why are you using the old $10,000 wedge instead of the Million Dollar wedge?
+### Why are you using a $5,000 sliver instead of the Million Dollar wedge?
 
-Like the Bonus Round wheel, a gigantic prize unrelated to the game score does not make sense in the context of a homemade game. Also, not everyone uses the Bonus Round, which you need for the Million Dollar wedge to have any purpose.
+Like the Bonus Round wheel, a gigantic prize unrelated to the game score does not make sense in the context of a homemade game. Also, not everyone uses the Bonus Round, which you need for the Million Dollar wedge to have a purpose.
 
-I instead use the old $10,000 wedge because that $10,000 contributes to the game score prior to the Bonus Round.
+In its place, I put a similar-looking wedge but with $5,000 instead of $1 million. This keeps the thrill of landing on a super narrow high-value space.
 
 ### Does Wheel of Fortune for PowerPoint work on Google Slides, LibreOffice, or other non-PowerPoint software?
 
