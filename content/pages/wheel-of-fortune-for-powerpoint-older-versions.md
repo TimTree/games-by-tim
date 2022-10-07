@@ -3,6 +3,13 @@ title: Wheel of Fortune for PowerPoint older versions
 social_media_image: ''
 
 ---
+## [Version 6.2.1 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.2.1/WheelofFortune6.2.1.pptm)
+
+## [Version 6.2.1 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.2.1/WheelofFortuneMac6.2.1.zip)
+
+* Released October 3, 2022
+* **Latest version that supports PowerPoint 2011 for Mac. Version 6.2.x remains supported for essential bug fixes only.**
+
 ## [Version 4.1.5 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.5/WheelofFortune4.1.5.pptm)
 
 ## [Version 4.1.5 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v4.1.5/WheelofFortuneMac4.1.5.zip)
@@ -12,6 +19,13 @@ social_media_image: ''
 * **Latest version that supports PowerPoint 2007. Version 4.x remains supported for essential bug fixes only.**
 
 ***
+
+## [Version 6.2 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.2/WheelofFortune6.2.pptm)
+
+## [Version 6.2 (Mac)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.2/WheelofFortuneMac6.2.zip)
+
+* Released January 19, 2022
+* [Release notes](/blog/wheel-of-fortune-for-powerpoint-v6.2-tripling-down/)
 
 ## [Version 6.1.2 (Windows)](https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.1.2/WheelofFortune6.1.2.pptm)
 
