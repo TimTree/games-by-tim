@@ -7,28 +7,28 @@ tags:
 - 100k+ downloads
 title: Wheel of Fortune for PowerPoint
 links:
-- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.2/WheelofFortune6.2.pptm
+- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.3/WheelofFortune6.3.pptm
   link_text: Download (Windows)
-- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.2/WheelofFortuneMac6.2.zip
+- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.3/WheelofFortuneMac6.3.zip
   link_text: Download (Mac)
 github: ''
-version: Version 6.2
+version: Version 6.3
 older_versions_url: "/wheel-of-fortune-for-powerpoint-older-versions/"
 released: January 1, 2012
-updated: January 19, 2022
-size: 3.6 MB (Windows), 3.5 MB (Mac)
+updated: October 6, 2022
+size: 3.4 MB (Windows), 3.3 MB (Mac)
 platform: PowerPoint
 license: CC BY-NC-SA 4.0
 screenshots:
-- "../images/wheeloffortunepptv6-2.png"
-- "../images/wheeloffortunepptv6editview.png"
-- "../images/wheeloffortunepptv6setup.png"
-- "../images/wheeloffortunepptv6wheel.png"
-- "../images/wheeloffortunepptv6tossup.png"
+- "../images/wheeloffortunepptv6-3.png"
+- "../images/wheeloffortunepptv6-3editview.png"
+- "../images/wheeloffortunepptv6-3setup.png"
+- "../images/wheeloffortunepptv6-3wheel.png"
+- "../images/wheeloffortunev6-3tossup.png"
 isproject: true
 app_icon: "../images/woflogo.png"
 project_announcement: "<p></p>"
-whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.2-tripling-down/"
+whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.3-all-spruced-up/"
 
 ---
 Wheel of Fortune for PowerPoint is a template that lets you host your own Wheel of Fortune games with your own puzzles. It's great for your next party, class activity, social gathering, or video chat!
@@ -47,9 +47,9 @@ Wheel of Fortune for PowerPoint is a template that lets you host your own Wheel 
 
 This project reached 100,000+ downloads as of this writing. Thank you all for your support!
 
-**Compatible with PowerPoint 2010 or newer for Windows, and PowerPoint 2011 or newer for Mac.** When prompted, you'll need to enable active content and/or macros for the game to work properly. Wheel of Fortune will NOT work on PowerPoint Viewer, PowerPoint Online, or PowerPoint Mobile because they don't support macros.
+**Compatible with PowerPoint 2010 or newer for Windows, and PowerPoint 2016 or newer for Mac.** When prompted, you'll need to enable macros for the game to work properly. Wheel of Fortune will NOT work on PowerPoint Viewer, PowerPoint Online, or PowerPoint Mobile because they don't support macros.
 
-PowerPoint 2007 users can find an earlier release in [Older versions](/wheel-of-fortune-for-powerpoint-older-versions/).
+PowerPoint 2007/2011 for Mac users can find an earlier release in [Older versions](/wheel-of-fortune-for-powerpoint-older-versions/).
 
 Wheel graphics created by <a href="https://buyavowel.boards.net/thread/6608/all-wheel-wedges" target="_blank" rel="noreferrer noopener">MarioGS</a>/<a href="https://www.deviantart.com/wheelgenius" target="_blank" rel="noreferrer noopener">wheelgenius</a>, used with permission.
 
