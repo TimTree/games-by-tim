@@ -2,7 +2,7 @@
 date: 2022-10-07T02:51:23Z
 short_description: Time for a new look!
 title: Wheel of Fortune for PowerPoint v6.3 - All spruced up
-project_name: wheel-of-fortune-ppt
+project_name: wheel-of-fortune-for-powerpoint
 hero_image: "../images/wheeloffortunepptv6-3.png"
 
 ---
