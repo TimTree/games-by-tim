@@ -15,6 +15,7 @@ export const query = graphql`
     site {
       siteMetadata {
         siteUrl
+        title
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -203,6 +204,7 @@ const Project = props => {
                 <ShareButtons
                   url={`${props.data.site.siteMetadata.siteUrl}/${props.data.markdownRemark.parent.name}/`}
                   title={props.data.markdownRemark.frontmatter.title}
+                  siteTitle={props.data.site.siteMetadata.title}
                 />
               </div>
             </div>

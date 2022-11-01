@@ -13,15 +13,17 @@ import {
   LinkedinIcon,
   TwitterShareButton,
   TwitterIcon,
+  TelegramShareButton,
+  TelegramIcon,
   EmailIcon,
   EmailShareButton,
   RedditShareButton,
   RedditIcon,
 } from "react-share"
 
-export const ShareButtons = ({ url, title }) => (
+export const ShareButtons = ({ url, title, siteTitle }) => (
   <div className={shareButtonsStyles.shareButtonDiv}>
-    <EmailShareButton url={url}>
+    <EmailShareButton url={url} subject={`Check out ${title} from ${siteTitle}`}>
       <EmailIcon size={32} round={true} />
     </EmailShareButton>
 
@@ -29,11 +31,11 @@ export const ShareButtons = ({ url, title }) => (
       <FacebookIcon size={32} round={true} />
     </FacebookShareButton>
 
-    <TwitterShareButton url={url} title={title}>
-      <TwitterIcon size={32} round={true} />
-    </TwitterShareButton>
+    <TelegramShareButton url={url} title={title}>
+      <TelegramIcon size={32} round={true} />
+    </TelegramShareButton>
 
-    <LinkedinShareButton url={url} title={title}>
+    <LinkedinShareButton url={url} title={title} source={siteTitle}>
       <LinkedinIcon size={32} round={true} />
     </LinkedinShareButton>
 
