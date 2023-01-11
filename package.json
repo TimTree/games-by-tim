@@ -32,7 +32,7 @@
     "gatsby-remark-images": "^6.16.0",
     "gatsby-remark-prismjs": "^6.16.0",
     "gatsby-source-filesystem": "^4.16.0",
-    "gatsby-transformer-remark": "^5.16.0",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^4.16.0",
     "hyvor-talk-react": "^2.0.0",
     "moment": "^2.29.3",
