@@ -82,7 +82,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-preact`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-sharp`,
@@ -248,10 +247,16 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: config.google_analytics_id,
-        anonymize: true,
+        trackingIds: [
+          config.google_analytics_id,
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+        pluginConfig: {
+        },
       },
     },
     {
