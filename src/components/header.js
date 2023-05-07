@@ -4,7 +4,7 @@
  import React from "react"
  import { Link, graphql, useStaticQuery } from "gatsby"
  import logo from "../../static/logo.svg"
- import { ThemeToggler } from "gatsby-plugin-dark-mode"
+ import { ThemeToggler } from "../../plugins/gatsby-plugin-dark-mode/src/index.js"
  import * as headerStyles from "./header.module.scss"
  
  const Header = () => {

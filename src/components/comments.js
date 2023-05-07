@@ -9,7 +9,7 @@
  import { graphql, useStaticQuery } from "gatsby"
  import { Embed } from "hyvor-talk-react"
  import * as CommentsStyles from "./comments.module.scss"
- import { ThemeToggler } from "gatsby-plugin-dark-mode"
+ import { ThemeToggler } from "../../plugins/gatsby-plugin-dark-mode/src/index.js"
  
  function CommentThread(props) {
    const data = useStaticQuery(graphql`
