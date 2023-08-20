@@ -3,10 +3,15 @@ title: Escape a Tower older versions
 social_media_image: ''
 
 ---
+### Version 2.6.2 not available
+
+* Released November 25, 2020
+* [Release notes](/blog/escape-a-tower-turns-10/)
+
 ### Version 2.6.1 not available
 
 * Released May 7, 2020
-* [Release notes](https://www.gamesbytim.com/blog/escape-a-tower-version-2.6.1-i-can-read-the-text-now/)
+* [Release notes](/blog/escape-a-tower-version-2.6.1-i-can-read-the-text-now/)
 
 ### Version 2.6 not available
 

@@ -1,7 +1,7 @@
 ---
 short_description: My first text-based game. Escape that tower!
 tags:
-- Updated 2020
+- Updated 2023
 - Playable offline
 - Supports ancient browsers
 isproject: true
@@ -10,10 +10,10 @@ links:
 - url: https://tower.gamesbytim.com
   link_text: View project
 github: https://github.com/TimTree/escape-a-tower
-version: Version 2.6.2
+version: Version 2.6.3
 older_versions_url: "/escape-a-tower-older-versions/"
 released: November 25, 2010
-updated: November 25, 2020
+updated: August 7, 2023
 size: ''
 platform: Web
 license: ''
