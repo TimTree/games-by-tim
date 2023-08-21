@@ -5,13 +5,13 @@
  */
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Link } from "gatsby"
 
 const WoFUpdater = props => {
   return (
     <Layout>
-      <SEO title="Wheel of Fortune for PowerPoint update checker" pathname="/wof-ppt-updater/" />
+      <Seo title="Wheel of Fortune for PowerPoint update checker" pathname="/wof-ppt-updater/" />
       <main>
         <h1>Wheel of Fortune for PowerPoint update checker</h1>
         <div className="fadeBody">

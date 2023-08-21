@@ -5,7 +5,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import ShareButtons from "../components/shareButtons"
 import CommentsBox from "../components/commentsBox"
 
@@ -47,7 +47,7 @@ const SmallProject = props => {
     : null
   return (
     <Layout>
-      <SEO
+      <Seo
         title={props.data.markdownRemark.frontmatter.title}
         description={props.data.markdownRemark.excerpt}
         image={image}

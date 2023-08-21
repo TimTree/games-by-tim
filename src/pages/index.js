@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import LatestBlogPost from "../components/latestBlogPost"
 import Introduction from "../components/introduction"
 import ProjectBanner from "../components/projectBanner"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Link, graphql, useStaticQuery } from "gatsby"
 
 const IndexPage = () => {
@@ -24,7 +24,7 @@ const IndexPage = () => {
   `)
   return (
     <Layout>
-      <SEO pathname="/" />
+      <Seo pathname="/" />
       <LatestBlogPost />
       <Introduction />
       <main>

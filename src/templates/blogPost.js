@@ -3,7 +3,7 @@
  */
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Link, graphql } from "gatsby"
 import * as blogPostStyles from "./blogPost.module.scss"
 import footerLogo from "../../static/footer.svg"
@@ -82,7 +82,7 @@ const BlogPost = props => {
     : null
   return (
     <Layout>
-      <SEO
+      <Seo
         title={props.data.markdownRemark.frontmatter.title}
         description={props.data.markdownRemark.excerpt}
         image={image}

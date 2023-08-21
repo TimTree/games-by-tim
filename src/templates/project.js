@@ -4,7 +4,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link, graphql } from "gatsby"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import * as projectStyles from "./project.module.scss"
 import { GatsbyImage } from "gatsby-plugin-image"
 import ShareButtons from "../components/shareButtons"
@@ -87,7 +87,7 @@ const Project = props => {
   }
   return (
     <Layout>
-      <SEO
+      <Seo
         title={props.data.markdownRemark.frontmatter.title}
         description={props.data.markdownRemark.excerpt}
         image={image}

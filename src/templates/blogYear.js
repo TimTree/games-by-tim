@@ -4,7 +4,7 @@
  */
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import * as blogYearStyles from "./blog.module.scss"
 import { Link, graphql } from "gatsby"
 import moment from "moment"
@@ -54,7 +54,7 @@ const BlogYear = props => {
   return (
     <Layout>
       <main>
-        <SEO
+        <Seo
           title={`Blog - year ${props.pageContext.year}`}
           description={props.data.site.siteMetadata.blog_description}
           pathname={props.location.pathname}

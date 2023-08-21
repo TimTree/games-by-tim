@@ -3,7 +3,7 @@
  */
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import * as blogStyles from "./blog.module.scss"
 import { Link, graphql } from "gatsby"
 import moment from "moment"
@@ -51,7 +51,7 @@ const Blog = props => {
   return (
     <Layout>
       <main>
-        <SEO
+        <Seo
           title="Blog"
           description={props.data.site.siteMetadata.blog_description}
           pathname={props.location.pathname}

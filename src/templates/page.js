@@ -4,7 +4,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 export const query = graphql`
   query ($slug: String!) {
@@ -33,7 +33,7 @@ const Page = props => {
     : null
   return (
     <Layout>
-      <SEO
+      <Seo
         title={props.data.markdownRemark.frontmatter.title}
         description={props.data.markdownRemark.excerpt}
         image={image}
