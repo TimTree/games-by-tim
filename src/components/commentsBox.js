@@ -1,5 +1,5 @@
 /**
- * The comments component handles the comments section for blog posts and project pages.
+ * The commentsBox component handles the comments section for blog posts and project pages.
  * Each blog post and project page gets its own comments thread. Their id, for Hyvor Talk
  * to creat different threads, is the page slug.
  * Comments are hidden until the user clicks "Show comments" to preserve comment views
@@ -7,8 +7,9 @@
  */
  import React from "react"
  import { graphql, useStaticQuery } from "gatsby"
+ // import { Comments } from "@hyvor/hyvor-talk-react" // PLACEHOLDER FOR HYVOR TALK V3
  import { Embed } from "hyvor-talk-react"
- import * as CommentsStyles from "./comments.module.scss"
+ import * as CommentsBoxStyles from "./commentsBox.module.scss"
  import { ThemeToggler } from "../../plugins/gatsby-plugin-dark-mode/src/index.js"
  
  function CommentThread(props) {
@@ -38,6 +39,13 @@
    return (
      <ThemeToggler>
        {({ theme }) => (
+        /* PLACEHOLDER FOR HYVOR TALK V3
+         <Comments
+           website-id={Number(data.site.siteMetadata.comments_id)}
+           page-id={props.id}
+           colors={theme === "dark" ? "dark" : "light"}
+         />
+        */
          <Embed
            websiteId={Number(data.site.siteMetadata.comments_id)}
            id={props.id}
@@ -49,7 +57,7 @@
    )
  }
  
- class Comments extends React.Component {
+ class CommentsBox extends React.Component {
    constructor(props) {
      super(props)
      this.state = { showComments: false }
@@ -79,7 +87,7 @@
                <span
                  role="button"
                  tabIndex={0}
-                 className={CommentsStyles.showComments}
+                 className={CommentsBoxStyles.showComments}
                  onClick={this.handleToggleClick}
                  onKeyDown={this.handleToggleKey}
                >
@@ -97,4 +105,4 @@
    }
  }
  
- export default Comments
+ export default CommentsBox

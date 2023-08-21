@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 import * as projectStyles from "./project.module.scss"
 import { GatsbyImage } from "gatsby-plugin-image"
 import ShareButtons from "../components/shareButtons"
-import Comments from "../components/comments"
+import CommentsBox from "../components/commentsBox"
 
 export const query = graphql`
   query ($slug: String!) {
@@ -245,7 +245,7 @@ const Project = props => {
               </div>
             </div>
           ) : null}
-          <Comments id={`/${props.data.markdownRemark.parent.name}/`} />
+          <CommentsBox id={`/${props.data.markdownRemark.parent.name}/`} />
         </div>
       </main>
     </Layout>

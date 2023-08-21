@@ -14,6 +14,7 @@
     "forestry-preview": "gatsby develop -p 8080 -H 0.0.0.0"
   },
   "dependencies": {
+    "@hyvor/hyvor-talk-react": "^0.0.2",
     "gatsby": "^5.9.0",
     "gatsby-plugin-catch-links": "^5.9.0",
     "gatsby-plugin-feed": "^5.9.0",
@@ -32,7 +33,6 @@
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-remark": "^6.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
-    "hyvor-talk-comments": "^1.0.3",
     "hyvor-talk-react": "^2.0.1",
     "moment": "^2.29.4",
     "prismjs": "^1.29.0",

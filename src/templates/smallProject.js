@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import ShareButtons from "../components/shareButtons"
-import Comments from "../components/comments"
+import CommentsBox from "../components/commentsBox"
 
 export const query = graphql`
   query ($slug: String!) {
@@ -70,7 +70,7 @@ const SmallProject = props => {
               title={props.data.markdownRemark.frontmatter.title}
             />
           </article>
-          <Comments id={`/blog/${props.data.markdownRemark.parent.name}/`} />
+          <CommentsBox id={`/blog/${props.data.markdownRemark.parent.name}/`} />
         </div>
       </main>
     </Layout>
