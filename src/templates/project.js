@@ -49,6 +49,7 @@ export const query = graphql`
               originalName
             }
             gatsbyImageData(width: 850, layout: CONSTRAINED)
+            id
           }
         }
       }
