@@ -47,6 +47,7 @@ export const query = graphql`
     allMarkdownRemark(filter: { frontmatter: { isproject: { eq: true } } }) {
       nodes {
         frontmatter {
+          title
           app_icon {
             childImageSharp {
               gatsbyImageData(width: 100, layout: FIXED)
@@ -107,10 +108,10 @@ const BlogPost = props => {
                 <div>
                   {props.data.site.siteMetadata.author} <br />{" "}
                   <time
-                    datetime={moment(props.data.markdownRemark.frontmatter.date)
+                    dateTime={moment(props.data.markdownRemark.frontmatter.date)
                       .local()
                       .format(`YYYY-MM-DD`)}
-                    itemprop="datePublished"
+                    itemProp="datePublished"
                   >
                     {moment(props.data.markdownRemark.frontmatter.date)
                       .local()
@@ -128,6 +129,7 @@ const BlogPost = props => {
                         props.data.allMarkdownRemark.nodes[projectIndex].frontmatter.app_icon
                           .childImageSharp.gatsbyImageData
                       }
+                      alt={`${props.data.allMarkdownRemark.nodes[projectIndex].frontmatter.title} app icon`}
                     />
                   </div>
                 ) : null}
