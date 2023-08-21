@@ -24,7 +24,7 @@ export const pageQuery = graphql`
         fileAbsolutePath: { regex: "/(blogPosts)/" }
         frontmatter: { date: { lt: $endRange } }
       }
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: {frontmatter: {date: DESC}}
       limit: $limit
     ) {
       edges {

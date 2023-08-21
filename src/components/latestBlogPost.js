@@ -10,7 +10,7 @@ const LatestBlogPost = () => {
     query {
       allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/(blogPosts)/" } }
-        sort: { order: DESC, fields: frontmatter___date }
+        sort: {frontmatter: {date: DESC}}
         limit: 1
       ) {
         edges {
