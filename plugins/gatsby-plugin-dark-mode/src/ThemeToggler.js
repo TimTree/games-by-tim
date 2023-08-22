@@ -1,33 +1,26 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { useState, useEffect } from "react"
+// import PropTypes from 'prop-types'
 
-class ThemeToggler extends React.Component {
-  state = {
-    theme: typeof window !== 'undefined' ? window.__theme : null,
-  }
+const ThemeToggler = props => {
+  const [theme, setTheme] = useState(null)
 
-  componentDidMount() {
+  useEffect(() => {
+    setTheme(window.__theme)
     window.__onThemeChange = () => {
-      this.setState({ theme: window.__theme })
+      setTheme(window.__theme)
     }
-  }
+  }, [])
 
-  toggleTheme(theme) {
+  const toggleTheme = theme => {
     window.__setPreferredTheme(theme)
   }
 
-  render() {
-    return (
-      <this.props.children
-        theme={this.state.theme}
-        toggleTheme={this.toggleTheme}
-      />
-    )
-  }
+  return <props.children theme={theme} toggleTheme={toggleTheme} />
 }
 
+/*
 ThemeToggler.propTypes = {
   children: PropTypes.func.isRequired,
-}
+}*/
 
 export default ThemeToggler

@@ -143,7 +143,7 @@ const BlogPost = props => {
                               {link.link_text}
                             </a>
                           </h2>
-                        )
+                        ),
                       )
                     : null}
                   <h3 className={blogPostStyles.projectMoreInfo}>

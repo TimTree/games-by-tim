@@ -249,14 +249,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          config.google_analytics_id,
-        ],
+        trackingIds: [config.google_analytics_id],
         gtagConfig: {
           anonymize_ip: true,
         },
-        pluginConfig: {
-        },
+        pluginConfig: {},
       },
     },
     {

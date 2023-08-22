@@ -8,33 +8,31 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 function Seo({ description, lang, meta, image: metaImage, title, pathname }) {
-  const { site, markdownRemark } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-            siteUrl
-          }
+  const { site, markdownRemark } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+          description
+          author
+          siteUrl
         }
-        markdownRemark(fields: { slug: { eq: "index" } }) {
-          frontmatter {
-            personal_photo {
-              childImageSharp {
-                original {
-                  src
-                  width
-                  height
-                }
+      }
+      markdownRemark(fields: { slug: { eq: "index" } }) {
+        frontmatter {
+          personal_photo {
+            childImageSharp {
+              original {
+                src
+                width
+                height
               }
             }
           }
         }
       }
-    `
-  )
+    }
+  `)
   const metaDescription = description || site.siteMetadata.description
   const image =
     metaImage && metaImage.src
@@ -71,7 +69,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname }) {
                 href: canonical,
               },
             ]
-          : []
+          : [],
       )}
       meta={[
         {
@@ -152,7 +150,7 @@ function Seo({ description, lang, meta, image: metaImage, title, pathname }) {
                   name: "twitter:card",
                   content: "summary_large_image",
                 },
-              ]
+              ],
         )
         .concat(meta)}
     >

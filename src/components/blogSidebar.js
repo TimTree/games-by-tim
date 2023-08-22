@@ -12,7 +12,7 @@ const BlogSidebar = () => {
     query {
       allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/(blogPosts)/" } }
-        sort: {frontmatter: {date: DESC}}
+        sort: { frontmatter: { date: DESC } }
       ) {
         edges {
           node {
