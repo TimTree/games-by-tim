@@ -49,6 +49,7 @@ const CommentThread = props => {
           loadMode="scroll"
           palette={window.__theme === "dark" ? darkPalette : null}
         />
+  )
 }
 
 class CommentsBox extends React.Component {
