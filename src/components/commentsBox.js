@@ -10,7 +10,6 @@ import { graphql, useStaticQuery } from "gatsby"
 // import { Comments } from "@hyvor/hyvor-talk-react" // PLACEHOLDER FOR HYVOR TALK V3
 import { Embed } from "hyvor-talk-react"
 import * as CommentsBoxStyles from "./commentsBox.module.scss"
-import { ThemeToggler } from "../../plugins/gatsby-plugin-dark-mode/src/index.js"
 
 const CommentThread = props => {
   const data = useStaticQuery(graphql`
@@ -37,8 +36,6 @@ const CommentThread = props => {
   }
 
   return (
-    <ThemeToggler>
-      {({ theme }) => (
         /* PLACEHOLDER FOR HYVOR TALK V3
          <Comments
            website-id={Number(data.site.siteMetadata.comments_id)}
@@ -50,11 +47,8 @@ const CommentThread = props => {
           websiteId={Number(data.site.siteMetadata.comments_id)}
           id={props.id}
           loadMode="scroll"
-          palette={theme === "dark" ? darkPalette : null}
+          palette={window.__theme === "dark" ? darkPalette : null}
         />
-      )}
-    </ThemeToggler>
-  )
 }
 
 class CommentsBox extends React.Component {
