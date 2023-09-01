@@ -18,6 +18,7 @@ export const query = graphql`
       siteMetadata {
         author
         siteUrl
+        hyvor_talk_website_id
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -185,7 +186,9 @@ const BlogPost = props => {
               )}
             </div>
           </article>
-          <CommentsBox id={`/blog/${props.data.markdownRemark.parent.name}/`} />
+          {props.data.site.siteMetadata.hyvor_talk_website_id !== "" ? (
+            <CommentsBox id={`/blog/${props.data.markdownRemark.parent.name}/`} />
+          ) : null}
         </div>
       </main>
     </Layout>
