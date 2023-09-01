@@ -7,8 +7,7 @@
  */
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-// import { Comments } from "@hyvor/hyvor-talk-react" // PLACEHOLDER FOR HYVOR TALK V3
-import { Embed } from "hyvor-talk-react"
+import { Comments } from "@hyvor/hyvor-talk-react"
 import * as CommentsBoxStyles from "./commentsBox.module.scss"
 
 const CommentThread = props => {
@@ -21,34 +20,16 @@ const CommentThread = props => {
       }
     }
   `)
-  const darkPalette = {
-    accent: "#397de4",
-    accentText: "#222",
-    footerHeader: "#161616",
-    footerHeaderText: "#ccc",
-    box: "#282828",
-    boxText: "#ccc",
-    boxLightText: "#aaaaaa",
-    backgroundText: "#ccc",
-  }
   if (!props.display) {
     return null
   }
 
   return (
-        /* PLACEHOLDER FOR HYVOR TALK V3
-         <Comments
-           website-id={Number(data.site.siteMetadata.comments_id)}
-           page-id={props.id}
-           colors={theme === "dark" ? "dark" : "light"}
-         />
-        */
-        <Embed
-          websiteId={Number(data.site.siteMetadata.comments_id)}
-          id={props.id}
-          loadMode="scroll"
-          palette={window.__theme === "dark" ? darkPalette : null}
-        />
+    <Comments
+      website-id={Number(data.site.siteMetadata.comments_id)}
+      page-id={props.id}
+      colors={window.__theme === "dark" ? "dark" : "light"}
+    />
   )
 }
 

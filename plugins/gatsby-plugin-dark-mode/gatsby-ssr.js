@@ -20,6 +20,9 @@ void function() {
     } else {
       document.body.classList.add(newTheme)
     }
+    if (document.querySelector('hyvor-talk-comments') !== null) {
+      document.querySelector('hyvor-talk-comments').setAttribute('colors', newTheme);
+    }
 
     window.__theme = newTheme
     preferredTheme = newTheme

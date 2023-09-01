@@ -33,7 +33,6 @@
     "gatsby-source-filesystem": "^5.11.0",
     "gatsby-transformer-remark": "^6.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
-    "hyvor-talk-react": "^2.0.1",
     "moment": "^2.29.4",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
