@@ -2,7 +2,10 @@
 
 **Games by Tim note**
 
-This is a local copy of `gatsby-plugin-dark-mode`. I moved the plugin here because because this plugin's peer dependency is an outdated version of React. If you install this plugin via npm, you'll get errors running `npm install` or `npm update` because of its outdated React peer dependency, even though the plugin works with the latest version of React (as of this writing).
+This is a local fork of `gatsby-plugin-dark-mode`. I have modified the plugin to:
+
+* Fix hydration errors introduced with React 18
+* Support theme switching with Hyvor Talk comments
 
 Original repo: https://github.com/insin/gatsby-plugin-dark-mode
 <hr>
