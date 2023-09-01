@@ -15,7 +15,7 @@ const CommentThread = props => {
     query {
       site {
         siteMetadata {
-          comments_id
+          hyvor_talk_website_id
         }
       }
     }
@@ -26,7 +26,7 @@ const CommentThread = props => {
 
   return (
     <Comments
-      website-id={Number(data.site.siteMetadata.comments_id)}
+      website-id={Number(data.site.siteMetadata.hyvor_talk_website_id)}
       page-id={props.id}
       colors={window.__theme === "dark" ? "dark" : "light"}
     />

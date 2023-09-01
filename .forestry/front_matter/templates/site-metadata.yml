@@ -38,12 +38,12 @@ fields:
     required: true
   label: siteUrl
   description: Required for processing SEO-related features
-- name: comments_id
+- name: hyvor_talk_website_id
   type: text
   config:
     required: false
-  label: comments ID
-  description: For Hyvor Talk
+  label: hyvor talk website ID
+  description: If you choose to enable comments with Hyvor Talk, enter your website ID from Hyvor Talk here
 - name: google_analytics_id
   type: text
   config:

@@ -8,7 +8,7 @@ module.exports = {
     github_username: config.github_username,
     blog_description: config.blog_description,
     siteUrl: config.siteurl,
-    comments_id: config.comments_id,
+    hyvor_talk_website_id: config.hyvor_talk_website_id,
     google_analytics_id: config.google_analytics_id,
   },
   plugins: [
