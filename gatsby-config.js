@@ -246,16 +246,20 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: [config.google_analytics_id],
-        gtagConfig: {
-          anonymize_ip: true,
-        },
-        pluginConfig: {},
-      },
-    },
+    ...(config.google_analytics_id
+      ? [
+          {
+            resolve: `gatsby-plugin-google-gtag`,
+            options: {
+              trackingIds: [config.google_analytics_id],
+              gtagConfig: {
+                anonymize_ip: true,
+              },
+              pluginConfig: {},
+            },
+          },
+        ]
+      : []),
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
