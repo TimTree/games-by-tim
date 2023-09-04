@@ -43,12 +43,15 @@ const IndexPage = () => {
                 </p>
               ) : null}
               <div style={{ margin: "0 auto", maxWidth: "1100px" }}>
-                {order_number.order.map(theOrder => (
-                  <div key={theOrder}>
-                    <ProjectBanner key={theOrder} project={theOrder} />
-                  </div>
-                ))}
-                {order_number.platform_label === "Prototypes" && order_number.order.length === 0 ? (
+                {order_number.order !== null
+                  ? order_number.order.map(theOrder => (
+                      <div key={theOrder}>
+                        <ProjectBanner key={theOrder} project={theOrder} />
+                      </div>
+                    ))
+                  : null}
+                {order_number.platform_label === "Prototypes" &&
+                (order_number.order === null || order_number.order.length === 0) ? (
                   <p>
                     <em>No prototypes available at this time</em>
                   </p>
