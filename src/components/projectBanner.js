@@ -108,7 +108,7 @@ const ProjectBanner = props => {
             </div>
           </section>
         </Link>
-      ) : null}
+      ) : <p>Project <i>{props.project}</i> not found</p>}
     </div>
   )
 }
