@@ -5,7 +5,12 @@ social_media_image: ''
 ---
 Over the years, I've received many questions about [Wheel of Fortune for PowerPoint](/wheel-of-fortune-for-powerpoint/). Here are the most common questions.
 
-_Last updated August 6, 2022_
+_Last updated November 6, 2023_
+
+---
+**Important notice**: Wheel of Fortune for PowerPoint will no longer receive new features. Future updates (if any) will be for bug fixes only. For more information, [read the version 6.4 blog post.](/blog/wheel-of-fortune-for-powerpoint-v6.4-refinements-fixes-and-the-future/)
+
+---
 
 ### What are macros, and why do I need to enable them?
 
@@ -23,7 +28,7 @@ It is not possible to have more than four _individual_ players, nor are there pl
 
 Instead, I highly suggest splitting players into teams, which the actual show does. For instance, six players can split to three teams of two, and eight players can split to four teams of two.
 
-If you absolutely need more than four individual player slots, I would look into other Wheel of Fortune templates. [Rusnakcreative's](https://www.rusnakcreative.com/gameshow/wheel_of_fortune) supports up to six players if you don't mind not seeing everyone's scores at once. [TriviaMaker's](https://triviamaker.com/) Wheel game seems to support limitless players, but it's paid and I have no experience using it.
+If you absolutely need more than four individual player slots, I would look into other Wheel of Fortune templates. [TriviaMaker's](https://triviamaker.com/) Wheel game seems to support limitless players, but it's paid and I have no experience using it.
 
 ### Can I create puzzles in foreign languages?
 
@@ -69,15 +74,7 @@ In its place, I put a similar-looking wedge but with $5,000 instead of $1 millio
 
 ### Does Wheel of Fortune for PowerPoint work on Google Slides, LibreOffice, or other non-PowerPoint software?
 
-Since Wheel of Fortune for PowerPoint uses too many advanced PowerPoint features, it will not work on any non-PowerPoint software. Assuming you're trying those programs because PowerPoint is expensive or doesn't work on your computer, I hope to release a web-based version of Wheel of Fortune in the future.
-
-### What's going on with your web-based Wheel of Fortune?
-
-Eventually, I want to transition this Wheel of Fortune project to the web to attract a wider audience and to add features not possible in PowerPoint. This would mean I have to rewrite the entire project from scratch.
-
-Given how time-consuming this rewrite will take and my other life priorities, I do not have an ETA for Wheel of Fortune for web. Keep in mind I do not make any revenue from Games by Tim, nor do I accept donations. When I have any updates regarding the web rewrite, I'll post the details on the blog.
-
-In the meantime, you can [try the web wheel demo here](/wheel-of-fortune-for-web-wheel-demo/).
+Since Wheel of Fortune for PowerPoint uses too many advanced PowerPoint features, it will not work on any non-PowerPoint software.
 
 ### Can I use Wheel of Fortune for PowerPoint for commercial purposes?
 

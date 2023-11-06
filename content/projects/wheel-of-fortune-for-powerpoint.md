@@ -2,20 +2,20 @@
 short_description: My most popular download. Create puzzles and host the popular game
   show!
 tags:
-- Updated 2022
+- Updated 2023
 - Macro-enabled
 - 100k+ downloads
 title: Wheel of Fortune for PowerPoint
 links:
-- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.3/WheelofFortune6.3.pptm
+- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.4/WheelofFortune6.4.pptm
   link_text: Download (Windows)
-- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.3/WheelofFortuneMac6.3.zip
+- url: https://github.com/TimTree/wheel-of-fortune-ppt/releases/download/v6.4/WheelofFortuneMac6.4.zip
   link_text: Download (Mac)
 github: ''
-version: Version 6.3
+version: Version 6.4
 older_versions_url: "/wheel-of-fortune-for-powerpoint-older-versions/"
 released: January 1, 2012
-updated: October 6, 2022
+updated: November 6, 2023
 size: 3.4 MB (Windows), 3.3 MB (Mac)
 platform: PowerPoint
 license: CC BY-NC-SA 4.0
@@ -28,7 +28,7 @@ screenshots:
 isproject: true
 app_icon: "../images/woflogo.png"
 project_announcement: "<p></p>"
-whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.3-all-spruced-up/"
+whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.4-refinements-fixes-and-the-future/"
 
 ---
 Wheel of Fortune for PowerPoint is a template that lets you host your own Wheel of Fortune games with your own puzzles. It's great for your next party, class activity, social gathering, or video chat!
