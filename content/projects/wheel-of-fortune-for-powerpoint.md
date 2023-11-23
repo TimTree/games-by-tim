@@ -27,7 +27,7 @@ screenshots:
 - "../images/wheeloffortunev6-3tossup.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: "<p></p>"
+project_announcement: "<p>If you cannot save puzzles, downgrade PowerPoint for Mac to v16.78.3 or earlier.<br>I am researching ways to resolve this issue without downgrading PowerPoint.</p>"
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.4-refinements-fixes-and-the-future/"
 
 ---
