@@ -3,6 +3,11 @@ title: Flashcards for PowerPoint older versions
 social_media_image: ''
 
 ---
+## [Version 1.2](https://github.com/TimTree/flashcards-for-powerpoint/releases/download/v1.2/FlashcardsPPT1.2.pptm)
+
+* Released March 11, 2019
+* [Release notes](/blog/flashcards-for-powerpoint-v1.2-flashcards-in-style/)
+
 ## [Version 1.1.1](https://timtree.github.io/download/flashcards-ppt/?ver=1.1.1)
 
 * Released September 12, 2018

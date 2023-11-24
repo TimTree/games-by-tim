@@ -1,19 +1,19 @@
 ---
 short_description: Your next exam, made easier to study for with PowerPoint.
 tags:
-- Updated 2019
+- Updated 2023
 - Macro-enabled
 isproject: true
 title: Flashcards for PowerPoint
 links:
-- url: https://timtree.github.io/download/flashcards-ppt/
+- url: https://github.com/TimTree/flashcards-for-powerpoint/releases/download/v1.2.1/FlashcardsPPT1.2.1.pptm
   link_text: Download
 github: ''
-version: Version 1.2
+version: Version 1.2.1
 older_versions_url: "/flashcards-for-powerpoint-older-versions/"
 released: February 17, 2018
-updated: March 11, 2019
-size: 987 KB
+updated: November 24, 2023
+size: 658 KB
 platform: PowerPoint
 license: CC BY 4.0
 app_icon: "../images/flashcardsppticon.png"
@@ -22,7 +22,7 @@ screenshots:
 - "../images/flashcardshowtouse.png"
 - "../images/flashcardssettings.png"
 project_announcement: ''
-whats_new_url: "/blog/flashcards-for-powerpoint-v1.2-flashcards-in-style/"
+whats_new_url: "/blog/flashcards-for-powerpoint-v1.2.1-important-fix-for-mac-users/"
 
 ---
 ![](../images/flashcardspptlogo.png)
@@ -36,12 +36,12 @@ Your next exam, made easier to study for with PowerPoint.
 
 Rather than simple randomization, Flashcards for PowerPoint shuffles the order of your cards. This ensures that you'll see all of your cards once before a card you've already seen appears again.
 
-Can't think of any flashcard ideas? [Try this example set](https://timtree.github.io/download/flashcards-ppt/example/) about the Periodic Table of Elements (up to Uranium).
+Can't think of any flashcard ideas? [Try this example set](https://github.com/TimTree/flashcards-for-powerpoint/releases/download/v1.2.1/FlashcardsPPTExample1.2.1.pptm) about the Periodic Table of Elements (up to Uranium).
 
 **Compatible With**
 
-* -Windows: PowerPoint 2007 or newer
-* -Mac: PowerPoint 2011 or newer
+* Windows: PowerPoint 2007 or newer
+* Mac: PowerPoint 2011 or newer
 
 _You'll need to enable macros for this project to work._
 
