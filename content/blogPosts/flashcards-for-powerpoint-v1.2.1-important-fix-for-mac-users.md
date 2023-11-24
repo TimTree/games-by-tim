@@ -8,7 +8,7 @@ hero_image: "../images/flashcardsppticon.png"
 ---
 Just in time for finals season, we have the first update to Flashcards for PowerPoint in over four years!
 
-This update resolves an issue with setting the background color when using current version of PowerPoint for Mac as of this writing (v16.79.1). Long story short, PowerPoint for Mac introduced a bug with setting colors in VBA. Hopefully Microsoft will fix the bug soon, but in the meantime, I found a way to work around the bug.
+This update resolves an issue with setting the background color caused by a recent update to PowerPoint for Mac (v16.79.1). Long story short, PowerPoint for Mac introduced a bug that breaks setting colors in VBA. Hopefully Microsoft will fix the bug soon, but in the meantime, I found a way to work around the bug.
 
 A technical explanation of the PowerPoint for Mac bug is [available on PowerPoint Creative](https://powerpointcreative.forumotion.com/t714-fyi-bug-in-powerpoint-for-mac-version-16-79-1-breaks-setting-colors-in-vba). Wheel of Fortune for PowerPoint is also affected by this bug and will receive a fix soon.
 
