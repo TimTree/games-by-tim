@@ -5,12 +5,18 @@ social_media_image: ''
 ---
 Over the years, I've received many questions about [Wheel of Fortune for PowerPoint](/wheel-of-fortune-for-powerpoint/). Here are the most common questions.
 
-_Last updated November 6, 2023_
+_Last updated November 29, 2023_
 
 ---
 **Important notice**: Wheel of Fortune for PowerPoint will no longer receive new features. Future updates (if any) will be for bug fixes only. For more information, [read the version 6.4 blog post.](/blog/wheel-of-fortune-for-powerpoint-v6.4-refinements-fixes-and-the-future/)
 
 ---
+
+### My puzzles will not save. How can I fix this?
+
+Update PowerPoint. This is a bug that happens on PowerPoint for Mac versions 16.79 and 16.79.1 running on Intel Macs.
+
+If you updated PowerPoint and still experience this issue, please contact me with your version of PowerPoint and steps to reproduce.
 
 ### What are macros, and why do I need to enable them?
 
