@@ -21,6 +21,7 @@ html {
   text-rendering: optimizeLegibility;
   font-size: 16px;
   line-height: 1.32;
+  scroll-padding-top: 52px;
   --main-bg: #eee;
   --text-color: #222;
   --sidebar-border: rgba(0, 0, 0, 0.25);
@@ -188,6 +189,7 @@ img {
 @media (min-width: $mobile-boundary) {
   html {
     font-size: 20px;
+    scroll-padding-top: 70px;
   }
   article, .blogComments {
     width: 700px;
