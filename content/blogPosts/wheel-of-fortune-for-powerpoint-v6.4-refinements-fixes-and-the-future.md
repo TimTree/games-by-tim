@@ -64,7 +64,7 @@ The following features have been removed in version 6.4:
 * **Circular graphic for called letter**
   * It added too much complexity to the codebase, so I opted to remove it.
 
-## The future of Wheel of Fortune for PowerPoint
+<h2 id="thefuture">The future of Wheel of Fortune for PowerPoint</h2>
 
 Due to evolving interests and a desire to move on from game show templates, **I am ending development on Wheel of Fortune projects.** This means I will no longer work on new features or adjust wheel values for future seasons of the show. The web version of Wheel of Fortune is also officially cancelled. For the time being, I will still release bug fixes as needed.
 
