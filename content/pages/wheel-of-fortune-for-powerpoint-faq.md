@@ -5,7 +5,7 @@ social_media_image: ''
 ---
 Over the years, I've received many questions about [Wheel of Fortune for PowerPoint](/wheel-of-fortune-for-powerpoint/). Here are the most common questions.
 
-_Last updated December 7, 2023_
+_Last updated December 12, 2023_
 
 ---
 **Important notice**: Wheel of Fortune for PowerPoint will no longer receive new features. Future updates (if any) will be for bug fixes only. For more information, [read the blog post.](/blog/wheel-of-fortune-for-powerpoint-v6.4-refinements-fixes-and-the-future/#thefuture)
@@ -14,13 +14,14 @@ _Last updated December 7, 2023_
 
 <h3 id="puzzlewontsave">My puzzles will not save. How can I fix this?</h3>
 
-This is a bug that happens on PowerPoint for Mac versions 16.79 and 16.79.1 running on Intel Macs.
+Update PowerPoint for Mac to version 16.79.2 or newer. This is a bug that happens on PowerPoint for Mac versions 16.79 and 16.79.1 running on Intel Macs.
 
-* **If you downloaded PowerPoint through Microsoft's website**, update PowerPoint for Mac to version 16.79.2 or newer.
-  * To update, select Help from the menu bar -> Check for Updates. This should open Microsoft AutoUpdate. You can also download and install the PowerPoint update package from [Microsoft's website](https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac#release-history-for-office-for-mac).
-  * To verify your version of PowerPoint, select Microsoft PowerPoint from the menu bar -> About PowerPoint.
-* **If you downloaded PowerPoint through the Mac App Store**, you will need to wait (as of this writing).
-  * Unfortunately, Microsoft has not released version 16.79.2 on the Mac App Store, and it is possible they will skip over to the next version. Microsoft historically releases Office updates the 2nd Tuesday of the month, so there *should* be an update available by December 12, 2023.
+* **If you downloaded PowerPoint through Microsoft's website**, select Help from the menu bar -> Check for Updates. This should open Microsoft AutoUpdate.
+  * You can also download and install the PowerPoint update package from [Microsoft's website](https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac#release-history-for-office-for-mac).
+* **If you downloaded PowerPoint through the Mac App Store**, search PowerPoint on the App Store, then click Update.
+  * If you see Open instead of Update, your version of PowerPoint is either up to date or the latest for your OS, which is not affected by this bug.
+
+To verify your version of PowerPoint, select Microsoft PowerPoint from the menu bar -> About PowerPoint.
 
 If you still experience this issue after updating PowerPoint, use PowerPoint on an Apple Silicon Mac, or use PowerPoint for Windows, please [contact me](/contact) with your version of PowerPoint and steps to reproduce.
 
