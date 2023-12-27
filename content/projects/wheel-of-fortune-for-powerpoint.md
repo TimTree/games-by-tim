@@ -27,7 +27,7 @@ screenshots:
 - "../images/wheeloffortunev6-3tossup.png"
 isproject: true
 app_icon: "../images/woflogo.png"
-project_announcement: "<p>If your puzzles will not save, <a href='/wheel-of-fortune-for-powerpoint-faq/#puzzlewontsave'>check here for your options</a>.</p>"
+project_announcement: ""
 whats_new_url: "/blog/wheel-of-fortune-for-powerpoint-v6.4-refinements-fixes-and-the-future/"
 
 ---
