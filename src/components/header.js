@@ -86,10 +86,10 @@ const Header = () => {
                     return (
                       <label className="darkmode_label">
                         {" "}
-                        <div className="modeContainer">
+                        <span className="modeContainer">
                           <i className="ggSun" title="Light mode"></i>
                           <i className="ggMoon" title="Dark mode"></i>
-                        </div>
+                        </span>
                       </label>
                     )
                   }
@@ -102,10 +102,10 @@ const Header = () => {
                         checked={theme === "dark"}
                         aria-label="Toggle light/dark mode"
                       />{" "}
-                      <div className="modeContainer">
+                      <span className="modeContainer">
                         <i className="ggSun" title="Light mode"></i>
                         <i className="ggMoon" title="Dark mode"></i>
-                      </div>
+                      </span>
                     </label>
                   )
                 }}
