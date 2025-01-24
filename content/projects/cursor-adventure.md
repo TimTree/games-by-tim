@@ -26,7 +26,7 @@ whats_new_url: ''
 ---
 A mysterious red gem has been stolen at the local museum, and it's up to you, Curso the Cursor, to take on the quest to retrieve the gem back.
 
-Inspired by [Mouse Paths](http://z11.invisionfree.com/pptheaven/index.php?showtopic=3281), [Pointer's Way](http://pptheaven.mvps.org/PointersWay.html), [Pixels Neon](http://www.freewebs.com/pixelsneon/), and [Pac Man World 2](http://ps2.ign.com/objects/016/016458.html), your goal is to guide your cursor through a path-based course without touching any obstacles. Navigate your way through over 60 levels and occasional boss fights!
+Inspired by Mouse Paths, Pointer's Way, Pixels Neon, and [Pac Man World 2](http://ps2.ign.com/objects/016/016458.html), your goal is to guide your cursor through a path-based course without touching any obstacles. Navigate your way through over 60 levels and occasional boss fights!
 
 What makes this mouse maze game different from any other game you've played in the integrated graphics. For example, instead of avoiding rectangles, you may have to dodge cars and boulders coming through your path! As well as that, every level has a different background for you to view. Cursor Adventure is designed to be simple for kids, yet challenging for adults.
 
